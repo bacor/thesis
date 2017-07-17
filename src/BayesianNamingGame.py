@@ -18,7 +18,9 @@ def BNG_simulation(
     gamma=1, # Life expectancy    
     alpha=None, init_counts=None,
     chain=True, hazard='weibull',
-    num_datapoints=500, datascale='log'):
+    num_datapoints=500, datascale='log',
+    record=True,
+    record_utterances=True):
     """
     Simulate the Bayesian Naming Game.
     
@@ -57,7 +59,7 @@ def BNG_simulation(
                 0. JSD(phi_1, ..., phi_N); 
                 1. JSD(alpha, phi_1, ..., phi_N)
                 2. JSD(alpha, mean(phi_1, ... phi_N))
-        - records: a pandas dataframe with data describing every round. More
+        - recording: a pandas dataframe with data describing every round. More
             precisely, it lists the speaker, hearer, age of both and whether the
             speaker died at the end of that round
     """
@@ -101,12 +103,14 @@ def BNG_simulation(
     # Track the ages of the speakers (num interactions)
     age = np.zeros(N)
     
-    # Track the exact game
-    record = np.zeros((T, 5), dtype=int)
+    if record:
+        # Track the exact game
+        recording = np.zeros((T, 5), dtype=int)
     
-    # Store the words uttered in a sparse matrix.
-    # In the end, it is converted to a CSR sparse matrix
-    utterances = dok_matrix((T, K), dtype=int)
+    if record_utterances:
+        # Store the words uttered in a sparse matrix.
+        # In the end, it is converted to a CSR sparse matrix
+        utterances = dok_matrix((T, K), dtype=int)
     
     # Collect statistics
     if datascale == 'log':
@@ -160,8 +164,11 @@ def BNG_simulation(
         speaker_dies = np.random.rand() < hazard_fn(age[s])
         
         # Store all data
-        record[t,:] = (s, h, age[s], age[h], speaker_dies)
-        utterances[t,:] = utterance
+        if record:
+            recording[t,:] = (s, h, age[s], age[h], speaker_dies)
+
+        if record_utterances:
+            utterances[t,:] = utterance
         
         # Reset dead speakers
         if speaker_dies:
@@ -186,10 +193,18 @@ def BNG_simulation(
             idx += 1
 
     # Export data to Pandas dataframe and return
-    columns = ['speaker', 'hearer', 'speaker_age', 'hearer_age', 'death']
-    rec_df = pd.DataFrame(record, index=np.arange(T), columns=columns)
-    rec_df['death'] = rec_df['death'] == 1
-    rec_df.index.title = 'time'
+    if record:
+        columns = ['speaker', 'hearer', 'speaker_age', 'hearer_age', 'death']
+        rec_df = pd.DataFrame(recording, index=np.arange(T), columns=columns)
+        rec_df['death'] = rec_df['death'] == 1
+        rec_df.index.title = 'time'
+    else: 
+        rec_df = None
+
+    if record_utterances:
+        utter = utterances.tocsr()
+    else:
+        utter = None 
     
     columns = ['JSD(*phis)', 'JSD(alpha, mean(*phis))', 'H(mean(*phi))', 'JSD(alpha, *phis)',]
     stats_df = pd.DataFrame(statistics, index=datapoints, columns=columns)
@@ -206,12 +221,14 @@ def BNG_simulation(
         'phis': phis.tolist(),
         'K': K, 'N': N, 'b': b, 'T': T,
         'zeta': zeta, 'gamma': gamma, 
-        'record': rec_df,
-        'utterances': utterances.tocsr(),
+        'recording': rec_df,
+        'utterances': utter,
         'stats': stats_df,
         'datapoints': datapoints,
         'datascale': datascale,
-        'hazard': hazard
+        'hazard': hazard,
+        'record': record,
+        'record_utterances': record_utterances
     }
 
 #####################################################################
@@ -232,17 +249,19 @@ def save_BNG_simulation(results, base, name):
         os.makedirs(base)
     basename = os.path.join(base, name)
     
-    save_csr(results['utterances'], basename + '-utterances')
+    if results['record_utterances']:
+        save_csr(results['utterances'], basename + '-utterances')
     
-    int_df = results['record']
-    int_df.to_csv('{}-record.csv.gz'.format(basename), compression='gzip')
+    if results['record']:
+        int_df = results['recording']
+        int_df.to_csv('{}-recording.csv.gz'.format(basename), compression='gzip')
     
     stats_df = results['stats']
     stats_df.to_csv('{}-stats.csv.gz'.format(basename), compression='gzip')
     
     params = {}
     for k, v in results.items():
-        if k in ['utterances', 'record', 'stats']: continue
+        if k in ['utterances', 'recording', 'stats']: continue
         
         if type(v) == np.ndarray:
             params[k] = v.tolist()
@@ -270,8 +289,12 @@ def load_BNG_simulation(directory, params_only=False):
 
     if params_only == False:
         results['stats'] = pd.read_csv('{}-stats.csv.gz'.format(basename), index_col=0)
-        results['record'] = pd.read_csv('{}-record.csv.gz'.format(basename), index_col=0)
-        results['utterances'] = load_csr(basename+'-utterances', (results['T'], results['K']))
+        
+        if results['record']:
+            results['recording'] = pd.read_csv('{}-recording.csv.gz'.format(basename), index_col=0)
+        
+        if results['record_utterances']:
+            results['utterances'] = load_csr(basename+'-utterances', (results['T'], results['K']))
 
     return results
 
@@ -304,7 +327,7 @@ def sliced_psi(xs, slice_size):
     
     return JSD(distributions), distributions
 
-def analyze_BNG_simulation_runs(fn, runs, burn=10000):
+def analyze_BNG_simulation_runs(fn, runs, burn=10000, firstrun=1):
     """
     Analyzes simulation runs by collecting various statistics:
         - JSD(\phi_1, ... \phi_N): divergence between agents 
@@ -339,7 +362,7 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000):
     """
 
     # Load shared params
-    params = load_BNG_simulation(fn.format(1), params_only=True)
+    params = load_BNG_simulation(fn.format(firstrun), params_only=True)
     alpha_ps = normalize(params['alpha'])
     D = len(params['datapoints'])
 
@@ -365,7 +388,7 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000):
     # Burn in 
     burn_idx = np.where(params['datapoints'] > burn)[0].min()
 
-    for run in range(1, runs+1):
+    for r, run in enumerate(range(firstrun, firstrun+runs)):
         base = fn.format(run)
         name = os.path.basename(base)
         print('Starting with', name)
@@ -374,11 +397,11 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000):
 
         # Store all divergences
         divs = results['stats'].as_matrix()
-        divergences[run-1,:,:] = divs
+        divergences[r,:,:] = divs
 
         # Pearson correlation between log(t) and log(jsd(*phi))
         jsd_phis = results['stats']['JSD(*phis)']
-        r, prob_r = pearsonr(np.log10(jsd_phis.index[burn_idx:]), 
+        pearson_r, prob_r = pearsonr(np.log10(jsd_phis.index[burn_idx:]), 
                      np.log10(jsd_phis.values[burn_idx:]))
 
         # Compute JSD of psi^(T) and alpha
@@ -393,13 +416,13 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000):
         jsd_psi_T_mphi_T = JSD(join(psi_T, mphi_T, cols=params['K']))
 
         # Save all those stats
-        all_stats[run-1,:] = (
+        all_stats[r,:] = (
             results['stats']['JSD(*phis)'].iloc[-1],
             results['stats']['JSD(alpha, mean(*phis))'].iloc[-1],
             results['stats']['H(mean(*phi))'].iloc[-1],
             results['stats']['JSD(alpha, *phis)'].iloc[burn_idx:].std(),
             results['stats']['JSD(alpha, mean(*phis))'].iloc[burn_idx:].std(),
-            r, 
+            pearson_r, 
             prob_r, 
             jsd_psi_T_mphi_T,
             entropy(psi_T),
@@ -464,7 +487,7 @@ if __name__ == '__main__':
     parser.add_argument('--gamma',  type=float, required=True,
         help='Life expectancy parameter; interpolates between iterated learning (gamma = 1) \
         and a naming game (zeta > 3*N)')
-    parser.add_argument('--chain', type=bool, default=True,
+    parser.add_argument('--chain', type=int, default=True,
         help='Organise agents in a chain (i.e., random walk through the population)? \
         (Default: True)')
     parser.add_argument('--hazard', type=str, default='weibull',
@@ -484,9 +507,14 @@ if __name__ == '__main__':
         help='Scale of the statistics. Possible values: "log" and "linear" (Default: log) \
         With a logarithmic datascale, statistics are collected at timesteps that are \
         linearly spaced on a logarithmic Scale.')
+    parser.add_argument('--record',  type=int, default=1,
+        help='Record the exact history of the game, i.e., the speaker, hearer \
+        their ages and so on? (Default: 1 (yes))')
+    parser.add_argument('--recordutterances',  type=int, default=1,
+        help='Record the words uttered in every round? (Default: 1 (yes))')
 
     args = parser.parse_args()
-
+    
     if os.path.isdir(args.out) == False:
         raise NotADirectoryError('The output directory could not be found.')
     
@@ -533,10 +561,12 @@ if __name__ == '__main__':
         eta = args.eta,
         zeta=args.zeta, 
         gamma=args.gamma, 
-        chain=args.chain, 
+        chain=args.chain == 1, 
         hazard=args.hazard,
         num_datapoints=args.datapoints, 
-        datascale=args.datascale)
+        datascale=args.datascale,
+        record=args.record == 1,
+        record_utterances=args.recordutterances == 1)
 
     # Time the runs
     times = np.zeros(args.runs + 1)

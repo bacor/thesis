@@ -1,6 +1,9 @@
 import seaborn as sns
 import matplotlib as plt
 import os
+import matplotlib.gridspec as gridspec
+from matplotlib.colors import LinearSegmentedColormap
+from shutil import copy2
 
 sns.set_context('paper');
 curdir = os.path.abspath(os.path.dirname(__file__))
@@ -61,3 +64,73 @@ def restyle_title(*axes,
         ax.set_title('')
 
     return titles
+
+def CustomCmap(from_rgb, to_rgb, via_rgb=None):
+    """
+    A custom color map, linearly from one color two another 
+    (possibly via a third)
+    """
+
+    # from color r,g,b
+    if type(from_rgb) == str:
+        r1,g1,b1 = get_color(from_rgb, 'rgb')
+    else:
+        r1,g1,b1 = from_rgb
+
+    # to color r,g,b
+    if type(to_rgb) == str:
+        r2,g2,b2 = get_color(to_rgb, 'rgb')
+    else:   
+        r2,g2,b2 = to_rgb
+    
+    if via_rgb:
+        if type(via_rgb) == str:
+            rv,gv,bv = get_color(via_rgb, 'rgb')
+        else:
+            rv,gv,bv = via_rgb
+        cdict = {'red': ((0, r1, r1),
+                         (.5, rv,rv),
+                         (1, r2, r2)),
+               'green': ((0, g1, g1),
+                         (.5, gv,gv),
+                         (1, g2, g2)),
+               'blue': ((0, b1, b1),
+                        (.5, bv,bv),
+                        (1, b2, b2))}
+    else:
+        cdict = {'red': ((0, r1, r1),
+                       (1, r2, r2)),
+               'green': ((0, g1, g1),
+                        (1, g2, g2)),
+               'blue': ((0, b1, b1),
+                       (1, b2, b2))}
+
+    cmap = LinearSegmentedColormap('custom_cmap', cdict)
+    return cmap
+
+def get_all_colors() :
+    return {
+        'orange': {
+            'rgb': [237/255, 103/255, 81/255],
+            'hex': '#ed6751'
+        },
+        'blue': {
+            'rgb': [117/255, 195/255,209/255],
+            'hex': '#78C3D0'
+        },
+        'yellow': {
+            'rgb': [255/255,241/255,150/255],
+            'hex': '#E5D472'
+        },
+        'white': {
+            'rgb': [1,1,1],
+            'hex': '#ffffff'
+        }
+    }
+
+def get_color(name, type='rgb'):
+    return get_all_colors()[name][type]
+
+def copyfig(src, target_dir='/Users/Bas/thesis/figures'):
+    dst = os.path.join(os.path.realpath(target_dir), src)
+    copy2(src, dst)

@@ -10,6 +10,7 @@ xtick.labelsize : 7
 ytick.labelsize : 7
 axes.titlesize: 8
 legend.fontsize : 7
+mathtext.fontset: custom
 
 # Colors
 axes.edgecolor: ed6751
@@ -44,7 +45,7 @@ xtick.minor.size: 2
 xtick.direction: in
 
 
-savefig.dpi: 300
+savefig.dpi: 450
 savefig.transparent: True
 
 # Does not remove ticks...
