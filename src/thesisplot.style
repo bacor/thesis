@@ -45,6 +45,7 @@ xtick.minor.size: 2
 xtick.direction: in
 
 
+figure.dpi: 300
 savefig.dpi: 450
 savefig.transparent: True
 

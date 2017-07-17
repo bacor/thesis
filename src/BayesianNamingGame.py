@@ -15,7 +15,7 @@ def BNG_simulation(
     T=5, K=50, N=10, b=1,
     eta=1,   # Lang-sampling strategy
     zeta=1,  # Word-sampling strategy
-    gamma=1, # Life expectancy    
+    gamma=100000000, # Life expectancy    
     alpha=None, init_counts=None,
     chain=True, hazard='weibull',
     num_datapoints=500, datascale='log',
@@ -119,7 +119,7 @@ def BNG_simulation(
         datapoints = datapoints[datapoints <= T] 
     elif datascale == 'linear':
         datapoints = np.arange(0, T, num_datapoints)
-    assert datapoints[-1] < T
+    assert datapoints[-1] <= T
     statistics = np.zeros((len(datapoints), 4))
     idx = 0
     
@@ -445,6 +445,37 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000, firstrun=1):
     
     return divergences_df, stats_df, divergences
 
+def get_pis(K):
+    pis = {}
+    m = int(K/2)
+
+    pi = np.ones(K)
+    pis['flat'] = pi/pi.sum()
+
+    pi = np.arange(1,K+1)
+    pis['stair_up'] = pi/pi.sum()
+
+    pi = K - np.arange(K)
+    pis['stair_down'] = pi/pi.sum()
+
+    pi = np.ones(K)*0.0001
+    pi[m:] = 1
+    pis['upper_half'] = pi/pi.sum()
+
+    pi = np.ones(K)*0.0001
+    pi[:m] = 1
+    pis['lower_half'] = pi/pi.sum()
+
+    pi = np.concatenate((np.arange(1, m+1), (m - np.arange(m))))
+    pis['peak'] = pi/pi.sum()
+
+    pi = np.ones(K)
+    pi[:int(K/4)] = 10
+    pi[-int(K/4):] = 5
+    pi[-int(K/4):-int(K/4)+2] = 10 
+    pis['gappy'] = pi/pi.sum()
+
+    return pis
 
 #####################################################################
 #####################################################################
@@ -519,38 +550,8 @@ if __name__ == '__main__':
         raise NotADirectoryError('The output directory could not be found.')
     
     # Hyperparameters alpha
-    if True:
-        pis = {}
-        K = args.K
-        m = int(K/2)
-
-        pi = np.ones(K)
-        pis['flat'] = pi/pi.sum()
-
-        pi = np.arange(1,K+1)
-        pis['stair_up'] = pi/pi.sum()
-
-        pi = K - np.arange(K)
-        pis['stair_down'] = pi/pi.sum()
-
-        pi = np.ones(K)*0.0001
-        pi[m:] = 1
-        pis['upper_half'] = pi/pi.sum()
-
-        pi = np.ones(K)*0.0001
-        pi[:m] = 1
-        pis['lower_half'] = pi/pi.sum()
-
-        pi = np.concatenate((np.arange(1, m+1), (m - np.arange(m))))
-        pis['peak'] = pi/pi.sum()
-
-        pi = np.ones(K)
-        pi[:int(K/4)] = 10
-        pi[-int(K/4):] = 5
-        pi[-int(K/4):-int(K/4)+2] = 10 
-        pis['gappy'] = pi/pi.sum()
-
-        alpha = pis[args.pi] * args.beta
+    pis = get_pis(args.K);
+    alpha = pis[args.pi] * args.beta
 
     setup = dict(
         alpha=alpha,
