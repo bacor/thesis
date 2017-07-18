@@ -7,6 +7,7 @@ from scipy.sparse import dok_matrix
 from scipy.sparse import csr_matrix
 from scipy.stats import pearsonr
 from scipy.stats import linregress
+from scipy.misc import logsumexp
 import json
 import os
 import time
@@ -15,7 +16,7 @@ def BNG_simulation(
     T=5, K=50, N=10, b=1,
     eta=1,   # Lang-sampling strategy
     zeta=1,  # Word-sampling strategy
-    gamma=100000000, # Life expectancy    
+    gamma=1e20, # Life expectancy    
     alpha=None, init_counts=None,
     chain=True, hazard='weibull',
     num_datapoints=500, datascale='log',
@@ -71,6 +72,7 @@ def BNG_simulation(
     assert b >= 1
     assert gamma >= 1
     assert zeta >= 0
+    assert eta >= 0
     
     # Hazard function
     if hazard == 'weibull':
@@ -143,10 +145,12 @@ def BNG_simulation(
         # 
         
         # The speaker draws a language, biased towards the mode by eta
-        # And exaggerates theta by zeta
         _alpha = eta*(alpha + counts[s,:] - 1) + 1 
-        theta = np.random.dirichlet(_alpha) ** zeta
-        theta = theta / theta.sum()
+        _theta = np.random.dirichlet(_alpha)
+        
+        # Then exaggerate the language by zeta
+        _logtheta = zeta * np.log(_theta)
+        theta = np.exp(_logtheta - logsumexp(_logtheta))
         
         # The speaker draws b utterances from theta 
         utterance = np.random.multinomial(b, pvals=theta)

@@ -125,6 +125,10 @@ def get_all_colors() :
         'white': {
             'rgb': [1,1,1],
             'hex': '#ffffff'
+        },
+        'green': {
+            'rgb':[88/255,170/255,123/255],
+            'hex': '#58AA7B'
         }
     }
 
