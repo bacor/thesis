@@ -16,7 +16,7 @@ def BNG_simulation(
     T=5, K=50, N=10, b=1,
     eta=1,   # Lang-sampling strategy
     zeta=1,  # Word-sampling strategy
-    gamma=1e20, # Life expectancy    
+    gamma='inf', # Life expectancy    
     alpha=None, init_counts=None,
     chain=True, hazard='weibull',
     num_datapoints=500, datascale='log',
@@ -30,10 +30,12 @@ def BNG_simulation(
         - K: Number of words (categories)
         - N: Number of agents
         - b: bottleneck; number of communicated words
-        - zeta: strategy parameter interpolates between 
-            samplers (zeta=1) and MAP (zeta=100)
+        - eta: strategy parameter for selecting languages. Interpolates between
+            samplers (eta=1) and MAP (zeta='inf')
+        - zeta: strategy parameter for selecting words. Interpolates between 
+            samplers (zeta=1) and MAP (zeta='inf'). 
         - gamma: life expectancy parameter. Interpolates between iterated
-            learing (gamma=1) and the naming game (gamma > ±2N)
+            learing (gamma=1) and the naming game (gamma = 'inf')
         - alpha: hyperparameter for the Dirichlet at time 0, shared by all agents.
             Should be a K-vector 
         - counts: initial counts for each of the agents. NxK matrix
@@ -64,7 +66,13 @@ def BNG_simulation(
             precisely, it lists the speaker, hearer, age of both and whether the
             speaker died at the end of that round
     """
-    
+
+    # Approximate 'infinity'
+    inf = 1e20
+    gamma = max(inf, 10*T) if gamma == 'inf' else float(gamma)
+    eta = inf if eta == 'inf' else float(eta)
+    zeta = inf if zeta == 'inf' else float(zeta)
+
     # Check parameters
     assert T >= 1
     assert K >= 1
@@ -93,10 +101,6 @@ def BNG_simulation(
     # Check shape of alpha.
     alpha_ps = alpha / alpha.sum()
     assert len(alpha) == K
-    
-    # Eta interpolates between samplers (zeta=1) and MAP (eta=100)
-    # Zeta=100 approximates zeta=infinite (e.g. 0.5^100 < 10e-30)
-    zeta = min(zeta, 100)
 
     # Initialize counts
     counts = init_counts if type(init_counts) == np.ndarray else np.zeros((N,K))
@@ -224,7 +228,7 @@ def BNG_simulation(
         'counts': counts.tolist(),
         'phis': phis.tolist(),
         'K': K, 'N': N, 'b': b, 'T': T,
-        'zeta': zeta, 'gamma': gamma, 
+        'zeta': zeta, 'gamma': gamma, 'eta': eta,
         'recording': rec_df,
         'utterances': utter,
         'stats': stats_df,
@@ -513,15 +517,15 @@ if __name__ == '__main__':
         help='Bottleneck size; number of words uttered in every interaction (Default: 1)')
 
     # Simulation type parameters
-    parser.add_argument('--eta',  type=float, required=True,
+    parser.add_argument('--eta',  required=True,
         help='Strategy parameter for selecting languages during production. \
-            interpolates between samplers (eta=1) and MAP (eta>=100)')
-    parser.add_argument('--zeta',  type=float, required=True,
+            interpolates between samplers (eta=1) and MAP (eta="inf")')
+    parser.add_argument('--zeta',  required=True,
         help='Strategy parameter for selecting languages during production. \
-            interpolates between samplers (zeta=1) and MAP (zeta>=100)')
-    parser.add_argument('--gamma',  type=float, required=True,
+            interpolates between samplers (zeta=1) and MAP (zeta="inf")')
+    parser.add_argument('--gamma',  required=True,
         help='Life expectancy parameter; interpolates between iterated learning (gamma = 1) \
-        and a naming game (zeta > 3*N)')
+        and a naming game (zeta = "inf")')
     parser.add_argument('--chain', type=int, default=True,
         help='Organise agents in a chain (i.e., random walk through the population)? \
         (Default: True)')
@@ -551,7 +555,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     if os.path.isdir(args.out) == False:
-        raise NotADirectoryError('The output directory could not be found.')
+        raise NotADirectoryError(f'The output directory "{args.out}" could not be found.')
     
     # Hyperparameters alpha
     pis = get_pis(args.K);
@@ -563,7 +567,7 @@ if __name__ == '__main__':
         K=args.K,
         T=args.T,
         b=args.b,
-        eta = args.eta,
+        eta=args.eta,
         zeta=args.zeta, 
         gamma=args.gamma, 
         chain=args.chain == 1, 

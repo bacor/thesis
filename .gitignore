@@ -2,3 +2,5 @@ results/
 src/__pycache__/
 *.pyc
 */*/.ipynb_checkpoints/
+.ipynb_checkpoints/
+Tests.ipynb
