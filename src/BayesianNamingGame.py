@@ -224,6 +224,8 @@ def BNG_simulation(
 
     return {
         'alpha': alpha.tolist(), 
+        'beta': alpha.sum(),
+        'pi': alpha_ps.tolist(),
         'init_counts': init_counts.tolist() if type(init_counts) == np.ndarray else None,
         'counts': counts.tolist(),
         'phis': phis.tolist(),
@@ -399,7 +401,7 @@ def analyze_BNG_simulation_runs(fn, runs, burn=10000, firstrun=1):
     for r, run in enumerate(range(firstrun, firstrun+runs)):
         base = fn.format(run)
         name = os.path.basename(base)
-        print('Starting with', name)
+        print('Run {:0>4}/{:0>4} ({})'.format(runs, run, name))
 
         results = load_BNG_simulation(base)
 
