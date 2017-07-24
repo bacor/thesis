@@ -4,7 +4,7 @@
 # space (gamma, eta, zeta). For all parameter-settings,
 # we repeat the game only a few times. 
 
-args0='--runs 10 --T 100000 --firstrun 1'
+args0='--runs 10 --T 100000 --firstrun 11'
 args1='--N 10 --K 20 --b 1'
 args2='--pi gappy --beta 30'
 args3="--hazard deterministic --chain 1"
@@ -12,7 +12,7 @@ args4='--datapoints 500 --datascale log --record 1 --recordutterances 1'
 args="$args0 $args1 $args2 $args3 $args4"
 
 # Parameters
-gammas=(1 5 10 50	1000)
+gammas=(inf) #(1 5) # 10 50	100 1000)
 etas=(1 2 5 50 inf)
 zetas=(1 1.5 2 5 inf)
 
@@ -20,7 +20,7 @@ zetas=(1 1.5 2 5 inf)
 # If so, the script checks if a directory with the right name exists 
 # and skips those. Note that it does not check the run. So if any
 # run exists, the experiment will be skipped.
-skipexisting=1
+skipexisting=0
 
 for gamma in "${gammas[@]}"
 do

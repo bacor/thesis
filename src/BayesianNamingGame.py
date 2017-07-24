@@ -103,7 +103,7 @@ def BNG_simulation(
     assert len(alpha) == K
 
     # Initialize counts
-    counts = init_counts if type(init_counts) == np.ndarray else np.zeros((N,K))
+    counts = np.array(init_counts) if not type(init_counts) == type(None) else np.zeros((N,K))
     assert counts.shape == (N,K)
     
     # Track the ages of the speakers (num interactions)
@@ -226,7 +226,7 @@ def BNG_simulation(
         'alpha': alpha.tolist(), 
         'beta': alpha.sum(),
         'pi': alpha_ps.tolist(),
-        'init_counts': init_counts.tolist() if type(init_counts) == np.ndarray else None,
+        'init_counts': np.array(init_counts).tolist() if not type(init_counts) == type(None) else None,
         'counts': counts.tolist(),
         'phis': phis.tolist(),
         'K': K, 'N': N, 'b': b, 'T': T,
