@@ -1,0 +1,50 @@
+
+// var simulate = function(agents, n, xs, ys, sampleInput, hypotheses) {
+
+//     // Infer hypotheses for all agents
+//     var hypos = map(function(agent) {
+//         call(agent.learn, [xs, ys]);
+//     }, agents);
+
+//     // Store them and return if we've reached the end of the chain
+//     var hypos_str = map(function(h) { h.join(" ") }, hypos)
+//     var hypotheses = append(hypotheses || [], [hypos_str]);
+//     if (n == 1) return hypotheses;
+
+//     // Generate new data
+//     var newX = sampleInput();
+//     var newXs = _.flatten(repeat(agents.length, function() { newX }));
+//     var newYs = _.flatten(map(function(agent_hyp) {
+//         return call(agent_hyp[0].produce, [newX, agent_hyp[1]]);
+//     }, zip(agents, hypos)));
+
+//     // Pass data to next agents
+//     return simulate(agents, n - 1, newXs, newYs, sampleInput, hypotheses);
+// }
+
+
+/**
+ * Simulate a transmission chain of Bayesian learners
+ * @param  {object} gen         Generation
+ * @param  {int} n              Number of iterations
+ * @param  {mixed} data         Initial data
+ * @return {list}               A list of hypotheses
+ */
+var simulate = function(gen, n, data, _hypotheses) {
+
+  // Infer hypotheses for all agents
+  var hypos = call(gen.learn, data);
+
+  // Store as strings (rather than objects)
+  var hyposStr = map(function(h){ return h.join(" "); }, hypos);
+  var _hypotheses = append(_hypotheses || [], [hyposStr]);
+  if(n === 1) { return _hypotheses; }
+
+  // Generate new data
+  var x  = repeat(gen.agents[0].params.b, function() { 
+    return uniformDraw(gen.agents[0].params.meanings); });
+  var newData = call(gen.produce, [x, hypos]);
+  
+  // Pass data to next agent
+  return simulate(gen, n-1, newData, _hypotheses);
+};

@@ -1,0 +1,43 @@
+{
+  "name": "webppl-il",
+  "description": "Iterated Learning with webppl",
+  "license": "CC-BY-SA-4.0",
+  "email": "post@bascornelissen.nl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacor/webppl-il.git"
+  },
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "webppl-timeit": "stuhlmueller/webppl-timeit",
+    "webppl-fs": "null-a/webppl-fs"
+  },
+  "webppl": {
+    "wppl": [
+      "src/helpers.wppl",
+      "src/simulate.wppl",
+      "src/KalishGriffithsAgent.wppl",
+      "src/Generation.wppl"
+    ],
+    "headers": []
+  },
+  "devDependencies": {
+    "browserify-shim": "*",
+    "browserify-versionify": "^1.0.6",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exorcise": "^2.1.1",
+    "grunt-jekyll": "^0.4.4",
+    "jstransform": "*",
+    "load-grunt-tasks": "^3.5.2",
+    "through": "^2.3.8",
+    "webppl": "*"
+  }
+}

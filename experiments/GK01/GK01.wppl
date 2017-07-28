@@ -1,0 +1,48 @@
+/**
+ * Experiment with single-agent transmission chains
+ */
+
+// Default
+var defParams = {
+    description: "Transmission chain with four identical agents in every generation.",
+    symbols: ['aa', 'ab', 'ba', 'bb'],
+    meanings: ['00', '01', '10', '11'],
+    compLangs: [
+        ['aa', 'aa', 'aa', 'aa'], // 0 -> a, 1 -> a
+        ['aa', 'ab', 'ba', 'bb'], // 0 -> a, 1 -> b
+        ['bb', 'ba', 'ab', 'aa'], // 0 -> b, 1 -> a
+        ['bb', 'bb', 'bb', 'bb']  // 0 -> b, 1 -> b,
+    ], 
+    samples: 1000,
+    alpha: 1000
+}
+
+// Parse command line arguments
+var args = process.argv.slice(3);
+var passedParams = _.object(filter(function(pair) {
+    // Filter the pairs, only keep the actual pairs
+    if(pair == undefined) { return false }
+    return pair.length == 2
+
+}, map(function(a) {
+    // pass through all parameters and try to split them on '='
+    var parts = a.split('=');
+    if (parts.length == 2) { return parts; }
+}, args)));
+var params = _.extend(defParams, passedParams);
+
+// Initial data
+var xs = ['00', '00', '00', '00'];
+var ys = ['aa', 'ab', 'ba', 'bb'];
+
+// Agent and generation
+var A = KalishGriffithsAgent('A', params);
+var gen = Generation([A])
+var results = timeit(function() { simulate(gen, params.n, [xs, ys]) })
+
+// Store
+var out = _.extend(results, params )
+var json = JSON.stringify(out, null, 2)
+var outfile = 'results/exp-alpha'+params.alpha+'-eps'+params.eps+'-b'+params.b+'-n'+params.n+'.json'
+fs.write(outfile, json);
+'Done: ' + outfile

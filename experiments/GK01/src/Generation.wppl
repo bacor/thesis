@@ -1,0 +1,26 @@
+var Generation = function(agents) {
+
+    // Get hypotheses for all agents
+    var learn = function(xs, ys) {
+        map(function(agent) {
+            call(agent.learn, [xs, ys]);
+        }, agents);
+    };
+
+    // Get xs and ys from input x for one agent and 
+    // hypotheses for all. The input x is repeated.
+    var produce = function(x, hypos) {
+        var xs = _.flatten(repeat(agents.length, function() { return x; }));
+        var ys = _.flatten(map(function(agentHyp) {
+            call(agentHyp[0].produce, [x, agentHyp[1]]);
+        }, zip(agents, hypos)));
+        return [xs, ys];
+    };
+
+    return {
+        produce: produce,
+        learn: learn,
+        agents: agents
+    };
+};
+

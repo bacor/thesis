@@ -1,0 +1,10 @@
+var call = function(fn, args) {
+	// to do: this is horrible.
+	if(args === undefined) { return fn(); }
+	if(!_.isArray(args)) { return fn(args); }
+	if(args.length === 1) { return fn(args[0]); }
+	if(args.length === 2) { return fn(args[0], args[1]); }
+	if(args.length === 3) { return fn(args[0], args[1], args[2]); }
+	if(args.length === 4) { return fn(args[0], args[1], args[2], args[3]); }
+	if(args.length === 5) { return fn(args[0], args[1], args[2], args[3], args[4]); }
+};

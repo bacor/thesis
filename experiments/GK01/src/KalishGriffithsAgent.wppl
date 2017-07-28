@@ -1,0 +1,127 @@
+/**
+ * KalishGriffithsAgent
+ *
+ * Implements the Bayesian agents from:
+ * 
+ * Griffiths, T., & Kalish, M. (2005). A Bayesian view of language 
+ * evolution by iterated learning. Proceedings of the 27th Annual 
+ * Conference of the Cognitive Science Society, 827–832. 
+ * Retrieved from http://www.ucs.ull.edu/~mlk8300/GK2005.pdf
+ *
+ * The function returns an object containing amongst others 
+ * the learning and production algorithm. More precisely, it has
+ * the methods `Prior`, `Predictive`, `Posterior`, `learn` and 
+ * `produce` (see code). 
+ * 
+ * An agent takes a parameter object of the form
+ * ```
+ * var params = {
+ *     symbols:     list of symbols
+ *     meanings:    list of corresponding meanings
+ *     compLangs:   the compositional languages
+ *     alpha:       the probability of picking a compositional language
+ *     eps:         the probability of error in production
+ *     samples:     the number of samples used in MCMC inference of the posterior.
+ * }
+ * ```
+ *  
+ * @param {string} name   A name for identification purposes
+ * @param {object} params object of parameters
+ */
+var KalishGriffithsAgent = function(name, params) {
+
+    /**
+     * Return the prior distribution over hypotheses
+     * @return {dist}   the prior
+     */
+    var Prior = function() {
+        return Infer({ method: 'enumerate' }, function() {
+            if (flip(params.alpha)) {
+                return uniformDraw(params.compLangs);
+            } else {
+                return repeat(4, function() { return uniformDraw(params.symbols); });
+            }
+        });
+    };
+
+
+    /**
+     * Return the predictive distribution over symbols y given a
+     * meaning/object x and a hypothesis
+     * @param  {string} x          Input meaning
+     * @param  {object} hyp       hypothesis
+     * @return {dist}              predictive distribution
+     */
+    var Predictive = function(x, hyp) {
+        var y = hyp[params.meanings.indexOf(x)]; // 'Correct' symbol for x
+        return Infer({ method: 'enumerate' }, function() {
+            if (flip(params.eps)) {
+                return uniformDraw(remove(y, params.symbols));
+            } else {
+                return y;
+            }
+        });
+    };
+
+    /**
+     * Return the posterior distribution over hypotheses given datapoints
+     * `xs` (meanings) and `ys` (symbols) and a prior distribution.
+     * @param {list} xs          List of meanings
+     * @param {list} ys          List of symbols for each of the meanings
+     * @param {dist} prior       Prior distribution
+     * @param {bool} _toString   return hypotheses as strings?
+     */
+    var Posterior = function(xs, ys, prior, _toString) {
+        var _toString = _toString || false;
+        return Infer({ method: 'MCMC', samples: params.samples }, function() {
+            var hyp = sample(prior);
+            
+            var predictives = map(function(x) { 
+                return Predictive(x, hyp); 
+            }, xs);
+            
+            var likelihood = sum(map(function(predY) { 
+                return predY[0].score(predY[1]); 
+            }, zip(predictives, ys)));
+            
+            factor(likelihood);
+            
+            if (_toString) { return hyp.join(' '); }
+            return hyp;
+        });
+    };
+
+    /**
+     * Produce output symbols ys given meanings xs and a hypothesis
+     * @param  {list} xs    A list of meanings
+     * @param  {object} hyp The hypothesis
+     * @return {list}       List of symbols `ys`
+     */
+    var produce = function(xs, hyp) {
+        return map(function(x) { 
+            return sample(Predictive(x, hyp)); 
+        }, xs);
+    };
+
+    /**
+     * Infer a hypothesis from a list of datapoints (xs and ys)
+     * @param  {list} xs   meanings
+     * @param  {list} ys   symbols 
+     * @return {object}    a hypothesis
+     */
+    var learn = function(xs, ys) {
+        var prior = Prior(params);
+        var hyp = sample(Posterior(xs, ys, prior));
+        return hyp;
+    };
+
+    return {
+        Posterior: Posterior,
+        Prior: Prior,
+        Predictive: Predictive,
+        produce: produce,
+        learn: learn,
+        params: params,
+        name: name
+    };
+};
