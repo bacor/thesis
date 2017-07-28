@@ -2,7 +2,6 @@ import numpy as np
 import sys
 sys.path.append('../../src')
 from helpers import *
-from NamingGames import PopulationVocabulary
 from random import choice, sample
 import numpy as np
 from collections import defaultdict, Counter

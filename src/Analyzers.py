@@ -2,6 +2,9 @@ from helpers import *
 import numpy as np
 
 class Analyzer:
+    """Abstract class for analyzers. These are classes that record 
+    Naming Games."""
+
     def record(self, n, success, agents):
         return NotImplemented
     

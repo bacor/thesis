@@ -30,7 +30,7 @@ def restyle_title(*axes,
         labels='abcdefghijklmnopqrstuvwxyz'.upper(), 
         label_tmpl = '{label}.',
         title_tmpl='{title}',
-        pad=5, x=0, y=1.07,
+        pad=5, x=0, y=1.1,
         label=True):
     
     if label:
