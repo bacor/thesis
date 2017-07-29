@@ -13,7 +13,7 @@ class LateralInhibitionNGAgent(defaultdict):
     """A class for a lexicon with pairs (x,y) and their frequencies"""
     
     def __init__(self, lexicon, d_inc=1, d_inh=1, d_init=1, d_dec=0, 
-                 min_score=0, max_score=10e6):
+                 min_score=0, max_score=10e10):
         """Pairs (x,y) are stored in a dictionary of counters of the form
         { x : Counter({y: 12}) }. This is a defaultdict, so you can always
         set/get entries directly, like `my_lexicon[x][y] = 10`
@@ -147,7 +147,7 @@ def testLIAgent():
     # Tests for the minimal naming game
     if True:
         lexicon = PopulationVocabulary()
-        A = LIAgent(lexicon, d_init=1, d_inh=1, d_dec=0, d_inc=1, max_score=1)
+        A = LateralInhibitionNGAgent(lexicon, d_init=1, d_inh=1, d_dec=0, d_inc=1, max_score=1)
 
         # Successful communication of (1, een) by speaker/hearer
         # Repeated successes should not change the frequency
@@ -205,7 +205,7 @@ def testLIAgent():
     # Test for frequency strategy
     if True:
         lexicon = PopulationVocabulary()
-        A = LIAgent(lexicon, d_init=1, d_inh=0, d_dec=0, d_inc=1)
+        A = LateralInhibitionNGAgent(lexicon, d_init=1, d_inh=0, d_dec=0, d_inc=1)
 
         # Observe 10 (1, 1) pairs
         for i in range(1, 11):
@@ -238,7 +238,7 @@ def testLIAgent():
     # Test for lateral inhibition strategy 1
     if True:
         lexicon = PopulationVocabulary()
-        A = LIAgent(lexicon, d_init=1, d_inh=1, d_dec=0, d_inc=1)
+        A = LateralInhibitionNGAgent(lexicon, d_init=1, d_inh=1, d_dec=0, d_inc=1)
 
         # Speaker, succesfull communication (twice)
         A.update(1, 'een', True, True)
@@ -280,7 +280,6 @@ def testLIAgent():
         # Newly generated words
         assert A.get_y(5) == 1
         assert len(A[5]) == 1
-
 
 
 def load_LING_simulation(directory, name, params_only=False):
@@ -340,12 +339,16 @@ if __name__ == '__main__':
     parser.add_argument('--ddec', type=float, required=True)
     parser.add_argument('--dinc', type=float, required=True)
     parser.add_argument('--dinh', type=float, required=True)
+    parser.add_argument('--smax', type=float, default=0)
 
     args = parser.parse_args()
 
     if os.path.isdir(args.out) == False:
         raise NotADirectoryError('The output directory could not be found.')
     
+    max_score = args.smax
+    if max_score == 0: max_score = 10e10
+
     setup = dict(
         N=args.agents,
         T=args.timesteps,
@@ -354,7 +357,8 @@ if __name__ == '__main__':
         d_init=args.dinit,
         d_inh=args.dinh,
         d_dec=args.ddec,
-        d_inc=args.dinc)
+        d_inc=args.dinc,
+        max_score=max_score)
 
     # Run!
     results = repeat_simulation(LateralInhibitionNGSimulation, 
