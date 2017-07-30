@@ -2,7 +2,7 @@
 # 
 # Lateral inhibition name for various values of d_inh
 
-args='--agents 200 --timesteps 10000 --limit 1 --res 100 --runs 300'
+args='--agents 200 --timesteps 30000 --limit 1 --res 100 --runs 300'
 
 src='../../src'
 out='results/'
@@ -12,8 +12,7 @@ minimal='--dinit 1 --dinc 0 --dinh 1 --ddec 0 --smax 0'
 frequency='--dinit 1 --dinc 1 --dinh 0 --ddec 0 --smax 0'
 li1='--dinit 1 --dinc 1 --dinh 1 --ddec 0 --smax 0'
 li2='--dinit .5 --dinc .1 --dinh .5 --ddec .1 --smax 1'
-li3='--dinit 1 --dinc 1 --dinh 1 --ddec 0 --smax 0'
-li4='--dinit .5 --dinc .1 --dinh .2 --ddec 0.2 --smax 0'
+li3='--dinit .5 --dinc .1 --dinh .2 --ddec 0.2 --smax 0'
 
 
 Minimal strategy
@@ -35,9 +34,5 @@ python $src/LateralInhibitionNamingGame.py $li2 $args --name LING01-li2 --out $o
 # LI strategy 3
 echo "Starting experiment with LI strategy 3"
 python $src/LateralInhibitionNamingGame.py $li3 $args --name LING01-li3 --out $out
-
-# LI strategy 4
-echo "Starting experiment with LI strategy 4"
-python $src/LateralInhibitionNamingGame.py $li4 $args --name LING01-li4 --out $out
 
 echo "Done"
