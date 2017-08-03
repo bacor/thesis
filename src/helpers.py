@@ -113,7 +113,6 @@ def normalize(arr, axis=1):
     else:
         return _arr / _arr.sum(axis=axis)[:, np.newaxis]
 
-
 class PopulationVocabulary:
     """Class that maintains a global vocabulary. This is only
     needed to ensure that new words are unique in the population"""

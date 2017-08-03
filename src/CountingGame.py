@@ -92,31 +92,31 @@ class PairLexicon(defaultdict):
                 del self[word]
 
 
-class PopulationVocabulary:
-    """Class that maintains a global vocabulary. This is only
-    needed to ensure that new words are unique in the population"""
+# class PopulationVocabulary:
+#     """Class that maintains a global vocabulary. This is only
+#     needed to ensure that new words are unique in the population"""
     
-    def __init__(self):
-        # The vocabulary contains numbers (they function as words)
-        self.vocabulary = set()
-        self.max_word = 0
+#     def __init__(self):
+#         # The vocabulary contains numbers (they function as words)
+#         self.vocabulary = set()
+#         self.max_word = 0
         
-        # The lexicon lexializes the numbers, just for readability
-        self.lexicon = {}
+#         # The lexicon lexializes the numbers, just for readability
+#         self.lexicon = {}
     
-    def generate_word(self):
-        self.max_word += 1
-        self.vocabulary.add(self.max_word)
-        return self.max_word
+#     def generate_word(self):
+#         self.max_word += 1
+#         self.vocabulary.add(self.max_word)
+#         return self.max_word
     
-    def lexicalize(self, word):
+#     def lexicalize(self, word):
         
-        if word not in self.lexicon.keys():
-            cons, vowels = 'bcdfghjklmnpqrstvwxz', 'aeoui'
-            lex = choice(cons) + choice(vowels) + choice(cons)
-            while lex in self.lexicon:
-                lex = choice(cons) + choice(vowels) + choice(cons)
+#         if word not in self.lexicon.keys():
+#             cons, vowels = 'bcdfghjklmnpqrstvwxz', 'aeoui'
+#             lex = choice(cons) + choice(vowels) + choice(cons)
+#             while lex in self.lexicon:
+#                 lex = choice(cons) + choice(vowels) + choice(cons)
         
-            self.lexicon[word] = lex
+#             self.lexicon[word] = lex
         
-        return self.lexicon[word]
+#         return self.lexicon[word]
