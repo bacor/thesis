@@ -1,0 +1,66 @@
+# http://matplotlib.org/users/customizing.html
+# https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+#text width: 13 cm or 5,12 inch
+
+# Text
+font.family: sans-serif
+font.sans-serif: Roboto Condensed
+axes.labelsize : 8
+xtick.labelsize : 7
+ytick.labelsize : 7
+axes.titlesize: 8
+legend.fontsize : 7
+mathtext.fontset: custom
+
+# Colors
+axes.edgecolor: ed6751
+axes.labelcolor: ed6751
+axes.titleweight: normal
+xtick.color: ed6751
+ytick.color: ed6751
+
+# Lines
+lines.linewidth : 1
+lines.markersize: 3
+
+# Legend
+legend.frameon : True
+legend.facecolor : ffffff
+legend.edgecolor : ffffff
+
+legend.borderaxespad : .1
+legend.borderpad : .5
+
+# Grid
+axes.grid : False
+axes.linewidth: 1
+grid.color : ed6751
+grid.alpha : .5
+grid.linewidth : .3
+
+ytick.major.size: 3
+ytick.direction: in
+xtick.major.size: 3
+xtick.minor.size: 2
+xtick.direction: in
+
+
+figure.dpi: 300
+savefig.dpi: 450
+savefig.transparent: True
+
+# Does not remove ticks...
+#axes.spines.top : False
+#axes.spines.right : False
+#xtick.top: False
+#ytick.right: False
+
+figure.subplot.left: 0
+figure.subplot.bottom: 0
+figure.subplot.top: 1
+figure.subplot.right: 1
+
+patch.linewidth: 0
+patch.facecolor: ed6751
+
+axes.prop_cycle: cycler('color', ['000000', 'ED6751', '78C3D0', 'E5D472', '58AA7B', 'BA5D7F'])

@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Code is from
+% https://tex.stackexchange.com/questions/69517/send-and-stack-marginpar-to-the-top-or-the-bottom-of-the-page
+%
+\ProvidesPackage{marginfootnotes}[2017/05/30 Margin Footnotes]
+\usepackage{tikzpagenodes}
+\usepackage{xifthen}
+\usetikzlibrary{calc}
+
+\def\myyshifttop{0}
+\def\mypagetop{0}
+\newcommand{\topmarginpar}[2][]{% tikz options of node, content
+  \begin{tikzpicture}[remember picture, overlay]
+    % reset position on new page
+    \ifthenelse{\thepage=\mypagetop}{}{\xdef\myyshifttop{0}\xdef\mypagetop{\thepage}}
+    % a big path with many actions
+    \path let
+    % patch for bug in tikzpagenodes with even pages
+    \p1=(current page marginpar area.north west),
+    \p2=(current page marginpar area.north east)
+    in \pgfextra{
+      \pgfmathsetmacro{\xw}{\x1<\x2?\x1:\x2}
+      \pgfmathsetmacro{\yw}{\y1<\y2?\y1:\y2}
+      \edef\coord{\xw pt,\yw pt}
+    }
+    % draw topmarginpar
+    node[below right, yshift=\myyshifttop, text width=\marginparwidth-4pt, inner sep=2pt, #1]
+    (tempnode) at (\coord) {#2}
+    % next position
+    let \p1=(\coord), \p2=(tempnode.south west) in \pgfextra{
+      \pgfmathsetmacro{\diffy}{(\y2-\y1)}
+      \xdef\myyshifttop{\diffy}
+    };
+  \end{tikzpicture}%
+}
+
+\def\myyshiftbot{0}
+\def\mypagebot{0}
+\newcommand{\botmarginpar}[2][]{% tikz options of node, content
+  \begin{tikzpicture}[remember picture, overlay]
+    % reset position on new page
+    \ifthenelse{\thepage=\mypagebot}{}{\xdef\myyshiftbot{0}\xdef\mypagebot{\thepage}}
+    % a big path with many actions
+    \path let
+    % patch for bug in tikzpagenodes with even pages
+    \p1=(current page marginpar area.south west),
+    \p2=(current page marginpar area.south east)
+    in \pgfextra{
+      \pgfmathsetmacro{\xw}{\x1<\x2?\x1:\x2}
+      \pgfmathsetmacro{\yw}{\y1<\y2?\y1:\y2}
+      \edef\coord{\xw pt,\yw pt}
+    }
+    % draw botmarginpar
+    node[above right, yshift=\myyshiftbot, text width=\marginparwidth-4pt, inner sep=2pt, #1]
+    (tempnode) at (\coord) {#2}
+    % next position
+    let \p1=(\coord), \p2=(tempnode.north west) in \pgfextra{
+      \pgfmathsetmacro{\diffy}{(\y2-\y1)}
+      \xdef\myyshiftbot{\diffy}
+    };
+  \end{tikzpicture}%
+}

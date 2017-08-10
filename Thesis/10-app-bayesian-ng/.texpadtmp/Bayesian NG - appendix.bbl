@@ -1,0 +1,123 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Briet2009}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bri{\"{e}}t}{B.}%
+     {Jop}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harremo{\"{e}}s}{H.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJHP1}
+  \strng{fullhash}{BJHP1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Jensen-Shannon divergence (JD) is a symmetrized and smoothed version of the
+  most important divergence measure of information theory, Kullback divergence.
+  As opposed to Kullback divergence it determines in a very direct way a
+  metric; indeed, it is the square of a metric. We consider a family of
+  divergence measures (JD{\_}alpha for alpha{\textgreater}0), the Jensen
+  divergences of order alpha, which generalize JD as JD{\_}1=JD. Using a result
+  of Schoenberg, we prove that JD{\_}alpha is the square of a metric for alpha
+  lies in the interval (0,2], and that the resulting metric space of
+  probability distributions can be isometrically embedded in a real Hilbert
+  space. Quantum Jensen-Shannon divergence (QJD) is a symmetrized and smoothed
+  version of quantum relative entropy and can be extended to a family of
+  quantum Jensen divergences of order alpha (QJD{\_}alpha). We strengthen
+  results by Lamberti et al. by proving that for qubits and pure states,
+  QJD{\_}alpha{\^{}}1/2 is a metric space which can be isometrically embedded
+  in a real Hilbert space when alpha lies in the interval (0,2]. In analogy
+  with Burbea and Rao's generalization of JD, we also define general QJD by
+  associating a Jensen-type quantity to any weighted family of states.
+  Appropriate interpretations of quantities introduced are discussed and bounds
+  are derived in terms of the total variation and trace distance.%
+  }
+  \verb{doi}
+  \verb 10.1103/PhysRevA.79.052311
+  \endverb
+  \verb{eprint}
+  \verb 0806.4472
+  \endverb
+  \field{issn}{1050-2947}
+  \field{number}{5}
+  \field{pages}{052311}
+  \field{title}{{Properties of classical and quantum Jensen-Shannon
+  divergence}}
+  \verb{url}
+  \verb https://link.aps.org/doi/10.1103/PhysRevA.79.052311
+  \endverb
+  \field{volume}{79}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Bri{\"{e}}t, Harremo{\"{e}}s/Bri{\"{e}}t,
+  \verb  Harremo{\"{e}}s - 2009 - Properties of classical and quantum Jensen-Sh
+  \verb annon divergence.pdf:pdf
+  \endverb
+  \field{journaltitle}{Physical Review A}
+  \field{eprinttype}{arXiv}
+  \field{year}{2009}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Endres2003}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Endres}{E.}%
+     {D.M.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schindelin}{S.}%
+     {J.E.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EDSJ1}
+  \strng{fullhash}{EDSJ1}
+  \field{labelyear}{2003}
+  \field{sortinit}{E}
+  \verb{doi}
+  \verb 10.1109/TIT.2003.813506
+  \endverb
+  \field{issn}{0018-9448}
+  \field{number}{7}
+  \field{pages}{1858\bibrangedash 1860}
+  \field{title}{{A new metric for probability distributions}}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/document/1207388/
+  \endverb
+  \field{volume}{49}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Endres, Schindelin/Endres, Schindelin - 2
+  \verb 003 - A new metric for probability distributions.pdf:pdf
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Information Theory}
+  \field{year}{2003}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

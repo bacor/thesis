@@ -1,0 +1,94 @@
+\documentclass{../src/bcthesispart}
+\title{Strategies in the Dirichlet-categorical \textsc{ng}}
+\author{Bas Cornelissen}
+\begin{document}
+
+%——————————————————————————————————————————————————————————
+\appendixtitle{Strategies in the Dirichlet-categorical \textsc{ng}}%
+	{Strategies in the Dirichlet-categorical \textsc{ng}}%
+	{illustrations-bng}{%
+	% Abstract
+	In this appendix some further illustrations of the Bayesian Naming Game with other parameter settings are given.
+	The figures are explained in more detail in section ??.
+	}
+%——————————————————————————————————————————————————————————
+
+	
+
+\noindent
+%todo reference chapter
+The figures illustrate how the languages used by agents, $\vect\phi^{(t)}$ 
+	change over time: subfigure A shows $\vect\phi_A^{(t)}$ for every agent (thin lines), the average $\bar{\vect\phi}^{(t)}$ (thick lines) and the prior (orange) at $t=10,100,1000, 10\ 000$. 
+Next, in subfigure B, the produced utterances are shown as small dots.
+Behind the utterances, the distribution over over words is plotted in blue, estimated using a moving window spanning (at most) the last 2000 utterances.
+Even if use a completely different language at every timestep (as in Iterated Learning), the utterances might exhibit a regularity, when averaged over time.
+This is illustrated in subfigure C, where you see the time-average over all 10\; 000 utterances (blue), compared with the prior (orange) and the average language $\bar{\vect\phi}^{(t)}$ used by agents at $t=10\; 000$.
+For all parameter settings, two simulation runs are shown.
+In all simulations we approximate $\infty \approx 10^{20}$ and use a deterministic hazard function.
+
+
+
+
+\newpage
+%
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-inf-eta-1-zeta-1}}
+	\caption{Standard Bayesian Naming Game ($\gamma=\infty$) with a sample-sample strategy ($\eta=1, \zeta=1$). The population develops a stable, shared language that reflects the prior but nonetheless deviates from it.
+		\figdetails{\figid{FIG05} $\eta=\zeta=1$, ${\gamma=\infty}$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-inf-eta-inf-zeta-1}}
+	\caption{Naming Game ($\gamma=\infty$) with a \textsc{map}-sample strategy ($\eta=\infty, \zeta=1$).
+		The population settles on a shared language that exaggerates the prior.
+		\figdetails{\figid{FIG05} $\eta=\infty, \zeta=1$, ${\gamma=\infty}$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-inf-eta-1-zeta-inf}}
+	\caption{Naming Game ($\gamma=\infty$) with a sample-\textsc{map} strategy ($\eta=1, \zeta=\infty$).
+	The population develops a stable, shared language with all mass on a single feature, again reflecting the prior.
+		\figdetails{\figid{FIG05} $\eta=1, \zeta=\infty$, ${\gamma=\infty}$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-inf-eta-inf-zeta-inf}}
+	\caption{Naming Game ($\gamma=\infty$) with a \textsc{map}-\textsc{map} strategy ($\eta=\infty, \zeta=\infty$).
+		This strategy corresponds to the frequeny strategy. Agents can only produce one of the two utterances $k$ for which $\alpha_k$ is maximal.
+		\figdetails{\figid{FIG05} $\eta=\infty, \zeta=\infty$, ${\gamma=\infty}$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+
+
+%\newpage
+%{\large\textbf{Iterated Learning ($\gamma=1$)}}
+%-
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-1-eta-1-zeta-1}}
+	\caption{Iterated Learning ($\gamma=1$) with a sample-sample strategy ($\eta=1, \zeta=1$). Agents develop no shared language, but over time converge to the prior.
+		\figdetails{\figid{FIG05} $\eta=1, \zeta=1$, $\gamma=1$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-1-eta-1-zeta-inf}}
+	\caption{Iterated Learning ($\gamma=1$) with a sample-\textsc{map} strategy ($\eta=1, \zeta=\infty$).
+		Agents do not develop a shared language, but the utterances over time converge to an exaggerated version of the prior.
+		\figdetails{\figid{FIG05} $\eta=1, \zeta=\infty$, $\gamma=1$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-1-eta-inf-zeta-1}}
+	\caption{Iterated Learning ($\gamma=1$) with a \textsc{map}-sample strategy ($\eta=\infty, \zeta=1$).
+		Again, no stable language, but now the time-average strongly exaggerates the prior.
+		\figdetails{\figid{FIG05} $\eta=\infty, \zeta=1$, $\gamma=1$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+%--
+\begin{SCfigure}[][!hb]
+	\includegraphics[trim=0.64cm 0 0 \figtopmargin]{{FIG05-BNG-gamma-1-eta-inf-zeta-inf}}
+	\caption{Iterated Learning ($\gamma=1$) with a \textsc{map}-\textsc{map} strategy ($\eta=\infty, \zeta=\infty$).
+		This strategy corresponds to the frequeny strategy 
+		\figdetails{\figid{FIG05} $\eta=\infty, \zeta=\infty$, $\gamma=1$, ${b=1}$, ${N=15}$, ${K=\beta=12}$}}
+\end{SCfigure}
+
+
+
+\end{document}

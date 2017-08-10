@@ -1,0 +1,1062 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.11.11)  9 AUG 2017 13:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**bng-illustration.tex
+(./bng-illustration.tex
+./bng-illustration.tex:3: Undefined control sequence.
+l.3 \begin
+          {tikzpicture}[xscale=2.4]\footnotesize\sffamily
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:3: Undefined control sequence.
+l.3 \begin{tikzpicture}[xscale=2.4]\footnotesize
+                                                \sffamily
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:3: Undefined control sequence.
+l.3 ...zpicture}[xscale=2.4]\footnotesize\sffamily
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:4: Undefined control sequence.
+l.4 	\tikzset
+             {var/.style={draw, circle, fill=main!60, minimum size=.75cm}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:5: Undefined control sequence.
+l.5 	\tikzset
+             {sample/.style={thick, draw, ->}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:6: Undefined control sequence.
+l.6 	\tikzset
+             {ann1/.style={align=center, text width=2cm, node distance=2.5cm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:7: Undefined control sequence.
+l.7 	\tikzset
+             {ann2/.style={align=center, text width=2cm, node distance=1.3cm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:8: Undefined control sequence.
+l.8 	\tikzset
+             {annline/.style={draw,dashed,main}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:9: Undefined control sequence.
+l.9 	\tikzset
+             {speaker/.style={draw}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:10: Undefined control sequence.
+l.10 	\tikzset
+              {hearer/.style={draw}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:11: Undefined control sequence.
+l.11 	\tikzset
+              {brace/.style={decoration={brace,mirror,raise=10pt}, decorate}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (21.10718pt too wide) in paragraph at lines 3--12
+\tenrm draw, -> ann1/.style=align=center, text width=2cm, node dis-tance=2.5cm, text=main ann2/.style=align=center,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm r
+.\tenrm a
+.\kern-0.27779
+.\tenrm w
+.etc.
+
+./bng-illustration.tex:13: Undefined control sequence.
+l.13 	\draw
+           [speaker] (-.95,0) rectangle (2,1.75);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:14: Undefined control sequence.
+l.14 	\node
+           [] at (-.7, .25) {\textsc{speaker}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:14: Undefined control sequence.
+l.14 	\node[] at (-.7, .25) {\textsc
+                                    {speaker}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:16: Undefined control sequence.
+l.16 	\node
+           [var] (alpha) at (0,1) {$\vect\alpha_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:16: Undefined control sequence.
+<recently read> \vect 
+                      
+l.16 	\node[var] (alpha) at (0,1) {$\vect
+                                         \alpha_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:17: Undefined control sequence.
+l.17 	\node
+           [left of=alpha,align=right] (observations) {$\vect c_{-t}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:17: Undefined control sequence.
+<recently read> \vect 
+                      
+l.17 ...=alpha,align=right] (observations) {$\vect
+                                                   c_{-t}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:18: Undefined control sequence.
+l.18 	\node
+           [left of=observations,align=right] (bias) {$\vect\alpha_0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:18: Undefined control sequence.
+<recently read> \vect 
+                      
+l.18 ...f=observations,align=right] (bias) {$\vect
+                                                  \alpha_0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:19: Undefined control sequence.
+l.19 	\path
+            (observations) -- node {$=$} (alpha);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:20: Undefined control sequence.
+l.20 	\path
+            (bias) -- node{$+$} (observations);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:21: Undefined control sequence.
+l.21 	\node
+           [var] (lang) at (1,1) {$\vlang_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:21: Undefined control sequence.
+<recently read> \vlang 
+                       
+l.21 	\node[var] (lang) at (1,1) {$\vlang
+                                         _t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:22: Undefined control sequence.
+l.22 	\node
+           [var] (obs) at (2.35,1) {$\obs_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:22: Undefined control sequence.
+<recently read> \obs 
+                     
+l.22 	\node[var] (obs) at (2.35,1) {$\obs
+                                         _t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:24: Undefined control sequence.
+l.24 	\draw
+           [sample] (alpha) --
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:25: Undefined control sequence.
+l.25 		node[above] (langdist) {$p_\LA
+                                     (\vlang_t \mid \vect\alpha_t)$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:25: Undefined control sequence.
+l.25 		node[above] (langdist) {$p_\LA(\vlang
+                                            _t \mid \vect\alpha_t)$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:25: Double subscript.
+l.25 		node[above] (langdist) {$p_\LA(\vlang_
+                                             t \mid \vect\alpha_t)$}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./bng-illustration.tex:25: Undefined control sequence.
+l.25 ...ve] (langdist) {$p_\LA(\vlang_t \mid \vect
+                                                  \alpha_t)$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:27: Undefined control sequence.
+l.27 	\draw
+           [sample] (lang) --
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:28: Undefined control sequence.
+l.28 		node[above,pos=.44] (proddist) {$p_\PA
+                                             (x_t \mid \vlang_t)$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:28: Undefined control sequence.
+l.28 ...os=.44] (proddist) {$p_\PA(x_t \mid \vlang
+                                                  _t)$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:30: Undefined control sequence.
+l.30 	\draw
+           [sample] (alpha) to[out=-60,in=-120,max distance=.75cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:31: Undefined control sequence.
+<recently read> \vect 
+                      
+l.31 		node[above,pos=.54] (pi) {$\vect
+                                       \pi_t$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:34: Undefined control sequence.
+l.34 	\node
+           [ann1,above of=lang] (a1) {\emph{internal}\\ language};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:34: Undefined control sequence.
+l.34 	\node[ann1,above of=lang] (a1) {\emph
+                                           {internal}\\ language};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:34: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.34 ...of=lang] (a1) {\emph{internal}\\ language}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ language
+./bng-illustration.tex:34: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.34 ...of=lang] (a1) {\emph{internal}\\ language}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:35: Undefined control sequence.
+l.35 	\draw
+           [annline] (a1) -- (lang);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:36: Undefined control sequence.
+l.36 	\node
+           [ann2,above of=obs, node distance=1.45cm] (a2) {production};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:37: Undefined control sequence.
+l.37 	\draw
+           [annline] (a2) -- (obs);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:38: Undefined control sequence.
+l.38 	\node
+           [ann1,above of=alpha] (a3) {beliefs};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:39: Undefined control sequence.
+l.39 	\draw
+           [annline] (a3) -- (alpha);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:41: Undefined control sequence.
+l.41 	\node
+           [ann2,above of=langdist] (a4) {language\\ algorithm};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:41: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.41 ...e of=langdist] (a4) {language\\ algorithm}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ algorithm
+./bng-illustration.tex:41: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.41 ...e of=langdist] (a4) {language\\ algorithm}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:42: Undefined control sequence.
+l.42 	\draw
+           [annline] (a4) -- (langdist);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:43: Undefined control sequence.
+l.43 	\node
+           [ann2,above of=proddist, node distance=2.27cm] (a5) {production\\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:43: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.43 ...ance=2.27cm] (a5) {production\\ algorithm}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ algorithm
+./bng-illustration.tex:43: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.43 ...ance=2.27cm] (a5) {production\\ algorithm}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:44: Undefined control sequence.
+l.44 	\draw
+           [annline] (a5) -- (proddist);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:45: Undefined control sequence.
+l.45 	\node
+           [ann1,above of=pi, node distance=2.1cm] (a6) {\emph{average}\\lan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:45: Undefined control sequence.
+l.45 ...ve of=pi, node distance=2.1cm] (a6) {\emph
+                                                  {average}\\language};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:45: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.45 ...nce=2.1cm] (a6) {\emph{average}\\language}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+language
+./bng-illustration.tex:45: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.45 ...nce=2.1cm] (a6) {\emph{average}\\language}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:46: Undefined control sequence.
+l.46 	\draw
+           [annline] (a6) -- (pi);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:48: Undefined control sequence.
+l.48 	\node
+           [ann1,above of=bias] (a7) {innate\\bias};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:48: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.48 ...de[ann1,above of=bias] (a7) {innate\\bias}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+bias
+./bng-illustration.tex:48: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.48 ...de[ann1,above of=bias] (a7) {innate\\bias}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:49: Undefined control sequence.
+l.49 	\draw
+           [annline] (a7) -- (bias);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:50: Undefined control sequence.
+l.50 	\node
+           [ann2,above of=observations, node distance=1.4cm] (a8) {observati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:50: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.50 ...=1.4cm] (a8) {observations\\or experience}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+or experience
+./bng-illustration.tex:50: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.50 ...=1.4cm] (a8) {observations\\or experience}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:51: Undefined control sequence.
+l.51 	\draw
+           [annline] (a8) -- (observations);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:53: Undefined control sequence.
+l.53 	\draw
+           [hearer] (2.7,0) rectangle (4.1,1.75);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:54: Undefined control sequence.
+l.54 	\node
+           [] at (2.95, .25) {\textsc{hearer}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:54: Undefined control sequence.
+l.54 	\node[] at (2.95, .25) {\textsc
+                                     {hearer}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:55: Undefined control sequence.
+l.55 	\draw
+           [thick,->] (obs) -- (2.7, 1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:57: Undefined control sequence.
+l.57 	\node
+           [align=left] at (3.35, .7) {$\vect\alpha_{t+1} := \vect\alpha_t +...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:57: Undefined control sequence.
+<recently read> \vect 
+                      
+l.57 	\node[align=left] at (3.35, .7) {$\vect
+                                             \alpha_{t+1} := \vect\alpha_t +...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:57: Undefined control sequence.
+l.57 ...at (3.35, .7) {$\vect\alpha_{t+1} := \vect
+                                                  \alpha_t + \vect c_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:57: Undefined control sequence.
+l.57 ...\vect\alpha_{t+1} := \vect\alpha_t + \vect
+                                                   c_t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:59: Undefined control sequence.
+l.59 	\node
+            (posterior) at (3, 1.2) {$p_{t+1}(\vlang)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:59: Undefined control sequence.
+l.59 ...e (posterior) at (3, 1.2) {$p_{t+1}(\vlang
+                                                  )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:60: Undefined control sequence.
+l.60 	\node
+           [right of=posterior, node distance=1.3cm] (likelihood) {$p(x_t \m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:60: Undefined control sequence.
+l.60 ...ce=1.3cm] (likelihood) {$p(x_t \mid \vlang
+                                                  )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:61: Undefined control sequence.
+l.61 	\node
+           [right of=likelihood] (prior) {$p_t(\vlang)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:61: Undefined control sequence.
+l.61 ...[right of=likelihood] (prior) {$p_t(\vlang
+                                                  )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:62: Undefined control sequence.
+l.62 	\path
+            (posterior) -- node {$\propto$} (likelihood);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:64: Undefined control sequence.
+l.64 	\node
+           [ann1,above of=posterior, node distance=2.25cm] (a9) {posterior\\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:64: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.64 ...nce=2.25cm] (a9) {posterior\\(next prior)}
+                                                  ;
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+(next prior)
+./bng-illustration.tex:64: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.64 ...nce=2.25cm] (a9) {posterior\\(next prior)}
+                                                  ;
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./bng-illustration.tex:65: Undefined control sequence.
+l.65 	\draw
+           [annline] (a9) -- (posterior);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:67: Undefined control sequence.
+l.67 	\node
+           [ann2,above of=likelihood, node distance=1.25cm] (a10) {likelihood};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:68: Undefined control sequence.
+l.68 	\draw
+           [annline] (a10) -- (likelihood);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:70: Undefined control sequence.
+l.70 	\node
+           [ann1,above of=prior, node distance=2.15cm] (a11) {prior};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:71: Undefined control sequence.
+l.71 	\draw
+           [annline] (a11) -- (prior);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:73: Undefined control sequence.
+l.73 	\newcommand
+                 {\drawinteraction}[2]{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:73: Undefined control sequence.
+l.73 	\newcommand{\drawinteraction
+                                  }[2]{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:74: Illegal parameter number in definition of \y.
+<to be read again> 
+                   1
+l.74 		\def\y{#1
+                }
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./bng-illustration.tex:75: Illegal parameter number in definition of \t.
+<to be read again> 
+                   2
+l.75 		\def\t{#2
+                }
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./bng-illustration.tex:76: Undefined control sequence.
+l.76 		\begin
+             {scope}[yshift=\y]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:76: You can't use `macro parameter character #' in horizontal mode.
+\y ->##
+       1
+l.76 		\begin{scope}[yshift=\y
+                              ]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./bng-illustration.tex:77: Undefined control sequence.
+l.77 			\draw
+             [speaker] (-.95,0) rectangle (2,.5);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:78: Undefined control sequence.
+l.78 			\node
+             [] at (-.7, .25) {\textsc{speaker}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:78: Undefined control sequence.
+l.78 			\node[] at (-.7, .25) {\textsc
+                                      {speaker}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:80: Undefined control sequence.
+l.80 			\node
+             [var] (obs) at (2.35,.25) {$\obs_{t+\t}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:80: Undefined control sequence.
+<recently read> \obs 
+                     
+l.80 			\node[var] (obs) at (2.35,.25) {$\obs
+                                             _{t+\t}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:80: You can't use `macro parameter character #' in math mode.
+\t ->##
+       2
+l.80 ...node[var] (obs) at (2.35,.25) {$\obs_{t+\t
+                                                  }$};
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./bng-illustration.tex:81: Undefined control sequence.
+l.81 			\draw
+             [sample] (2, .25) -- (obs);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:82: Undefined control sequence.
+l.82 			\draw
+             [thick,->] (obs) -- (2.7, .25);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:84: Undefined control sequence.
+l.84 			\draw
+             [hearer] (2.7,0) rectangle (4.1,.5);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:85: Undefined control sequence.
+l.85 			\node
+             [] at (2.95, .25) {\textsc{hearer}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bng-illustration.tex:85: Undefined control sequence.
+l.85 			\node[] at (2.95, .25) {\textsc
+                                       {hearer}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 73 ({)
+### bottom level</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/04-bayesian-naming-games/.texpadtmp/bng-illustration.pdf" (1 page, 58764 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

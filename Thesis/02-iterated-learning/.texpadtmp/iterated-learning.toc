@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Early iterated learning models}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Iterated learning with Bayesian agents}{4}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The emergence of compositionality?}{5}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Convergence to the prior}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Proof of the convergence to the prior}{8}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Convergence to the maximum of the prior?}{10}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Convergent controversy}{11}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline population structure}{11}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Innate biases and cultural evolution}{12}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Type of convergence}{12}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline bottlenecks and the evolution of compositionality}{12}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline conclusions}{13}{section*.13}

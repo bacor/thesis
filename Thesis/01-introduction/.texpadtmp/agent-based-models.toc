@@ -1,0 +1,61 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Background}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Probabilistic models of iterated learning}{1}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Bayesian iterated learning}{2}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline A binary language}{3}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Converging Markov chains}{4}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline stationary distributions}{5}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Irreducibility}{6}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline aperiodicity}{7}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline ergodicity}{7}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Convergence to the prior}{8}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline evolution of compositionality}{10}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline samplers and maximizers}{10}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Population structure}{11}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline conclusions}{11}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}Jacoby}{11}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Empirical studies}{11}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Kirby 2008}{11}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Carr: color terms}{11}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}Tessa Verhoef?}{11}{subsubsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Iterated learning with counting agents?}{11}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}...}{11}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}...}{11}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Modelling of serial reproduction}{12}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Probabilistic serial reproduction}{13}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Bayesian serial reproduction}{13}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Convergence to the prior}{13}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Linguistic and categorical \textsc {sr}{}}{15}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Languages and category structures}{17}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Iterated learning with probabilistic programs}{18}{section.6}

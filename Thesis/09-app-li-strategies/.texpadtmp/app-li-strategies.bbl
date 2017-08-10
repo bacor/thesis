@@ -1,0 +1,47 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Wellens2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=aa48b8f63580aba8052809ce47d1ca3b}{Wellens}{W\bibinitperiod}{Pieter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Vrije Universiteit Brussel}%
+      }
+      \strng{namehash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \strng{fullhash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strategies in the Emergence of Lexical Systems.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,395 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Berwick2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3525769907fd3647866f9b5e57c5c163}{Berwick}{B\bibinitperiod}{Robert\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=28167c0b3800bc5cfb686676277005b0}{Chomsky}{C\bibinitperiod}{Noam}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{5bc06a1ba235ea5c4f69e3b57a57e388}
+      \strng{fullhash}{5bc06a1ba235ea5c4f69e3b57a57e388}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0911-6044}
+      \field{journaltitle}{Journal of Neurolinguistics}
+      \field{number}{B}
+      \field{title}{{Why only us: Recent questions and answers}}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{166\bibrangedash 177}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jneuroling.2016.12.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Berwick, Chomsky/Berwick, Chomsky - 2017 - Why only us Recent questions and answers.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jneuroling.2016.12.002
+      \endverb
+    \endentry
+    \entry{Christiansen2016a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=973a6d45fe0bbec002d53420ce891d06}{Christiansen}{C\bibinitperiod}{Morten\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=68f539b14c5ba5fb2395b9309d555ad7}{Chater}{C\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{f02595bb88320a947cc77621e2615114}
+      \strng{fullhash}{f02595bb88320a947cc77621e2615114}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{extrayear}{1}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9870262034319}
+      \field{title}{{Creating language. Integrating evolution, acquisition, and processing}}
+      \field{year}{2016}
+    \endentry
+    \entry{Christiansen2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f9e0a3817439f8ffc01ed0f6b9441c9d}{Christiansen}{C\bibinitperiod}{Morten\bibnamedelima H}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=68f539b14c5ba5fb2395b9309d555ad7}{Chater}{C\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4f6aaf7f9c0d72810206f4501698153e}
+      \strng{fullhash}{4f6aaf7f9c0d72810206f4501698153e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{extrayear}{2}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Memory is fleeting. New material rapidly obliterates previous material. How then can the brain deal successfully with the continual deluge of linguistic input? We argue that, to deal with this "Now-or-Never" bottleneck, the brain must compress and recode linguistic input as rapidly as possible. This observation has strong implications for the nature of language processing: (i) the language system must "eagerly" recode and compress linguistic input; (ii) as the bottleneck recurs at each new representational level, the language system must build a multi-level linguistic representation; and (iii) it must deploy all available information predictively to ensure that local linguistic ambiguities are dealt with "Right-First-Time;" once the original input is lost, there is no way for the language system to recover. This is "Chunk-and-Pass" processing. Similarly, language learning must also occur in the here-and-now. This implies that language acquisition is learning to process, rather than inducing a grammar. Moreover, this perspective provides a cognitive foundation for grammaticalization and other aspects of language change. Chunk-and-Pass processing also helps explain a variety of core properties of language, including its multi-level representational structure and duality of patterning. This approach promises to create a direct relationship between psycholinguistics and linguistic theory. More generally, we outline a framework within which to integrate often disconnected inquiries into language processing, language acquisition, and language change and evolution.}
+      \field{isbn}{0140525X}
+      \field{issn}{1469-1825}
+      \field{journaltitle}{The Behavioral and brain sciences}
+      \field{title}{{The Now-or-Never bottleneck: A fundamental constraint on language}}
+      \field{volume}{39}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1017/S0140525X1500031X
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Christiansen, Chater/Christiansen, Chater - 2016 - The Now-or-Never bottleneck A fundamental constraint on language.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hockett1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=32d9b779c2b40ba590678467cb7ff9f7}{Hockett}{H\bibinitperiod}{Charles\bibnamedelima F.}{C\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{32d9b779c2b40ba590678467cb7ff9f7}
+      \strng{fullhash}{32d9b779c2b40ba590678467cb7ff9f7}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1960}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0036-8733}
+      \field{journaltitle}{Scientific American}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{{The Origin of Speech}}
+      \field{volume}{203}
+      \field{year}{1960}
+      \field{pages}{88\bibrangedash 96}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/scientificamerican0960-88
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hockett/Hockett - 1960 - The Origin of Speech.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/14402211%20http://www.nature.com/doifinder/10.1038/scientificamerican0960-88
+      \endverb
+      \keyw{EVOLUTION,SPEECH}
+    \endentry
+    \entry{Jaeger2009}{incollection}{}
+      \name{author}{11}{}{%
+        {{hash=3e23f63902cb824af4a955a17b0b0951}{Jaeger}{J\bibinitperiod}{Herbert}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=85cb46a3926f8572efdaa571ce75ab96}{Andrea}{A\bibinitperiod}{Baronchelli}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e61fc2a53cce75d095978dce55b0ef0c}{Ted}{T\bibinitperiod}{Briscoe}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=672a7c6d7ae3709c4198123b6bce0a9e}{Morten}{M\bibinitperiod}{H.\bibnamedelimi Christiansen}{H\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=04e6613905aec889d86b7ddc2e914c2b}{Jäger}{J\bibinitperiod}{Gerhard}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=837fb963baa9e0149a7e7dc700b1cdf7}{Komarova}{K\bibinitperiod}{Natalia}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=5dd3361ee65a9c47abb41d15036105e0}{Richerson}{R\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=207b1569180057f2395a0befdad16544}{Triesch}{T\bibinitperiod}{Jochen}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2c51c695149c657c29336b2759ffb4ab}{Bickerton}{B\bibinitperiod}{Derek}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b859ddb271ff5612581e74a60e5c46f3}{Szathmáry}{S\bibinitperiod}{Eörs}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{4cefd6b3ddd501ab08d6f921a6021538}
+      \strng{fullhash}{ad0105056a4a41a53099006766d90537}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2009}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Biological Foundations and Origin of Syntax}
+      \field{isbn}{9780262013567}
+      \field{month}{09}
+      \field{title}{{What Can Mathematical, Computational, and Robotic Models Tell Us about the Origins of Syntax?}}
+      \field{year}{2009}
+      \field{pages}{385\bibrangedash 410}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.7551/mitpress/9780262013567.003.0018
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Jaeger et al/Jaeger et al. - 2009 - What Can Mathematical, Computational, and Robotic Models Tell Us about the Origins of Syntax.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262013567.001.0001/upso-9780262013567%20http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262013567.001.0001/upso-9780262013567-chapter-18
+      \endverb
+    \endentry
+    \entry{Kirby2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Psychonomic Bulletin {\&} Review}%
+      }
+      \strng{namehash}{466ad0e29b90ba35b93ae3a5b45f2e2b}
+      \strng{fullhash}{466ad0e29b90ba35b93ae3a5b45f2e2b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2017}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{issn}{1069-9384}
+      \field{journaltitle}{Psychonomic Bulletin {\&} Review}
+      \field{month}{02}
+      \field{number}{1}
+      \field{title}{{Culture and biology in the origins of linguistic structure}}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{118\bibrangedash 137}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.3758/s13423-016-1166-7
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby/Kirby - 2017 - Culture and biology in the origins of linguistic structure.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3758/s13423-016-1166-7%20http://link.springer.com/10.3758/s13423-016-1166-7
+      \endverb
+      \keyw{Computational modeling,Cultural evolution,Iterated learning,Language evolution,MSc Thesis,Printed,computational modeling,cultural evolution,iterated learning,language evolution}
+    \endentry
+    \entry{Kirby2002}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3d1ed33cf6eb6484fe8bcb118340c2db}{Hurford}{H\bibinitperiod}{James\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{abe2560084cd1c798c82bad8087d14aa}
+      \strng{fullhash}{abe2560084cd1c798c82bad8087d14aa}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introduction As language users humans possess a culturally transmitted system of unparalleled complexity in the natural world. Linguistics has revealed over the past 40 years the degree to which the syntactic structure of language in particular is strikingly complex. Furthermore, as Pinker and Bloom point out in their agenda-setting paper Natural Language and Natural Selection grammar is a complex mechanism tailored to the transmission of propositional structures through a serial interface"...}
+      \field{booktitle}{Simulating the Evolution of Language}
+      \field{isbn}{1-85233-428-2}
+      \field{issn}{07317085}
+      \field{title}{{The Emergence of Linguistic Structure: An Overview of the Iterated Learning Model}}
+      \field{year}{2002}
+      \field{pages}{121\bibrangedash 147}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-1-4471-0663-0_6
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby, Hurford/Kirby, Hurford - 2002 - The emergence of linguistic structure An overview of the iterated learning model.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4471-0663-0%7B%5C_%7D6
+      \endverb
+    \endentry
+    \entry{Smith2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ac8ecf1cb3981d04b8cedc11b2603cc}{Smith}{S\bibinitperiod}{Andrew\bibnamedelima D.M.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \strng{fullhash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2014}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{19395078}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Cognitive Science}
+      \field{month}{05}
+      \field{number}{3}
+      \field{title}{{Models of language evolution and change}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{281\bibrangedash 293}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/wcs.1285
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2014 - Models of language evolution and change.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/wcs.1285
+      \endverb
+    \endentry
+    \entry{Steels2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human languages are extraordinarily complex adaptive systems. They feature intricate hierarchical sound structures, are able to express elaborate meanings and use sophisticated syntactic and semantic structures to relate sound to meaning. What are the cognitive mechanisms that speakers and listeners need to create and sustain such a remarkable system? What is the collective evolutionary dynamics that allows a language to self-organize, become more complex and adapt to changing challenges in expressive power? This paper focuses on grammar. It presents a basic cycle observed in the historical language record, whereby meanings move from lexical to syntactic and then to a morphological mode of expression before returning to a lexical mode, and discusses how we can discover and validate mechanisms that can cause these shifts using agent-based models.This article is part of the themed issue 'The major synthetic evolutionary transitions'.}
+      \field{isbn}{0000000191}
+      \field{issn}{0962-8436}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{month}{08}
+      \field{number}{1701}
+      \field{title}{{Agent-based models for the emergence and evolution of grammar}}
+      \field{volume}{371}
+      \field{year}{2016}
+      \field{pages}{20150447}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rstb.2015.0447
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels et al/Steels et al. - 2016 - Agent-based models for the emergence and evolution of grammar.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/27431525%7B%%7D5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4958941%20http://rstb.royalsocietypublishing.org/lookup/doi/10.1098/rstb.2015.0447
+      \endverb
+      \keyw{agent-based models,emergence of grammar,fluid construction grammar,grammaticalization,language evolution,major transitions in evolution}
+    \endentry
+    \entry{Tomasello1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=77ba606992793299baec3aba2126873e}{Tomasello}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{77ba606992793299baec3aba2126873e}
+      \strng{fullhash}{77ba606992793299baec3aba2126873e}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"Many current theories of human cognition stress its biological roots, while others stress its cultural roots. Tomasello demonstrates that both of these perspectives are essential in creating a unified account of the evolution, history, and development of human cognition. He makes a powerful case that while human cognition is biologically based, this biological adaptation's key contribution is that it permits the flowering of the cultural-historical and ontogenetic processes that have actually made the varieties of human cognition what they are today."--Jacket. A Puzzle and a Hypothesis -- Biological and Cultural Inheritance -- Joint Attention and Cultural Learning -- Linguistic Communication and Symbolic Representation -- Linguistic Constructions and Event Cognition -- Discourse and Representational Redescription -- Cultural Cognition.}
+      \field{isbn}{9780674005822}
+      \field{issn}{0022-3018}
+      \field{title}{{The cultural origins of human cognition}}
+      \field{year}{1999}
+      \field{pages}{248}
+      \range{pages}{1}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Tomasello/Tomasello - 1999 - The cultural origins of human cognition.pdf:pdf
+      \endverb
+      \keyw{ISBN-13: 9780674000704}
+    \endentry
+    \entry{Zuidema2013}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=44ad51ff065eed44fec5244bbae59fd4}{Zuidema}{Z\bibinitperiod}{Willem}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=663449c5f2d149bf0fc28b35934038dd}{Binder}{B\bibinitperiod}{P.-M.}{P\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{44ad51ff065eed44fec5244bbae59fd4}
+      \strng{fullhash}{44ad51ff065eed44fec5244bbae59fd4}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Language Phenomenon: Human Communication from Milliseconds to Milennia}
+      \field{chapter}{8}
+      \field{title}{{Language in Nature: On the Evolutionary Roots of a Cultural Phenomenon}}
+      \field{year}{2013}
+      \field{pages}{163\bibrangedash 189}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-3-642-36086-2_8
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Zuidema/Zuidema - 2013 - Language in Nature On the Evolutionary Roots of a Cultural Phenomenon.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-642-36086-2%7B%5C_%7D8
+      \endverb
+      \keyw{MSc Thesis,Printed}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

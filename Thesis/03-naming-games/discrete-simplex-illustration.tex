@@ -1,0 +1,38 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+
+\begin{tikzpicture}[scale=5.2]\footnotesize\sffamily
+	\tikzset{point/.style={fill=black}}
+	\newcommand{\discretesimplex}[1]{
+    	% draw the triangle
+	    \fill [color=main!30] (0,0) -- (60:1) -- (1,0) -- cycle;
+	    \coordinate (A) at (0,0);
+	    \coordinate (B) at (1,0);
+	    \coordinate (C) at (60:1);
+	    \draw [line width=.5pt,main!50] (A) -- (B) -- (C) -- cycle;
+    	
+    	% Draw the points
+	    \def\Q{#1}
+	    \foreach \a in {0,...,\Q} {
+	    	\pgfmathsetmacro {\bmax} {int(\Q-\a)}
+	    	\foreach \b in {0,...,\bmax} {
+		    	\pgfmathsetmacro {\c} {int(\Q-\a-\b)}
+			    \draw[point] (barycentric cs:A=\a,B=\b,C=\c) 
+			    	circle[radius=.008] node[above=0.05] {\a\b\c};
+	    	}
+	    }
+	    
+	    % Label
+	    \node at (.5,-.12) {Queue of length \Q};
+	}
+	
+	% Left simplex
+	\discretesimplex{4}
+	
+	% Right simplex
+	\begin{scope}[xshift=1.2cm]
+		\discretesimplex{6}		
+	\end{scope}
+\end{tikzpicture}
+	
+%\end{document}

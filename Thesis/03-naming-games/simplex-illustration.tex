@@ -1,0 +1,87 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+\tdplotsetmaincoords{70}{60}
+	\begin{tikzpicture}[scale=3,tdplot_main_coords]\footnotesize
+		\def\laxis{1.2}
+		\def\ltriangle{1}
+		\def\ltick{.1}
+		%%% axes
+		\draw [->,main] (0,0,0) -- (\laxis,0,0) node [below] {$\lang_1$};
+		\draw [->,main] (0,0,0) -- (0,\laxis,0) node [right] {$\lang_2$};
+		\draw [->,main] (0,0,0) -- (0,0,\laxis) node [left] {$\lang_3$};
+		%%% axes ticks
+		\begin{scope}[
+		help lines,
+		every node/.style={inner sep=1pt,text=black}
+		]
+		\foreach \coord in {1} {%{1,...,\nticks} {
+		  \draw [main] (\coord,\ltick,0) -- ++(0,-\ltick,0) -- ++(0,0,\ltick)
+		  node [at start,below left,main] {\coord};
+		  \draw [main] (\ltick,\coord,0) -- ++(-\ltick,0,0) -- ++(0,0,\ltick)
+		  node [pos=1,right,main] {\coord};
+		  \draw [main] (\ltick,0,\coord) -- ++(-\ltick,0,0) -- ++(0,\ltick,0)
+		  node [at start,above left,main] {\coord};
+		}
+		\end{scope}
+		%% Example vector
+		\draw [dashed,main] (.2,0,.8) -- (.2,.8,0);
+		\draw [dashed,main] (0,.3,.7) -- (.7,.3,0);
+		\draw[->,line width=.5](0,0,0) -- (0.2,0.3,0.5) node[at end,above right] {$\vlang = (0.2,0.3,0.5)$};
+		%%% figure
+		\filldraw [opacity=.3,main] (\ltriangle,0,0) -- (0,\ltriangle,0)
+		-- (0,0,\ltriangle) -- cycle;
+	\end{tikzpicture}
+	%
+	\begin{tikzpicture}[scale=3]\footnotesize
+	
+	    % draw the background
+	    \draw [fill=main!30] (0,0) -- (60:1) -- (1,0) -- cycle;
+	
+	    \coordinate[label=left:{\color{main}$(1,0,0)$}]  (A) at (0,0);
+	    \coordinate[label=right:{\color{main}$(0,1,0)$},main] (B) at (1,0);
+	    \coordinate[label=above:{\color{main}$(0,0,1)$},main] (C) at (60:1);
+	
+	    % the triangle
+	    \draw [line width=.5pt,main] (A) -- (B) -- (C) -- cycle;
+	    
+	    % y = sqrt(3) / 2 * (1-theta_2)
+	    % x = 1/2*theta_2 + 1/2
+	    \draw [dashed,main] (.3,0) -- (0.65,0.60621) 
+	    	node [main,at end, above right] {$\lang_2 =0.3$};
+	    \draw [dashed,main] (.8,0) -- (60:.8)
+	    	node [main,at end, above left] {$\lang_1 = 0.2$};
+		
+		% x = sqrt(3) / 2 * theta_3
+		% y = theta_2 + 1/2 * theta_3
+	    \draw [fill=black] (.55, 0.4330) circle[radius=.5pt];
+	    
+	    \draw [decoration={brace,mirror,raise=0.1cm}, decorate] (0,0) -- (.3,0)
+	   		node [pos=0.5,yshift=-0.5cm] {$\lang_2$}; 
+	    \draw [decoration={brace,mirror,raise=0.1cm}, decorate] (.3,0) -- (.8,0)
+	   		node [pos=0.5,yshift=-0.5cm] {$\lang_3$}; 
+	    \draw [decoration={brace,mirror,raise=0.1cm}, decorate] (.8,0) -- (1,0)
+	   		node [pos=0.5,yshift=-0.5cm] {$\lang_1$}; 
+	   		
+		\begin{scope}[xshift=1.6cm]
+			\def\barwidth{.12}
+			\def\gap{.03}
+			\def\tick{.02}
+			
+			\tikzset{bar/.style={draw=main,fill=main!30}}
+			\draw[bar] (0,0) rectangle (\barwidth,.2);
+			\draw[bar] (\barwidth+\gap,0) rectangle (2*\barwidth+\gap,.3);
+			\draw[bar] (2*\barwidth+2*\gap, 0) rectangle (3*\barwidth+2*\gap, .5);
+			
+			% Axis
+			\draw (-\gap,0) -- (3*\barwidth+3*\gap,0);
+			\draw (.5*\barwidth, -\tick) -- (.5*\barwidth, \tick);
+			\node at (.5*\barwidth, -4*\tick) {$\lang_1$};
+			
+			\draw (1.5*\barwidth+\gap, -\tick) -- (1.5*\barwidth+\gap, \tick);
+			\node at ((1.5*\barwidth+\gap, -4*\tick) {$\lang_2$};
+			
+			\draw (2.5*\barwidth+2*\gap, -\tick) -- (2.5*\barwidth+2*\gap, \tick);
+			\node at (2.5*\barwidth+2*\gap, -4*\tick) {$\lang_3$};
+		\end{scope}
+	\end{tikzpicture}
+%\end{document}

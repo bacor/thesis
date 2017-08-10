@@ -1,0 +1,120 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Bishop2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=53e2ec6cc7f2b8080b7b3a758d5607fe}{Bishop}{B\bibinitperiod}{Christopher\bibnamedelima M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{53e2ec6cc7f2b8080b7b3a758d5607fe}
+      \strng{fullhash}{53e2ec6cc7f2b8080b7b3a758d5607fe}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Information Science and Statistics}
+      \field{isbn}{0-387-31073-8}
+      \field{series}{Information Science and Statistics}
+      \field{title}{{Pattern Recognition and Machine learning}}
+      \field{year}{2006}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Bishop/Bishop - 2006 - Pattern Recognition and Machine learning.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Briet2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2fbf9ac9b05f3adb811a89817559c775}{Briët}{B\bibinitperiod}{Jop}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3e8a3af32f7e2fc3cb01c712be57425c}{Harremoës}{H\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{430a47827f79c3c871c65a72d4edcaa7}
+      \strng{fullhash}{430a47827f79c3c871c65a72d4edcaa7}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2009}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jensen-Shannon divergence (JD) is a symmetrized and smoothed version of the most important divergence measure of information theory, Kullback divergence. As opposed to Kullback divergence it determines in a very direct way a metric; indeed, it is the square of a metric. We consider a family of divergence measures (JD{\_}alpha for alpha{>}0), the Jensen divergences of order alpha, which generalize JD as JD{\_}1=JD. Using a result of Schoenberg, we prove that JD{\_}alpha is the square of a metric for alpha lies in the interval (0,2], and that the resulting metric space of probability distributions can be isometrically embedded in a real Hilbert space. Quantum Jensen-Shannon divergence (QJD) is a symmetrized and smoothed version of quantum relative entropy and can be extended to a family of quantum Jensen divergences of order alpha (QJD{\_}alpha). We strengthen results by Lamberti et al. by proving that for qubits and pure states, QJD{\_}alpha{\^{}}1/2 is a metric space which can be isometrically embedded in a real Hilbert space when alpha lies in the interval (0,2]. In analogy with Burbea and Rao's generalization of JD, we also define general QJD by associating a Jensen-type quantity to any weighted family of states. Appropriate interpretations of quantities introduced are discussed and bounds are derived in terms of the total variation and trace distance.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1050-2947}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{{Properties of classical and quantum Jensen-Shannon divergence}}
+      \field{volume}{79}
+      \field{year}{2009}
+      \field{pages}{052311}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.79.052311
+      \endverb
+      \verb{eprint}
+      \verb 0806.4472
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Briët, Harremoës/Briët, Harremoës - 2009 - Properties of classical and quantum Jensen-Shannon divergence.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.79.052311
+      \endverb
+    \endentry
+    \entry{Endres2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ec63f9d4d616ddd48b359749b0901a5a}{Endres}{E\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8c291a5179593995ef44dfcb9c9404e4}{Schindelin}{S\bibinitperiod}{J.E.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ca5b21f844e066d50806b6a031caf058}
+      \strng{fullhash}{ca5b21f844e066d50806b6a031caf058}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelyear}{2003}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9448}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{{A new metric for probability distributions}}
+      \field{volume}{49}
+      \field{year}{2003}
+      \field{pages}{1858\bibrangedash 1860}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/TIT.2003.813506
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Endres, Schindelin/Endres, Schindelin - 2003 - A new metric for probability distributions.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1207388/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

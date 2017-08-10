@@ -1,0 +1,949 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Baronchelli2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=24cae723535f83c0873af4f775b41763}{Gong}{G\bibinitperiod}{Tao}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1a22fb0b033be6099b070c1a8dd33a4e}{Puglisi}{P\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{Loreto}{L\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e5640094fd0412ed2bed051c38636d2c}
+      \strng{fullhash}{973694d1a7e96ec1e972bc65de17eca6}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The empirical evidence that human color categorization exhibits some universal patterns beyond superficial discrepancies across different cultures is a major breakthrough in cognitive science. As observed in the World Color Survey (WCS), indeed, any two groups of individuals develop quite different categorization patterns, but some universal properties can be identified by a statistical analysis over a large number of populations. Here, we reproduce the WCS in a numerical model in which different populations develop independently their own categorization systems by playing elementary language games. We find that a simple perceptual constraint shared by all humans, namely the human Just Noticeable Difference (JND), is sufficient to trigger the emergence of universal patterns that unconstrained cultural interaction fails to produce. We test the results of our experiment against real data by performing the same statistical analysis proposed to quantify the universal tendencies shown in the WCS [Kay P {\&} Regier T. (2003) Proc. Natl. Acad. Sci. USA 100: 9085-9089], and obtain an excellent quantitative agreement. This work confirms that synthetic modeling has nowadays reached the maturity to contribute significantly to the ongoing debate in cognitive science.}
+      \field{annotation}{NULL}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{00278424}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{6}
+      \field{title}{{Modeling the emergence of universality in color naming patterns.}}
+      \field{volume}{107}
+      \field{year}{2010}
+      \field{pages}{2403\bibrangedash 2407}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.0908533107
+      \endverb
+      \verb{eprint}
+      \verb 0908.0775
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli et al/Baronchelli et al. - 2010 - Modeling the emergence of universality in color naming patterns.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,Printed}
+    \endentry
+    \entry{Calude2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b2193cfe9729d56f3b4ba1cd36963058}{Calude}{C\bibinitperiod}{Andreea\bibnamedelima S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a406b1a03ad3fc1b70acb2eb2fc9d}{Verkerk}{V\bibinitperiod}{Annemarie}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ac3e92c82e326efa9d2137df49068a19}
+      \strng{fullhash}{ac3e92c82e326efa9d2137df49068a19}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Numerals have fascinated and mystified linguists, mathematicians and lay persons alike for centuries. The productive use of numerals (in languages where this happens) exploits recursivity to give rise to what we call the 'the number line'. While the smaller numerals 1–10 have enjoyed intense scrutiny, the typological study of the formation of the higher numerals has received comparatively less atten-tion. This article contains a comprehensive typological account of how languages in the Indo-European language family code numerals beyond 10 (10–99, 100s, 1,000s), the morphemes involved, and how these are ordered. We use this dataset from eighty-one Indo-European languages with phylogenetic comparative methods to propose diachronic reconstructions of these patterns in the Proto-Indo-European language. Our findings indicate that small numerals (11–19) show the widest cross-linguistic variation, and that higher numerals exhibit more consistency in both component parts and their ordering. Additionally, we show statistical evidence of correlations between the ordering of base and atom morphemes and other word order patterns (noun-postposition, noun-genitive, and verb-object order).}
+      \field{issn}{2058-4571}
+      \field{journaltitle}{Journal of Language Evolution}
+      \field{number}{2}
+      \field{title}{{The typology and diachrony of higher numerals in Indo-European: a phylogenetic comparative study}}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{91\bibrangedash 108}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1093/jole/lzw003
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Calude, Verkerk/Calude, Verkerk - 2016 - The typology and diachrony of higher numerals in Indo-European a phylogenetic comparative study.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/jole/article-lookup/doi/10.1093/jole/lzw003
+      \endverb
+    \endentry
+    \entry{Carstensen2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=82da3f700179f6865599b1ecf3d8c5c5}{Carstensen}{C\bibinitperiod}{Alexandra}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=107cdbc1053b5baff69de9dcfdbc5c0e}{Xu}{X\bibinitperiod}{Jing}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f9ba20d82a4262f5c140c8695d6910ce}{Smith}{S\bibinitperiod}{Cameron\bibnamedelima T}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bb3429c0479c99473ff63e0150025846}
+      \strng{fullhash}{6a4f9b0f14522deb65ea9da44a18bdd5}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 37th Annual Meeting of the Cognitive Science Society.}
+      \field{title}{{Language evolution in the lab tends toward informative communication}}
+      \field{volume}{1}
+      \field{year}{2015}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Carstensen et al/Carstensen et al. - 2015 - Language evolution in the lab tends toward informative communication.pdf:pdf
+      \endverb
+      \keyw{2012,5,color naming,cultural transmission,informative communication,iterated learning,kinship study,language evolution,levinson,pointed out,regier,s,semantic universals,spatial cognition}
+    \endentry
+    \entry{Comrie1999}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a9414b9a9140ec051c3137f10995b961}{Comrie}{C\bibinitperiod}{Bernard}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a9414b9a9140ec051c3137f10995b961}
+      \strng{fullhash}{a9414b9a9140ec051c3137f10995b961}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Numeral Types and Changes Worldwide}
+      \field{title}{{Haruai numerals and their implications for the history and typology of numeral systems}}
+      \field{volume}{118}
+      \field{year}{1999}
+      \field{pages}{95\bibrangedash 111}
+      \range{pages}{17}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Comrie/Comrie - 1999 - Haruai numerals and their implications for the history and typology of numeral systems.pdf:pdf
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Comrie2011}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9414b9a9140ec051c3137f10995b961}{Comrie}{C\bibinitperiod}{Bernard}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a9414b9a9140ec051c3137f10995b961}
+      \strng{fullhash}{a9414b9a9140ec051c3137f10995b961}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{3}
+      \field{title}{{Typology of Numeral Systems}}
+      \field{year}{2011}
+      \field{pages}{239\bibrangedash 253}
+      \range{pages}{15}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Comrie/Comrie - 2011 - Typology of Numeral Systems.pdf:pdf
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Comrie2013}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9414b9a9140ec051c3137f10995b961}{Comrie}{C\bibinitperiod}{Bernard}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a9414b9a9140ec051c3137f10995b961}
+      \strng{fullhash}{a9414b9a9140ec051c3137f10995b961}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The World Atlas of Language Structures Online}
+      \field{title}{{Numeral Bases}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://wals.info/chapter/131
+      \endverb
+    \endentry
+    \entry{Dediu2013}{incollection}{}
+      \name{author}{11}{}{%
+        {{hash=fda04ea79dc20e87a3b289671a150723}{Dediu}{D\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d9b362c429886f61e89c1fdea069b662}{Cysouw}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=57662c093a2be4aa38c276d4e511b683}{Levinson}{L\bibinitperiod}{Stephen\bibnamedelima C.}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=672a7c6d7ae3709c4198123b6bce0a9e}{Morten}{M\bibinitperiod}{H.\bibnamedelimi Christiansen}{H\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b04ec902fecc6ee3aa901faf48874ea5}{Croft}{C\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=e4022cbee16cd294b79b020fa73f9b9c}{Evans}{E\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cd278f1b20822e342f2f0e0356884f49}{Garrod}{G\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2c5932e0116689cb41fad3c1216a414d}{Gray}{G\bibinitperiod}{Russell\bibnamedelima D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=0726b8f2d348ec3015fa849b9fc6a132}{Kandler}{K\bibinitperiod}{Anne}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=29d1b61fda212f4ea95249f44f4ec5e8}{Lieven}{L\bibinitperiod}{Elena}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=5dd3361ee65a9c47abb41d15036105e0}{Richerson}{R\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=973a6d45fe0bbec002d53420ce891d06}{Christiansen}{C\bibinitperiod}{Morten\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{53903f514639de40554d0212d08bc857}
+      \strng{fullhash}{b3bf54cbf3bf45f5b1b012bf2ce17ae1}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cultural Evolution: Society, Technology, Language and Religion}
+      \field{chapter}{16}
+      \field{isbn}{9780262019750}
+      \field{title}{{Cultural Evolution of Language}}
+      \field{year}{2013}
+      \field{pages}{304\bibrangedash 332}
+      \range{pages}{29}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Dediu et al/Dediu et al. - 2013 - Cultural Evolution of Language.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Dehaene2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=14ff7c970ba747f58e07de2e42e7c5bb}{Dehaene}{D\bibinitperiod}{Stanislas}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{14ff7c970ba747f58e07de2e42e7c5bb}
+      \strng{fullhash}{14ff7c970ba747f58e07de2e42e7c5bb}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{{The number sense: How the mind creates mathematics}}
+      \field{year}{2011}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Dehaene/Dehaene - 2011 - The number sense How the mind creates mathematics.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Dehaene1992}{article}{}
+      \name{author}{2}{}{%
+        {{hash=14ff7c970ba747f58e07de2e42e7c5bb}{Dehaene}{D\bibinitperiod}{Stanislas}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2db544a969f488fa2ccd883d9724cb88}{Mehler}{M\bibinitperiod}{Jacques}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{23afba5b591fb16570712b0d08bf12fd}
+      \strng{fullhash}{23afba5b591fb16570712b0d08bf12fd}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1992}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{number}{1}
+      \field{title}{{Cross-linguistic regularities in the frequency of number words}}
+      \field{volume}{43}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 29}
+      \range{pages}{29}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Dehaene, Mehler/Dehaene, Mehler - 1992 - Cross-linguistic regularities in the frequency of number words.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Feigenson2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f4c48f7940b003d7fd8cb4162be9cd74}{Feigenson}{F\bibinitperiod}{Lisa}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=14ff7c970ba747f58e07de2e42e7c5bb}{Dehaene}{D\bibinitperiod}{Stanislas}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=35030632b4cf28193f5a8f28f139249a}{Spelke}{S\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ed364ebdcf11e03a45b2c550e546d3b9}
+      \strng{fullhash}{ed364ebdcf11e03a45b2c550e546d3b9}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2004}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What representations underlie the ability to think and reason about number? Whereas certain numerical concepts, such as the real numbers, are only ever represented by a subset of human adults, other numerical abilities are widespread and can be observed in adults, infants and other animal species. We review recent behavioral and neuropsychological evidence that these ontogenetically and phylogenetically shared abilities rest on two core systems for representing number. Performance signatures common across development and across species implicate one system for representing large, approximate numerical magnitudes, and a second system for the precise representation of small numbers of individual objects. These systems account for our basic numerical intuitions, and serve as the foundation for the more sophisticated numerical concepts that are uniquely human.}
+      \field{isbn}{1364-6613 (Print)$\backslash$n1364-6613 (Linking)}
+      \field{issn}{13646613}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{number}{7}
+      \field{title}{{Core systems of number}}
+      \field{volume}{8}
+      \field{year}{2004}
+      \field{pages}{307\bibrangedash 314}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tics.2004.05.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Feigenson, Dehaene, Spelke/Feigenson, Dehaene, Spelke - 2004 - Core systems of number.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Greenberg1978}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7d3afb2e7304e7deba6333440b0f4d58}{Greenberg}{G\bibinitperiod}{Joseph\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7d3afb2e7304e7deba6333440b0f4d58}
+      \strng{fullhash}{7d3afb2e7304e7deba6333440b0f4d58}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1978}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The system of numerals is described by a specific part of the grammar of the language Note: numbers are part of the grammar of a language. p. 223 (generalization 1) Every language has a numeral system of finite scope Note: In every language there is a largest number that can be expressed p. 274 (Same system even when there are two). By and large, the numerals used in counting are the same as the cardinal numbers in the form they are when they qualify nouns. In some languages, however, they differ from counting forms. However, they always exhibit the same mathematical structure. For example, we never have a language in which counting forms are decimal while the forms which qualify nouns are vigesimal. p. 274 (generalization 1; zero) it is corollary deductible from generalization 1 that no natural language has a place system with the zero principle, such as found in the written system of Arabic numerals. p. 275 (generalization 3; zero) Zero is never expressed as part of the numeral system p. 275 (counting and number system) the numeral system is based on counting, and counting begins with one; we do not count a set without members. p. 275 (monolexemic) simple lexical representation Numeral system instead of number system p. 275 (generalization 4) In every numerical system some numbers receive simple lexical representation. p. 275 (atoms and bases) Every system has one or more numerals which receive simple lexical expressions. We shall call them here atoms. Atoms are of two kinds, simple atoms and bases. p. 275 (generalization 6) The largest value of L in systems with only simple lexical representation is 5 and the smallest is 2. p. 277 (generalization 9) The existence of multiplication implies the existence of addition. p. 277 (going on; Mayan languages) The only arithmetical operation beyond the four fundamental ones is one which might be called the going-on operation. It is found in the Mayan grunp and in a few Finno-Ugric languages. Such constructions often involve an ordinal interpretation. p. 279 (generalization 11) When a number is expressed by a substraction, or when a subtraction occurs as a constituent of a complex expression, the subtrahend is never larger than the remainder. p. 279 (generalization 12) A subtrahend is always a simple lexical expression. p. 280 (generalization 14) Every minuend is a base of the system or a multiple of the base p. 280 (generalization 15) Division is always expressed as a multiplication by a fraction. Only units or multiples of units are dividends, and the denominator of the fraction is always 2 or a power of 2 p. 282 Steps in the analysis of numerical systems. p. 282 (first step) To each numeral is assigned one or more numbers based on morphemic identifications, and the arithmetical functions are inferred. In the case of simple lexical expression, the function is the identity function. p. 282-283 (same number, different phonetical streches) The identification of phonologically different stretches as representing the same number is of three different kinds. p. 282-283 (agglutinal) One of these is agglutinal-fusional, as when English fif- is fifteen is taken to represent the same number as five in twenty-five. Note: this happens in mazatec P. 283 (suppletion) The second kind is suppletion, as when in Chrau mat indicates 10, but for 20 we find var jat wher var means 2. This leads us to deduce that jat is a suppletive alternant for 10. P. 283 (pormanteau) A further type, portmanteau expression, Note: this is equivalent to contraction. p. 283 (link) We next note that in ciertian numerical expressions in languages, the arithmetical operations themselves are represented by overt morphemes. and in two hundred and three. Such an overt morphemic expression of an operation will be called a link. p. 283 (operations) links are not the only way in which operations are expressed. Word order, prosodic phenomena, inflection, or some combination of them are other methods. Note: Third step is to identify possible serialization, both in terms of addition and of multiplication p. 284 (serialization) Mio: when there is a base or multiplication. Non-serialized is like 7 in mazatec. p.285 (generalization 17) A serialized augend is always larger than its addends. Note: augend a number to which another number (the addend) is added p. 288 (generalization 21) all the bases of a system are divisible by the fundamental base Note: both additively and multiplicatively. 290 (generalization 25) Only a base is ever multiplied by 1 p. 292 (generaliztion 28) if there are any numerals in which the expression of the multiplier follows that of the multiplicand, the language is one in which the numeral follows the noun. p. 295 (generalization 35) If 1 is expressed as a multiplier with a particular base, it is expressed with all higher bases}
+      \field{booktitle}{Universals of Human Language Volume 3 Word Structure}
+      \field{title}{{Generalizations about numeral systems}}
+      \field{volume}{3}
+      \field{year}{1978}
+      \field{pages}{271\bibrangedash 309}
+      \range{pages}{39}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Greenberg/Greenberg - 1978 - Generalizations about numeral systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://books.google.com/books?hl=en%7B%5C&%7Dlr=%7B%5C&%7Did=UV8Gtnf5iCwC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PA249%7B%5C&%7Ddq=greenberg+1978+numerals%7B%5C&%7Dots=98YvjlJyVZ%7B%5C&%7Dsig=ffTFdkqfjk0XIw8dazZ1kAs-hRA
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Hammarstrom2009}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=15347a08468131ff7bf0aae9d41f41f3}{Hammarström}{H\bibinitperiod}{Harald}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4aaa70ba0cf0a8aca937b0e55fd80a0f}{Wohlgemuth}{W\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d9b362c429886f61e89c1fdea069b662}{Cysouw}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Mouton}%
+      }
+      \strng{namehash}{15347a08468131ff7bf0aae9d41f41f3}
+      \strng{fullhash}{15347a08468131ff7bf0aae9d41f41f3}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Rethinking universals: How rarities affect linguistic theory}
+      \field{isbn}{978-3-11-022093-3}
+      \field{title}{{Rarities in Numeral Systems}}
+      \field{year}{2009}
+      \field{pages}{11\bibrangedash 60}
+      \range{pages}{50}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hammarström/Hammarström - 2009 - Rarities in Numeral Systems.pdf:pdf
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Hanke2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=1d41047c75ad96352e47fb391f7d818d}{Hanke}{H\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4aaa70ba0cf0a8aca937b0e55fd80a0f}{Wohlgemuth}{W\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d9b362c429886f61e89c1fdea069b662}{Cysouw}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin, New York}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Mouton}%
+      }
+      \strng{namehash}{1d41047c75ad96352e47fb391f7d818d}
+      \strng{fullhash}{1d41047c75ad96352e47fb391f7d818d}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2010}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Rethinking Universals: How Rarities Affect Linguistic Theory}
+      \field{isbn}{9783110220933}
+      \field{month}{01}
+      \field{series}{Empirical Approaches to Language Typology}
+      \field{title}{{Additional rarities in the typology of numerals}}
+      \field{year}{2010}
+      \field{pages}{61\bibrangedash 90}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1515/9783110220933
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hanke/Hanke - 2010 - Additional rarities in the typology of numerals.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://books.google.com/books?hl=en%7B%5C&%7Dlr=%7B%5C&%7Did=TkDeZFnovDUC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PA61%7B%5C&%7Ddq=Additional+rarities+in+the+typology+of+numerals%7B%5C&%7Dots=5Pd1s1xe3B%7B%5C&%7Dsig=va2mRNREd18PvmGyh6qF229RZzo%20http://www.degruyter.com/view/books/9783110220933/9783110220933/9783110220933.xml
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Heine2002}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5c8896f1662050a5c0c726fc1df3afd4}{Heine}{H\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=52577ad77b7f2db8a17d6c010d4326a0}{Kuteva}{K\bibinitperiod}{Tania}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{140fd642eaf539cabe38d110d568c2ad}
+      \strng{fullhash}{140fd642eaf539cabe38d110d568c2ad}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While the comparative method is concerned with regularities in phonological change, grammaticalization theory deals with regularities of grammatical change. In an A-Z format, this book summarizes the most salient generalizations that have been made on the unidirectional change of grammatical forms and constructions. The product of ten years of research, World Lexicon of Grammaticalization provides the reader with the tools to show how different grammatical meanings can be related to one another in a principled way, how to deal with issues such as polysemy and heterosemy, or why certain linguistic forms have simultaneous lexical and grammatical functions. It covers several hundred in each case offering definitions of lexical concepts, suitable examples from a variety of languages, and references to the relevant research literature. Indices organized by source and target concepts allow for flexible use, and the findings delineated in the book are relevant to students of language across theoretical boundaries. Demonstrates that grammatical change is regular Adds to our knowledge of universal properties Delineates findings that are relevant to students of language across theoretical boundaries}
+      \field{booktitle}{African Studies}
+      \field{isbn}{051104156X}
+      \field{issn}{00353957}
+      \field{title}{{World Lexicon of Grammaticalization}}
+      \field{year}{2002}
+      \field{pages}{401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1017/CBO9780511613463
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Heine, Kuteva/Heine, Kuteva - 2002 - World Lexicon of Grammaticalization.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ebooks.cambridge.org/ref/id/CBO9780511613463
+      \endverb
+    \endentry
+    \entry{Hurford1975}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1975}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Studies in Linguistics}
+      \field{title}{{The Linguistic Theory of Numerals}}
+      \field{year}{1975}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Oxford/New York}%
+      }
+      \list{publisher}{1}{%
+        {Basil Blackwell}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1987}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+      \field{year}{1987}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mind {\&} Language}
+      \field{number}{1}
+      \field{title}{{Languages Treat 1 – 4 Specially}}
+      \field{volume}{16}
+      \field{year}{2001}
+      \field{pages}{69\bibrangedash 75}
+      \range{pages}{7}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 2001 - Languages Treat 1 – 4 Specially.pdf:pdf
+      \endverb
+      \keyw{Numeral Systems,Printed}
+    \endentry
+    \entry{Hurford2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A strong constraint on the arithmetical combinations allowed in compound numerals, called the Packing Strategy, applies very widely to numeral systems across the world. A previous attempt to explain the existence of the strong universal constraint, in terms of a gradual socio-historical process of standardization, will not scale up to higher-valued numerals. It is proposed that the real explanation for the Packing Strategy is that it reflects two natural principles applied in the practical task of counting objects. These two principles, "Go as far as you can with the resources you have", and "Minimize the number of entities you are dealing with", are not specific to the counting task, but are of more general application to practical tasks. ?? 2006 Elsevier B.V. All rights reserved.}
+      \field{issn}{00243841}
+      \field{journaltitle}{Lingua}
+      \field{number}{5}
+      \field{title}{{A performed practice explains a linguistic universal: Counting gives the Packing Strategy}}
+      \field{volume}{117}
+      \field{year}{2007}
+      \field{pages}{773\bibrangedash 783}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.lingua.2006.03.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 2007 - A performed practice explains a linguistic universal Counting gives the Packing Strategy.pdf:pdf
+      \endverb
+      \keyw{Counting,Grammar,Numerals,Packing Strategy,Performance,Universals}
+    \endentry
+    \entry{Kemp2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d3d5c11491b1f45f9d77946df28b87a9}{Kemp}{K\bibinitperiod}{Charles}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{973f84cfa3be99b96cb1d9c3b4059a4c}
+      \strng{fullhash}{973f84cfa3be99b96cb1d9c3b4059a4c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Languages vary in their systems of kinship categories, but the scope of possible variation appears to be constrained. Previous accounts of kin classification have often emphasized constraints that are specific to the domain of kinship and are not derived from general principles. Here, we propose an account that is founded on two domain-general principles: Good systems of categories are simple, and they enable informative communication. We show computationally that kin classification systems in the world's languages achieve a near-optimal trade-off between these two competing principles. We also show that our account explains several specific constraints on kin classification proposed previously. Because the principles of simplicity and informativeness are also relevant to other semantic domains, the trade-off between them may provide a domain-general foundation for variation in category systems across languages.}
+      \field{annotation}{NULL}
+      \field{isbn}{1095-9203 (Electronic)$\backslash$r0036-8075 (Linking)}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{6084}
+      \field{title}{{Kinship Categories Across Languages Reflect General Communicative Principles}}
+      \field{volume}{336}
+      \field{year}{2012}
+      \field{pages}{1049\bibrangedash 1054}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.1218811
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kemp, Regier/Kemp, Regier - 2012 - Kinship Categories Across Languages Reflect General Communicative Principles.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,Printed}
+    \endentry
+    \entry{Khetarpal2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=70df0188a59bb10b32039cf62e4239e3}{Khetarpal}{K\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=3615ddbfeaca1b2eb098744a22ece1e2}{Neveu}{N\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=9367be8479ce96451faad289c23d7dcd}{Majid}{M\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=803accf3e36f68d5c2801b52c32e652b}{Michael}{M\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=3971a4b7c6caff4fe01725c4ec6289bc}{Regier}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{961c3ffa39ba844c5053f55bb3c0d2bb}
+      \strng{fullhash}{6ddd1326dcf412f2aaa36a8c20e66af6}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Why do languages have the categories they do? It has been argued that spatial terms in the world's languages reflect categories that support highly informative communication, and that this accounts for the spatial categories found across languages. However, this proposal has been tested against only nine languages, and in a limited fashion. Here, we consider two new languages: M{\{}á{\}}{\{}í{\}}hɨki, an under-documented language of Peruvian Amazonia, and English. We analyze spatial data from these two new languages and the original nine, using thorough and theoretically targeted computational tests. The results support the hypothesis that spatial terms across dissimilar languages enable near-optimally informative communication, over an influential competing hypothesis.}
+      \field{journaltitle}{Proceedings of the 35th Annual Meeting of the Cognitive Science Society: Cooperative Minds: Social Interaction and Group Dynamics, July 31-August 3, 2013}
+      \field{title}{{Spatial terms across languages support near-optimal communication: Evidence from Peruvian Amazonia, and computational analyses}}
+      \field{year}{2013}
+      \field{pages}{764\bibrangedash 769}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Khetarpal et al/Khetarpal et al. - 2013 - Spatial terms across languages support near-optimal communication Evidence from Peruvian Amazonia, and computa.pdf:pdf
+      \endverb
+      \keyw{Language and thought,informative communication,semantic maps,semantic universals,spatial terms}
+    \endentry
+    \entry{Kirby2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c0295a129288c40a0a99629d34d6803f}{Cornish}{C\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a7c15fb6bbc2ef7bcb93fb657ba2ca57}
+      \strng{fullhash}{a7c15fb6bbc2ef7bcb93fb657ba2ca57}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2008}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce an experimental paradigm for studying the cumulative cultural evolution of language. In doing so we provide the first experimental validation for the idea that cultural transmission can lead to the appearance of design without a designer. Our experiments involve the iterated learning of artificial languages by human participants. We show that languages transmitted culturally evolve in such a way as to maximize their own transmissibility: over time, the languages in our experiments become easier to learn and increasingly structured. Furthermore, this structure emerges purely as a consequence of the transmission of language over generations, without any intentional design on the part of individual language learners. Previous computational and mathematical models suggest that iterated learning provides an explanation for the structure of human language and link particular aspects of linguistic structure with particular constraints acting on language during its transmission. The experimental work presented here shows that the predictions of these models, and models of cultural evolution more generally, can be tested in the laboratory.}
+      \field{annotation}{NULL}
+      \field{isbn}{1068110686}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{08}
+      \field{number}{31}
+      \field{title}{{Cumulative cultural evolution in the laboratory: An experimental approach to the origins of structure in human language}}
+      \field{volume}{105}
+      \field{year}{2008}
+      \field{pages}{10681\bibrangedash 10686}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0707835105
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby, Cornish, Smith/Kirby, Cornish, Smith - 2008 - Cumulative cultural evolution in the laboratory An experimental approach to the origins of structure in h.pdf:pdf
+      \endverb
+      \keyw{Cultural Evolution,Humans,Language,Learning,Learning: physiology,Linguistics,Models,Photic Stimulation,Theoretical}
+    \endentry
+    \entry{Kirby2015}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b1cb64537febfa5e7cb79496413e02cd}{Tamariz}{T\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0295a129288c40a0a99629d34d6803f}{Cornish}{C\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{ef60023c67508691392b444d2341c937}
+      \strng{fullhash}{d36abfe58829ec90ea0dd35d73dae016}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0277}
+      \field{journaltitle}{Cognition}
+      \field{title}{{Compression and communication in the cultural evolution of linguistic structure}}
+      \field{volume}{141}
+      \field{year}{2015}
+      \field{pages}{87\bibrangedash 102}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.cognition.2015.03.016
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby et al/Kirby et al. - 2015 - Compression and communication in the cultural evolution of linguistic structure.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.cognition.2015.03.016
+      \endverb
+      \keyw{cultural transmission,printed}
+    \endentry
+    \entry{Levinson2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=57662c093a2be4aa38c276d4e511b683}{Levinson}{L\bibinitperiod}{Stephen\bibnamedelima C.}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{57662c093a2be4aa38c276d4e511b683}
+      \strng{fullhash}{57662c093a2be4aa38c276d4e511b683}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 1860, Lewis Henry Morgan heard an Iowa man on a Nebraska reservation describe a small boy as “uncle.” Fascinated, he embarked on lifelong research into the kinship systems of the world's cultures, which culminated in a typology of kin categories (see the figure, panel A) (1, 2). Work on kinship categories flourished for a hundred years, but then became unfashionable. Yet, kinship is crucial to the transmission of human genes, culture, mores, and assets. Recent studies have begun to reinvigorate the study of kinship categories (3, 4). On page 1049 of this issue, Kemp and Regier (5) explore the relation between observed kinship systems and all possible such systems (the potential “design space”). They suggest that actual kinship systems optimize both ease of conception and communicative import. On page 998 in this issue, Frank and Goodman (6) provide an experimentally grounded characterization of communicative optimization.}
+      \field{isbn}{0036-8075}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{6084}
+      \field{title}{{Kinship and Human Thought}}
+      \field{volume}{336}
+      \field{year}{2012}
+      \field{pages}{988\bibrangedash 989}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1126/science.1222691
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Levinson/Levinson - 2012 - Kinship and Human Thought.pdf:pdf
+      \endverb
+      \keyw{Printed}
+    \endentry
+    \entry{Regier2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=3a20ce2c0ab7072f88f26c2d86c99aa4}{Kay}{K\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=16dcce2248527c7a4dedadeb1c82ef74}{Khetarpal}{K\bibinitperiod}{Naveen}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4cf9c86e047e4c2cd94ea11aa7db0cbd}
+      \strng{fullhash}{4cf9c86e047e4c2cd94ea11aa7db0cbd}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The nature of color categories in the world's languages is contested. One major view holds that color categories are organized around universal focal colors, whereas an opposing view holds instead that categories are defined at their boundaries by linguistic convention. Both of these standardly opposed views are challenged by existing data. Here, we argue for a third view based on a proposal by Jameson and D'Andrade [Jameson KA, D'Andrade RG (1997) in Color Categories in Thought and Language, eds Hardin CL, Maffi L (Cambridge Univ Press, Cambridge, U.K.), pp 295-319]: that color naming across languages reflects optimal or near-optimal divisions of an irregularly shaped perceptual color space. We formalize this idea, test it against color-naming data from a broad range of languages and show that it accounts for universal tendencies in color naming while also accommodating some observed cross-language variation.}
+      \field{isbn}{0027-8424}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{4}
+      \field{title}{{Color naming reflects optimal partitions of color space.}}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{pages}{1436\bibrangedash 41}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0610341104
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Regier, Kay, Khetarpal/Regier, Kay, Khetarpal - 2007 - Color naming reflects optimal partitions of color space.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/104/4/1436.long
+      \endverb
+      \keyw{Color,Language}
+    \endentry
+    \entry{Regier2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d3d5c11491b1f45f9d77946df28b87a9}{Kemp}{K\bibinitperiod}{Charles}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3a20ce2c0ab7072f88f26c2d86c99aa4}{Kay}{K\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fe72a5d97113c2c0bbb02097e3323dbd}
+      \strng{fullhash}{fe72a5d97113c2c0bbb02097e3323dbd}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Why do languages have the semantic categories they do? Each language partitions human experience into a system of semantic categories, labeled by words or morphemes, which are used to communicate about experience. These categories often differ widely across ... $\backslash$n}
+      \field{annotation}{NULL}
+      \field{journaltitle}{The handbook of language emergence}
+      \field{title}{{Word meanings across languages support efficient communication}}
+      \field{year}{2015}
+      \field{pages}{237\bibrangedash 263}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1002/9781118346136.ch11
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Regier, Kemp, Kay/Regier, Kemp, Kay - 2015 - Word meanings across languages support efficient communication.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis}
+    \endentry
+    \entry{Smith2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ac8ecf1cb3981d04b8cedc11b2603cc}{Smith}{S\bibinitperiod}{Andrew\bibnamedelima D.M.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \strng{fullhash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2014}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{19395078}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Cognitive Science}
+      \field{month}{05}
+      \field{number}{3}
+      \field{title}{{Models of language evolution and change}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{281\bibrangedash 293}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/wcs.1285
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2014 - Models of language evolution and change.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/wcs.1285
+      \endverb
+    \endentry
+    \entry{Tamariz2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b1cb64537febfa5e7cb79496413e02cd}{Tamariz}{T\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b1cb64537febfa5e7cb79496413e02cd}
+      \strng{fullhash}{b1cb64537febfa5e7cb79496413e02cd}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Why are languages the way they are? The biases and constraints that explain why languages display the traits they do—instead of other possible ones—include human cognition, social dynamics, communicative function, the structure of meanings, and the interactions between these. Cultural language evolution is concerned with explaining the causal pathways that link these biases and constraints with fundamental linguistic traits, such as combinatoriality, compositionality, conventionality, and arbitrariness. The cultural evolution of language, or the emergence of a language from no language, begins when motivated signals are used in context by individuals who do not share a means of communication. Repeated interaction between interlocutors makes individual signals compressible through reduction or simplification and can entrench idiosyncratic patterns. Transmission to new learners results in the increasing compressibility at the level of the system through the introduction of categories and regular rules, and in the spread of conventional, arbitrary signals.}
+      \field{issn}{2333-9683}
+      \field{journaltitle}{Annual Review of Linguistics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Experimental Studies on the Cultural Evolution of Language}}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{389\bibrangedash 407}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1146/annurev-linguistics-011516-033807
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Tamariz/Tamariz - 2017 - Experimental Studies on the Cultural Evolution of Language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.annualreviews.org/doi/10.1146/annurev-linguistics-011516-033807
+      \endverb
+      \keyw{cultural transmission,emergence,experimental,iterated learning,semiotics,transmission chains}
+    \endentry
+    \entry{VonMengden2008}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=e9bb382e81d4a4ebdcbbf43dc6457bde}{Mengden}{M\bibinitperiod}{Ferdinand}{F\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{e9bb382e81d4a4ebdcbbf43dc6457bde}
+      \strng{fullhash}{e9bb382e81d4a4ebdcbbf43dc6457bde}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the grammaticalization of cardinal numerals and numeral systems from a crosslinguistic perspective. The grammaticalization cline postulated here starts with a referential expression denoting a body part to a cardinal numeral and leads on to a functional affix which occurs in numeral systems and marks arithmetical operations in complex numeral expressions (e.g. English -teen in fiſteen or -ty in fiſty). The paper also shows that the numerals of the lowest cardinalities may follow a path different from that of the other simple numerals: they may evolve from pronominal elements, such as demonstratives and determiners, which oſten derive themselves from the cardinal numeral ‘1.' The fact that low numerals and pronominal elements can be both each other's sources and each other's targets seems to challenge the unidirectionality of grammaticalization.}
+      \field{booktitle}{Rethinking Grammaticalization: new perspectives}
+      \field{number}{ii}
+      \field{title}{{The grammaticalization cline of cardinal numerals and numeral systems}}
+      \field{year}{2008}
+      \field{pages}{289\bibrangedash 308}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1075/tsl.76.14men
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/von Mengden/von Mengden - 2008 - The grammaticalization cline of cardinal numerals and numeral systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://benjamins.com/catalog/tsl.76.14men
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Xu2010}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=107cdbc1053b5baff69de9dcfdbc5c0e}{Xu}{X\bibinitperiod}{Jing}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=aab2dc1c4b07b4a024aa2bbe33e2d353}{Dowman}{D\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Portland, OR}%
+      }
+      \list{publisher}{1}{%
+        {Cognitive Science Society}%
+      }
+      \strng{namehash}{26310bcae2a63193cb2f373460e5488c}
+      \strng{fullhash}{26310bcae2a63193cb2f373460e5488c}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{booktitle}{Proceedings of the 32nd Annual Conference of the Cognitive Science Society}
+      \field{title}{{Replicating Color Term Universals through Human Iterated Learning}}
+      \field{year}{2010}
+      \field{pages}{352\bibrangedash 357}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Xu, Griffiths, Dowman/Xu, Griffiths, Dowman - 2010 - Replicating Color Term Universals through Human Iterated Learning.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,basic color terms,bayesian inference,color,cultural evolution,iterated learning model,term universals}
+    \endentry
+    \entry{Xu2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9eda43a644030ac3eceaf837cb2489ac}{Xu}{X\bibinitperiod}{Yang}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{83d7df9f9a44a9e6d6f4bd0746e7080f}
+      \strng{fullhash}{83d7df9f9a44a9e6d6f4bd0746e7080f}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Languages differ qualitatively in their numeral systems. At one extreme, some languages have a small set of number terms, which denote approximate or inexact numerosities; at the other extreme, many languages have forms for exact numerosities over a very large range, through a recursively defined counting system. What explains this variation? Here, we use computational analyses to explore the numeral systems of 25 languages that span this spectrum. We find that these numeral systems all reflect a functional need for efficient communication, mirroring existing arguments in the domains of color, kinship, and space. Our findings suggest that cross-language variation in numeral systems is shaped by the functional need to communicate precisely, using minimal cognitive resources.}
+      \field{isbn}{9780874216561}
+      \field{journaltitle}{Proceedings of the 36th Annual Conference of the Cognitive Science Society (CogSci 2014)}
+      \field{title}{{Numerical Systems across Languages Support Efficient Communication: From Approximate Numerosity to Recursion}}
+      \field{year}{2014}
+      \field{pages}{1802\bibrangedash 1807}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s13398-014-0173-7.2
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Xu, Regier/Xu, Regier - 2014 - Numerical Systems across Languages Support Efficient Communication From Approximate Numerosity to Recursion.pdf:pdf
+      \endverb
+      \keyw{efficient communication,functionalism,language and thought,number,recusion,semantic variation}
+    \endentry
+    \entry{Zhou2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6acd04f23749b5e7581f86bfb0b632e7}{Zhou}{Z\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=f90172894f9291f9ad575466a9dbf303}{Bowern}{B\bibinitperiod}{Claire}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fa53f6cdbe5cd610fb0e222a53bf102a}
+      \strng{fullhash}{fa53f6cdbe5cd610fb0e222a53bf102a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Researchers have long been interested in the evolution of culture and the ways in which change in cultural systems can be reconstructed and tracked. Within the realm of language, these questions are increasingly investigated with Bayesian phylogenetic methods. However, such work in cultural phylogenetics could be improved by more explicit quantification of reconstruction and transition probabilities. We apply such methods to numerals in the languages of Australia. As a large phylogeny with almost universal 'low-limit' systems, Australian languages are ideal for investigating numeral change over time. We reconstruct the most likely extent of the system at the root and use that information to explore the ways numerals evolve. We show that these systems do not increment serially, but most commonly vary their upper limits between 3 and 5. While there is evidence for rapid system elaboration beyond the lower limits, languages lose numerals as well as gain them. We investigate the ways larger numerals build on smaller bases, and show that there is a general tendency to both gain and replace 4 by combining 2 + 2 (rather than inventing a new unanalysable word 'four'). We develop a series of methods for quantifying and visualizing the results.}
+      \field{issn}{0962-8452}
+      \field{journaltitle}{Proceedings of the Royal Society B: Biological Sciences}
+      \field{number}{1815}
+      \field{title}{{Quantifying uncertainty in the phylogenetics of Australian numeral systems}}
+      \field{volume}{282}
+      \field{year}{2015}
+      \field{pages}{20151278}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rspb.2015.1278
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Zhou, Bowern/Zhou, Bowern - 2015 - Quantifying uncertainty in the phylogenetics of Australian numeral systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://rspb.royalsocietypublishing.org/lookup/doi/10.1098/rspb.2015.1278
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

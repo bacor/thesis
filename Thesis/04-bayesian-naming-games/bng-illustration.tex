@@ -1,0 +1,99 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+\begin{tikzpicture}[xscale=2.4]\footnotesize\sffamily
+	\tikzset{var/.style={draw, circle, fill=main!60, minimum size=.75cm}}
+	\tikzset{sample/.style={thick, draw, ->}}
+	\tikzset{ann1/.style={align=center, text width=2cm, node distance=2.5cm, text=main}}
+	\tikzset{ann2/.style={align=center, text width=2cm, node distance=1.3cm,text=main}}
+	\tikzset{annline/.style={draw,dashed,main}}
+	\tikzset{speaker/.style={draw}}
+	\tikzset{hearer/.style={draw}}
+	\tikzset{brace/.style={decoration={brace,mirror,raise=10pt}, decorate}}
+
+	\draw[speaker] (-.95,0) rectangle (2,1.75);
+	\node[] at (-.7, .25) {\textsc{speaker}};
+	
+	\node[var] (alpha) at (0,1) {$\vect\alpha_t$};
+	\node[left of=alpha,align=right] (observations) {$\vect c_{-t}$};
+	\node[left of=observations,align=right] (bias) {$\vect\alpha_0$};
+	\path (observations) -- node {$=$} (alpha);
+	\path (bias) -- node{$+$} (observations);
+	\node[var] (lang) at (1,1) {$\vlang_t$};
+	\node[var] (obs) at (2.35,1) {$\obs_t$};
+	
+	\draw[sample] (alpha) -- 
+		node[above] (langdist) {$p_\LA(\vlang_t \mid \vect\alpha_t)$}
+		(lang);
+	\draw[sample] (lang) -- 
+		node[above,pos=.44] (proddist) {$p_\PA(x_t \mid \vlang_t)$}
+		(obs);
+	\draw[sample] (alpha) to[out=-60,in=-120,max distance=.75cm]
+		node[above,pos=.54] (pi) {$\vect\pi_t$}
+		(obs);
+	
+	\node[ann1,above of=lang] (a1) {\emph{internal}\\ language};
+	\draw[annline] (a1) -- (lang);
+	\node[ann2,above of=obs, node distance=1.45cm] (a2) {production};
+	\draw[annline] (a2) -- (obs);
+	\node[ann1,above of=alpha] (a3) {beliefs};
+	\draw[annline] (a3) -- (alpha);
+
+	\node[ann2,above of=langdist] (a4) {language\\ algorithm};
+	\draw[annline] (a4) -- (langdist);
+	\node[ann2,above of=proddist, node distance=2.27cm] (a5) {production\\ algorithm};
+	\draw[annline] (a5) -- (proddist);
+	\node[ann1,above of=pi, node distance=2.1cm] (a6) {\emph{average}\\language};
+	\draw[annline] (a6) -- (pi);
+	
+	\node[ann1,above of=bias] (a7) {innate\\bias};
+	\draw[annline] (a7) -- (bias);
+	\node[ann2,above of=observations, node distance=1.4cm] (a8) {observations\\or experience};
+	\draw[annline] (a8) -- (observations);
+	
+	\draw[hearer] (2.7,0) rectangle (4.1,1.75);
+	\node[] at (2.95, .25) {\textsc{hearer}};
+	\draw[thick,->] (obs) -- (2.7, 1);
+	
+	\node[align=left] at (3.35, .7) {$\vect\alpha_{t+1} := \vect\alpha_t + \vect c_t$};
+	
+	\node (posterior) at (3, 1.2) {$p_{t+1}(\vlang)$};
+	\node[right of=posterior, node distance=1.3cm] (likelihood) {$p(x_t \mid \vlang)$};
+	\node[right of=likelihood] (prior) {$p_t(\vlang)$};
+	\path (posterior) -- node {$\propto$} (likelihood);
+
+	\node[ann1,above of=posterior, node distance=2.25cm] (a9) {posterior\\(next prior)};
+	\draw[annline] (a9) -- (posterior);
+
+	\node[ann2,above of=likelihood, node distance=1.25cm] (a10) {likelihood};
+	\draw[annline] (a10) -- (likelihood);
+	
+	\node[ann1,above of=prior, node distance=2.15cm] (a11) {prior};
+	\draw[annline] (a11) -- (prior);
+
+	\newcommand{\drawinteraction}[2]{
+		\def\y{#1}
+		\def\t{#2}
+		\begin{scope}[yshift=\y]
+			\draw[speaker] (-.95,0) rectangle (2,.5);
+			\node[] at (-.7, .25) {\textsc{speaker}};
+			
+			\node[var] (obs) at (2.35,.25) {$\obs_{t+\t}$};
+			\draw[sample] (2, .25) -- (obs);
+			\draw[thick,->] (obs) -- (2.7, .25);
+			
+			\draw[hearer] (2.7,0) rectangle (4.1,.5);
+			\node[] at (2.95, .25) {\textsc{hearer}};
+		\end{scope}
+	}
+	
+	\drawinteraction{-1cm}{1}
+	\drawinteraction{-2cm}{2}
+	
+	\draw[dotted,thick] (2.08,2) -- (2.08,-2.3) -- (2.62, -2.3) -- (2.62,2);
+
+	\draw [brace] (2.08, -2.1) -- (2.62,-2.1) 
+    	node [pos=0.5, yshift=-.7cm, text width=4cm, align=center] (psi) {$\vect\psi_{t+2}$};
+    \node[below of=psi,text=main, node distance=.4cm] {\emph{external} language};
+    	
+\end{tikzpicture}
+%\end{document}

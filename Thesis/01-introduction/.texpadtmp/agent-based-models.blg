@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/agent-based-models/.texpadtmp/agent-based-models.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: agent-based-models-blx.bib
+Database file #2: ~/bibliography.bib
+Warning--I didn't find a database entry for "Ferdinand2008"
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 18 entries,
+            6047 wiz_defined-function locations,
+            1307 strings with 20534 characters,
+and the built_in function-call counts, 58623 in all, are:
+= -- 2069
+> -- 1936
+< -- 535
++ -- 586
+- -- 839
+* -- 5039
+:= -- 3592
+add.period$ -- 0
+call.type$ -- 18
+change.case$ -- 256
+chr.to.int$ -- 39
+cite$ -- 34
+duplicate$ -- 6496
+empty$ -- 6340
+format.name$ -- 1189
+if$ -- 13185
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 0
+newline$ -- 663
+num.names$ -- 791
+pop$ -- 5423
+preamble$ -- 1
+purify$ -- 306
+quote$ -- 0
+skip$ -- 3277
+stack$ -- 0
+substring$ -- 1244
+swap$ -- 2502
+text.length$ -- 493
+text.prefix$ -- 17
+top$ -- 1
+type$ -- 672
+warning$ -- 0
+while$ -- 395
+width$ -- 0
+write$ -- 644
+(There was 1 warning)

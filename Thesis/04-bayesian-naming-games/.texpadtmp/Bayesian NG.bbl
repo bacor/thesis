@@ -1,0 +1,699 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Almalki2014}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Almalki}{A.}%
+     {Saad~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nadarajah}{N.}%
+     {Saralees}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Bathtub shaped failure rate,discrete distribution,lifetime
+  models,modified Weibull distribution}
+  \strng{namehash}{ASJNS1}
+  \strng{fullhash}{ASJNS1}
+  \field{labelyear}{2014}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  A three-parameter discrete distribution is introduced based on a recent
+  modification of the continuous Weibull distribution. It is one of only three
+  discrete distributions allowing for bathtub shaped hazard rate functions. We
+  study some of its mathematical properties, discuss estimation by the method
+  of maximum likelihood, and describe applications to four real data sets. The
+  new distribution is shown to outperform at least three other models including
+  those allowing for bathtub shaped hazard rate functions.%
+  }
+  \verb{doi}
+  \verb 10.1109/TR.2014.2299691
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1307.3925v1
+  \endverb
+  \field{issn}{0018-9529}
+  \field{number}{1}
+  \field{pages}{68\bibrangedash 80}
+  \field{title}{{A New Discrete Modified Weibull Distribution}}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/document/6722987/
+  \endverb
+  \field{volume}{63}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Almalki, Nadarajah/Almalki, Nadarajah - 2
+  \verb 014 - A New Discrete Modified Weibull Distribution.pdf:pdf
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Reliability}
+  \field{eprinttype}{arXiv}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Baronchelli2006}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2006}
+  \field{sortinit}{B}
+  \field{title}{{Statistical mechanics approach to language games}}
+  \list{institution}{1}{%
+    {Universit{\`{a}} di Roma "La Sapienza"}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2006 - Statisti
+  \verb cal mechanics approach to language games.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2006}
+\endentry
+
+\entry{Baronchelli2017}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2017}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Social conventions govern countless behaviors all of us engage in every day,
+  from how we greet each other to the languages we speak. But how can shared
+  conventions emerge spontaneously in the absence of a central coordinating
+  authority? The Naming Game model shows that networks of locally interacting
+  individuals can spontaneously self-organize to produce global coordination.
+  Here, we provide a gentle introduction to the main features of the model,
+  from the dynamics observed in homogeneously mixing populations to the role
+  played by more complex social networks, and to how slight modifications of
+  the basic interaction rules give origin to a richer phenomenology in which
+  more conventions can co-exist indefinitely.%
+  }
+  \verb{doi}
+  \verb 10.1075/bjl.30.08bar
+  \endverb
+  \verb{eprint}
+  \verb 1701.07419
+  \endverb
+  \field{issn}{0774-5141}
+  \field{pages}{1\bibrangedash 24}
+  \field{title}{{A gentle introduction to the minimal Naming Game}}
+  \verb{url}
+  \verb http://arxiv.org/abs/1701.07419{\%}0Ahttp://dx.doi.org/10.1075/bjl.30.0
+  \verb 8bar
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2017 - A gentle
+  \verb  introduction to the minimal Naming Game.pdf:pdf
+  \endverb
+  \field{eprinttype}{arXiv}
+  \field{year}{2017}
+\endentry
+
+\entry{Baronchelli2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreto}{L.}%
+     {Vittorio}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steels}{S.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cultural evolution,emergence,language self-organization,of
+  consensus,social interaction,statistical physics}
+  \strng{namehash}{BALVSL1}
+  \strng{fullhash}{BALVSL1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1142/S0129183108012522
+  \endverb
+  \field{issn}{0129-1831}
+  \field{number}{05}
+  \field{pages}{785\bibrangedash 812}
+  \field{title}{{in-Depth Analysis of the Naming Game Dynamics: the Homogeneous
+  Mixing Case}}
+  \verb{url}
+  \verb http://www.worldscientific.com/doi/abs/10.1142/S0129183108012522
+  \endverb
+  \field{volume}{19}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli, Loreto, Steels/Baronchelli,
+  \verb Loreto, Steels - 2008 - in-Depth Analysis of the Naming Game Dynamics t
+  \verb he Homogeneous Mixing Case.pdf:pdf
+  \endverb
+  \field{journaltitle}{International Journal of Modern Physics C}
+  \field{year}{2008}
+\endentry
+
+\entry{Baronchelli2006a}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Felici}{F.}%
+     {Maddalena}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreto}{L.}%
+     {Vittorio}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caglioti}{C.}%
+     {Emanuele}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steels}{S.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Naming Game,Printed}
+  \strng{namehash}{BA+1}
+  \strng{fullhash}{BAFMLVCESL1}
+  \field{labelyear}{2006}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  What processes can explain how very large populations are able to converge on
+  the use of a particular word or grammatical construction without global
+  coordination? Answering this question helps to understand why new language
+  constructs usually propagate along an S-shaped curve with a rather sudden
+  transition towards global agreement. It also helps to analyze and design new
+  technologies that support or orchestrate self-organizing communication
+  systems, such as recent social tagging systems for the web. The article
+  introduces and studies a microscopic model of communicating autonomous agents
+  performing language games without any central control. We show that the
+  system undergoes a disorder/order transition, going trough a sharp symmetry
+  breaking process to reach a shared set of conventions. Before the transition,
+  the system builds up non-trivial scale-invariant correlations, for instance
+  in the distribution of competing synonyms, which display a Zipf-like law.
+  These correlations make the system ready for the transition towards shared
+  conventions, which, observed on the time-scale of collective behaviors,
+  becomes sharper and sharper with system size. This surprising result not only
+  explains why human language can scale up to very large populations but also
+  suggests ways to optimize artificial semiotic dynamics.%
+  }
+  \verb{doi}
+  \verb 10.1088/1742-5468/2006/06/P06014
+  \endverb
+  \verb{eprint}
+  \verb 0509075
+  \endverb
+  \field{issn}{1742-5468}
+  \field{number}{06}
+  \field{pages}{P06014\bibrangedash P06014}
+  \field{title}{{Sharp transition towards shared vocabularies in multi-agent
+  systems}}
+  \verb{url}
+  \verb http://arxiv.org/abs/physics/0509075 http://dx.doi.org/10.1088/1742-546
+  \verb 8/2006/06/P06014 http://stacks.iop.org/1742-5468/2006/i=06/a=P06014?key
+  \verb =crossref.bf3cc4efe8e947cf29459b7c9f5b74ca
+  \endverb
+  \field{volume}{2006}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli et al/Baronchelli et al. - 20
+  \verb 06 - Sharp transition towards shared vocabularies in multi-agent system
+  \verb s.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{physics}
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{DeBoer1999}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Boer}{B.}%
+     {Bart}{B.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Vogt}{V.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBdVP1}
+  \strng{fullhash}{BBdVP1}
+  \field{labelyear}{1999}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  This paper shows that realistic and coherent vowel systems can emerge from
+  scratch in a population of agents that imitate each other under human-like
+  constraints of production and perception. The simulation is extended so that
+  populations can change; old agents can be removed, and new agents can be
+  added. In these circumstances vowel systems can also emerge and be preserved.
+  It is shown that sometimes an age structure in the population can improve
+  preservation of the vowel systems.%
+  }
+  \field{booktitle}{Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}
+  \verb{doi}
+  \verb 10.1007/3-540-48304-7_87
+  \endverb
+  \field{isbn}{3540664521}
+  \field{issn}{16113349}
+  \field{pages}{664\bibrangedash 673}
+  \field{title}{{Emergence of Speech Sounds in Changing Populations}}
+  \verb{url}
+  \verb http://link.springer.com/10.1007/3-540-48304-7{\_}87
+  \endverb
+  \field{volume}{1674}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/de Boer, Vogt/de Boer, Vogt - 1999 - Emer
+  \verb gence of Speech Sounds in Changing Populations.pdf:pdf
+  \endverb
+  \field{year}{1999}
+\endentry
+
+\entry{DeVylder2006}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{De Vylder}}{D.}%
+     {Bart}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tuyls}{T.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Naming Game,Printed,amplification,cultural evolution,horizontal
+  transmission,language acquisition,naming games,sampling-response model}
+  \strng{namehash}{DBTK1}
+  \strng{fullhash}{DBTK1}
+  \field{labelyear}{2006}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1016/j.jtbi.2006.05.024
+  \endverb
+  \field{issn}{00225193}
+  \field{number}{4}
+  \field{pages}{818\bibrangedash 831}
+  \field{title}{{How to reach linguistic consensus: A proof of convergence for
+  the naming game}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0022519306002189
+  \endverb
+  \field{volume}{242}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/De Vylder, Tuyls/De Vylder, Tuyls - 2006
+  \verb - How to reach linguistic consensus A proof of convergence for the nami
+  \verb ng game.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Theoretical Biology}
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Griffiths2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canini}{C.}%
+     {Kevin~R.}{K.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanborn}{S.}%
+     {Adam~N.}{A.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Navarro}{N.}%
+     {Daniel~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{BF Psychology,Modelling}
+  \strng{namehash}{GTL+1}
+  \strng{fullhash}{GTLCKRSANNDJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Models of categorization make different representational assumptions, with
+  categories being represented by prototypes, sets of exemplars, and everything
+  in between. Rational models of categorization justify these representational
+  assumptions in terms of different schemes for estimating probability
+  distributions. However, they do not answer the question of which scheme
+  should be used in representing a given category. We show that existing
+  rational models of categorization are special cases of a statistical model
+  called the hierarchical Dirichlet process, which can be used to automatically
+  infer a representation of the appropriate complexity for a given category.%
+  }
+  \field{pages}{323328}
+  \field{title}{{Unifying rational models of categorization via the
+  hierarchical Dirichlet process}}
+  \verb{url}
+  \verb http://wrap.warwick.ac.uk/36020/
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Griffiths et al/Griffiths et al. - 2007 -
+  \verb  Unifying rational models of categorization via the hierarchical Dirich
+  \verb let process.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the 29th annual conference of the
+  cognitive science society}
+  \field{year}{2007}
+\endentry
+
+\entry{Juckett1993}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Juckett}{J.}%
+     {David~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenberg}{R.}%
+     {Barnett}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Weibull Distribution}
+  \strng{namehash}{JDARB1}
+  \strng{fullhash}{JDARB1}
+  \field{labelyear}{1993}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb https://doi.org/10.1016/0047-6374(93)90068-3
+  \endverb
+  \field{issn}{00476374}
+  \field{number}{1-2}
+  \field{pages}{1\bibrangedash 31}
+  \field{title}{{Comparison of the Gomperz and Weibull Functions as Descriptors
+  for Human Mortality Distributions and their Intersections}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/0047637493900683
+  \endverb
+  \field{volume}{69}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Juckett, Rosenberg/Juckett, Rosenberg - 1
+  \verb 993 - Comparison of the Gomperz and Weibull Functions as Descriptors fo
+  \verb r Human Mortality Distributions and their I.pdf:pdf
+  \endverb
+  \field{journaltitle}{Mechanisms of Ageing and Development}
+  \field{year}{1993}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kirby2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tamariz}{T.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornish}{C.}%
+     {Hannah}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Kenny}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier B.V.}%
+  }
+  \keyw{cultural transmission,printed}
+  \strng{namehash}{KS+1}
+  \strng{fullhash}{KSTMCHSK1}
+  \field{labelyear}{2015}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1016/j.cognition.2015.03.016
+  \endverb
+  \field{issn}{0010-0277}
+  \field{pages}{87\bibrangedash 102}
+  \field{title}{{Compression and communication in the cultural evolution of
+  linguistic structure}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/j.cognition.2015.03.016
+  \endverb
+  \field{volume}{141}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Kirby et al/Kirby et al. - 2015 - Compres
+  \verb sion and communication in the cultural evolution of linguistic structur
+  \verb e.pdf:pdf
+  \endverb
+  \field{journaltitle}{Cognition}
+  \field{year}{2015}
+\endentry
+
+\entry{Nakagawa1975}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Nakagawa}{N.}%
+     {Toshio}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osaki}{O.}%
+     {Shunji}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Weibull Distribution}
+  \strng{namehash}{NTOS1}
+  \strng{fullhash}{NTOS1}
+  \field{labelyear}{1975}
+  \field{sortinit}{N}
+  \verb{doi}
+  \verb 10.1109/TR.1975.5214915
+  \endverb
+  \field{issn}{0018-9529}
+  \field{number}{5}
+  \field{pages}{300\bibrangedash 301}
+  \field{title}{{The Discrete Weibull Distribution}}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/document/5214915/
+  \endverb
+  \field{volume}{R-24}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Nakagawa/Nakagawa - 1975 - The Discrete W
+  \verb eibull Distribution.pdf:pdf
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Reliability}
+  \field{year}{1975}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Smith2002}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Smith}{S.}%
+     {Linda~B}{L.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Susan~S}{S.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landau}{L.}%
+     {Barbara}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gershkoff-Stowe}{G.-S.}%
+     {Lisa}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Samuelson}{S.}%
+     {Larissa}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SLB+1}
+  \strng{fullhash}{SLBJSSLBGSLSL1}
+  \field{labelyear}{2002}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  By the age of 3, children easily learn to name new objects, extending new
+  names for unfamiliar objects by similarity in shape. Two experiments tested
+  the proposal that experience in learning object names tunes children's
+  attention to the properties relevant for naming--in the present case, to the
+  property of shape--and thus facilitates the learning of more object names. In
+  Experiment 1, a 9-week longitudinal study, 17-month-old children who
+  repeatedly played with and heard names for members of unfamiliar object
+  categories well organized by shapeformed the generalization that only objects
+  with ith similar shapes have the same name. Trained children also showed a
+  dramatic increase in acquisition of new object names outside of the
+  laboratory during the course of the study. Experiment 2 replicated these
+  findings and showed that they depended on children's learning both a coherent
+  category structure and object names. Thus, children who learn specific names
+  for specific things in categories with a common organizing property--in this
+  case, shape--also learn to attend to just the right property--in this case,
+  shape--for learning more object names.%
+  }
+  \verb{doi}
+  \verb 10.1111/1467-9280.00403
+  \endverb
+  \field{isbn}{0956-7976$\backslash$n1467-9280}
+  \field{issn}{0956-7976}
+  \field{number}{1}
+  \field{pages}{13\bibrangedash 19}
+  \field{title}{{Object name learning provides on-the-job training for
+  attention.}}
+  \field{volume}{13}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Smith et al/Smith et al. - 2002 - Object
+  \verb name learning provides on-the-job training for attention.pdf:pdf
+  \endverb
+  \field{journaltitle}{Psychological science : a journal of the American
+  Psychological Society / APS}
+  \field{year}{2002}
+\endentry
+
+\entry{Stein1984}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Stein}{S.}%
+     {William~E.}{W.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dattero}{D.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Birthday problem,Discrete Weibull distribution,Series-system,keywords}
+  \strng{namehash}{SWEDR1}
+  \strng{fullhash}{SWEDR1}
+  \field{labelyear}{1984}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  This paper introduces another discrete Weibull distribution. A connection is
+  shown to the famous Birthday Problem and to the lifetime of a series system
+  of components.%
+  }
+  \verb{doi}
+  \verb 10.1109/TR.1984.5221777
+  \endverb
+  \field{issn}{15581721}
+  \field{number}{2}
+  \field{pages}{196\bibrangedash 197}
+  \field{title}{{A New Discrete Weibull Distribution}}
+  \field{volume}{R-33}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Stein, Dattero/Stein, Dattero - 1984 - A
+  \verb New Discrete Weibull Distribution.pdf:pdf
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Reliability}
+  \field{year}{1984}
+\endentry
+
+\entry{UnitedNations2012}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{United Nations}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U1}
+  \strng{fullhash}{U1}
+  \field{labelyear}{2012}
+  \field{sortinit}{U}
+  \field{title}{{Population facts that can spur women's well being.}}
+  \verb{url}
+  \verb http://www.un.org/en/development/desa/population/publications/pdf/popfa
+  \verb cts/popfacts{\_}2012-2.pdf
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/United Nations/United Nations - 2012 - Po
+  \verb pulation facts that can spur women's well being.pdf:pdf
+  \endverb
+  \field{type}{techreport}
+  \field{year}{2012}
+\endentry
+
+\entry{Wellens2012}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wellens}{W.}%
+     {Pieter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WP1}
+  \strng{fullhash}{WP1}
+  \field{labelyear}{2012}
+  \field{sortinit}{W}
+  \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+  \list{institution}{1}{%
+    {Vrije Universiteit Brussel}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strateg
+  \verb ies in the Emergence of Lexical Systems.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

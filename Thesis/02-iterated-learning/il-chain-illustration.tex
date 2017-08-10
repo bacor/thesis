@@ -1,0 +1,39 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+\begin{tikzpicture}[scale=.8]\sffamily\footnotesize
+	\tikzset{lang/.style={draw, circle, fill=main!20}}
+	\tikzset{obs/.style={draw, circle, fill=main}}
+	\tikzset{produce/.style={thick,draw,->}}
+	\tikzset{induce/.style={thick,draw,->,dashed}}
+	\tikzset{brace/.style={decoration={brace,mirror,raise=10pt}, decorate}}
+	
+	\path 	(1,2)  node[lang] (z1) {$\lang_1$}
+			(3,0)  node[obs]  (x1) {$\obs_1$}
+			(5,2)  node[lang] (z2) {$\lang_2$}
+			(7,0)  node[obs]  (x2) {$\obs_2$}
+			(9,2)  node[lang] (z3) {$\lang_3$}
+			(11,0) node[obs]  (x3) {$\obs_3$};			
+	\draw[induce]  (0,1) -- (z1);
+	\draw[produce] (z1) -- node[midway, above, sloped] {\textsc{produce}} (x1);
+	\draw[induce]  (x1) -- node[midway, below, sloped] {\textsc{learn}} (z2);
+	\draw[produce] (z2) -- (x2);
+	\draw[induce]  (x2) -- (z3);
+	\draw[produce] (z3) -- (x3);
+	\draw[induce]  (x3) -- (12,1);
+	
+	
+	\node[align=left, text width=1.5cm] at (-2,2) 
+		{Language (internal)};
+	\node[align=left, text width=1.5cm] at (-2,0) 
+		{Utterances (external)};			
+		
+	\def\bracey{-.5}
+	\def\delta{.05}
+    \draw [brace] (0+\delta,\bracey) -- (4-\delta,\bracey) 
+    	node [pos=0.5, yshift=-.7cm] {Generation 1}; 
+    \draw [brace] (4+\delta,\bracey) -- (8-\delta,\bracey) 
+    	node [pos=0.5, yshift=-.7cm] {Generation 2}; 
+    \draw [brace] (8+\delta,\bracey) -- (12-\delta,\bracey) 
+    	node [pos=0.5, yshift=-.7cm] {Generation 3};
+\end{tikzpicture}	
+%\end{document}

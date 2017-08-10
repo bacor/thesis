@@ -1,0 +1,74 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+\begin{tikzpicture}[xscale=1.2, yscale=.75]
+	  \tikzset{agent/.style={circle,fill=main,draw,minimum size=.3cm,inner sep=0pt},
+            }
+		\tikzset{interaction/.style={shorten >=0.15cm,shorten <=.15cm,thick}}
+
+	% Iterated Learning
+	\begin{scope}
+	 	\foreach \y in {2,1,0,-1} {
+	 		\node[agent] at (0, \y) { };
+	 	}
+	 	
+	 	\draw [interaction,->] (0, 2) -- (0, 1);
+	 	\draw [interaction,->] (0, 1) -- (0, 0);
+	 	\draw [interaction,->] (0, 0) -- (0, -1);
+	 	\draw [interaction,->] (0, -1) -- (0, -2);
+	 	
+	 	\node[align=center,below] at (0,-3) {\sffamily \textsc{transmission chain}\\\sffamily Iterated learning};
+	\end{scope}
+
+	% Naming Game
+	\begin{scope}[xshift=1.5cm]
+	 	\foreach \x in {0,...,3} {
+	 		\node[agent] at (\x, 0) {}; 
+	 	}
+	 	\foreach \y in {-1,1 } {
+	 		\foreach \x in {.5,1.5,2.5} {\node[agent] at (\x, \y) { }; }
+	 	}
+		\foreach \y in {-2,2 } {
+	 		\foreach \x in {1,2} {\node[agent] at (\x, \y) { }; }
+	 	}
+	 	
+	 	\draw [interaction,->] (2, 2) -- (2.5, 1);
+	 	\draw [interaction,->] (1, 2) -- (.5, -1);
+	 	\draw [interaction,->] (1, 0) -- (2.5, -1);
+	 	\draw [interaction,->] (1.5, -1) -- (3, 0);
+	 	\draw [interaction,->] (2, -2) -- (1, -2);
+	 	\draw [interaction,->] (1, 2) -- (.5, 1);
+	 	\draw [interaction,->] (1.5, 1) -- (2, 2);
+	 	\draw [interaction,->] (2, 0) -- (1.5, -1);
+	 	\draw [interaction,->] (0, 0) -- (1.5, 1);
+	 	\draw [interaction,->] (1, -2) -- (1, 0);
+	 	
+	 	\node[align=center,below] at (1.5,-3) {\sffamily \textsc{homogeneous mixing}\\\sffamily Naming Game};
+	\end{scope}
+	
+	% Bayesian Naming Game
+	\begin{scope}[xshift=6cm]
+	 	\foreach \x in {0,...,3} {
+	 		\node[agent] at (\x, 0) {}; 
+	 	}
+	 	\foreach \y in {-1,1 } {
+	 		\foreach \x in {.5,1.5,2.5} {\node[agent] at (\x, \y) { }; }
+	 	}
+		\foreach \y in {-2,2 } {
+	 		\foreach \x in {1,2} {\node[agent] at (\x, \y) { }; }
+	 	}
+	 		 
+		\draw [interaction,->] (2, 2) -- (2, 0);
+	 	\draw [interaction,->] (2, 0) -- (3, 0);
+	 	\draw [interaction,->] (3, 0) -- (2.5, -1);
+	 	\draw [interaction,->] (2.5, -1) -- (1, -2);
+	 	\draw [interaction,->] (1, -2) -- (1, 0);
+	 	\draw [interaction,->] (1, 0) -- (0.5, -1);
+	 	\draw [interaction,->] (0.5, -1) -- (0,0);
+		\draw [interaction,->] (0,0) -- (1.5, 1);
+		\draw [interaction,->] (1.5, 1) -- (1,2);	
+		
+	 	\node[align=center,below] at (1.5,-3) {\sffamily \textsc{random walk}\\\sffamily Bayesian Naming Game};
+	\end{scope}
+\end{tikzpicture}
+
+%\end{document}

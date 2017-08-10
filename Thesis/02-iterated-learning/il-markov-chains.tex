@@ -1,0 +1,55 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+\begin{tikzpicture}[xscale=2.2,yscale=1.2]\sffamily\footnotesize
+	\tikzset{lang/.style={draw, circle, fill=main!20}}
+	\tikzset{obs/.style={draw, circle, fill=main}}
+	\tikzset{obslang/.style={draw, circle, fill=main!60}}
+	\tikzset{produce/.style={thick,draw,->}}
+	\tikzset{limit/.style={draw,->,dashed}}
+	\tikzset{formula/.style={midway,above}}
+	
+	% Chain
+	\begin{scope}
+		\path 	(0,0) node[obs]  (x0) {$\obs_0$}
+				(1,0) node[lang] (z1) {$\lang_1$}
+				(2,0) node[obs]  (x1) {$\obs_1$}
+				(3,0) node[lang] (z2) {$\lang_2$}
+				(4,0) node[obs]  (x2) {$\obs_2$};			
+		\draw[produce]  (x0) -- node[formula] {$p_{\LA}(\lang \mid \obs)$}  (z1);
+		\draw[produce] (z1) -- node[formula] {$p_{\PA}(\obs \mid \lang)$} (x1);
+		\draw[produce]  (x1) -- node[formula] {$p_{\LA}(\lang \mid \obs)$}  (z2);
+		\draw[produce] (z2) -- node[formula] {$p_{\PA}(\obs \mid \lang)$} (x2);
+	\end{scope}
+	
+	% Chain on languages
+	\begin{scope}[yshift=-1cm]
+		\path 	(1,0) node[lang] (z1) {$\lang_1$}
+				(3,0) node[lang] (z2) {$\lang_2$}
+				(5,0) node (limit) {$p(\lang)$};
+		\draw[produce] (z1) -- node[formula] {$\sum_\obs p_{\LA}(\lang \mid \obs)\cdot p_{\PA}(\obs \mid \lang)$} (z2);
+		\draw[limit] (z2) -- (limit);
+	\end{scope}
+
+	% Chain on productions
+	\begin{scope}[yshift=-2cm]
+		\path 	(0,0) node[obs]  (x0) {$\obs_0$}
+				(2,0) node[obs]  (x1) {$\obs_1$}
+				(4,0) node[obs]  (x2) {$\obs_2$}
+				(5,0) node (limit) {$p(\obs)$};			
+		\draw[produce]  (x0) -- node[formula] 
+			{$\sum_\lang p_{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid \obs)$}  (x1);
+		\draw[produce]  (x1) -- node[formula] 
+			{$\sum_\lang p_{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid \obs)$}  (x2);
+		\draw[limit] (x2) -- (limit);
+	\end{scope}
+	
+	% Chain on pairs
+	\begin{scope}[yshift=-3cm]
+		\path 	(1,0) node[obslang] (zx1) {$\lang_1, \obs_1$}
+				(3,0) node[obslang] (zx2) {$\lang_2, \obs_2$}
+				(5,0) node (limit) {$p(\lang,\obs)$};
+		\draw[produce] (zx1) -- node[formula] {$p_{\LA}(\lang \mid \obs)\cdot p_{\PA}(\obs \mid \lang)$} (zx2);
+		\draw[limit] (zx2) -- (limit);
+	\end{scope}
+\end{tikzpicture}
+%\end{document}

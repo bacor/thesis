@@ -1,0 +1,9 @@
+[1] Config.pm:324> INFO - This is Biber 2.1
+[2] Config.pm:327> INFO - Logfile is '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.blg'
+[63] biber-darwin:276> INFO - === Sun Aug  6, 2017, 21:45:47
+[63] Biber.pm:333> INFO - Reading '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.bcf'
+[242] Biber.pm:645> INFO - Found 0 citekeys in bib section 0
+[243] Utils.pm:146> WARN - The file '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.bcf' does not contain any citations!
+[271] bbl.pm:505> INFO - Writing '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.bbl' with encoding 'UTF-8'
+[271] bbl.pm:596> INFO - Output to /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.bbl
+[272] Biber.pm:106> INFO - WARNINGS: 1

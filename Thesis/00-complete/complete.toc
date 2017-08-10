@@ -1,0 +1,258 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}The cultural origins of language}{9}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Source code and data}{12}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline notation}{13}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Iterated Learning}{15}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Early iterated learning models}{16}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline the emergence of compositionality, i}{16}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Transmission bottlenecks and generalisation}{17}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Iterated learning with Bayesian agents}{18}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The emergence of compositionality, ii}{20}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Convergence to the prior}{21}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Proof of the convergence to the prior}{22}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Convergence to the maximum of the prior?}{24}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Convergent controversy}{24}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Bottlenecks and weak biases}{24}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline population structure and heterogenous populations}{25}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Lineages and cumulative cultural evolution}{26}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Conclusions}{27}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Naming Games}{29}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The basic naming game}{30}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}The minimal strategy}{31}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Phenomenology}{32}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Scaling relations and network structure}{33}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Lateral inhibition strategies}{34}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Proof of convergence}{35}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Preliminaries}{36}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline the sampling-response model}{36}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Convergence}{38}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Conclusions}{38}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Bayesian Language Games}{41}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}The Bayesian naming game}{42}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}The Dirichlet-categorical naming game}{44}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Priors, beliefs, innate biases, and past experience}{44}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Internal, external, expected and aggregate languages}{45}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Phenomenology of the \textsc {dc} naming game}{46}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline three-stage evolution}{46}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline measuring the dynamics}{47}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline convergence}{47}{section*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline scaling}{48}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline reflection of the bias}{49}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Language and production strategies}{49}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline language strategies}{49}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline production strategies}{50}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Bayesian language games}{51}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Ingredient 1: random walks}{51}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Ingredient 2: vary the life expectancy}{52}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Characterising Bayesian language games}{53}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Varying life expectancy: between \textsc {il} and \textsc {ng}’s}{53}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Extreme strategies for the Bayesian naming game}{55}{section*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Conclusions}{56}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline related work}{57}{section*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Numeral systems}{59}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Balancing expressivity and simplicity}{60}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}An introduction to numeral systems}{62}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Defining numerals}{62}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Simple numerals, complex numerals and bases}{63}{section*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Isolated, mixed and additive bases}{64}{section*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Exponentiation and mathematical bases.}{64}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Subtraction, division and fractions}{65}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Overcounting and overrunning.}{65}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline order}{66}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Continuity of the counting sequence}{66}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The packing strategy}{66}{section*.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline A decimal world}{67}{section*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}The evolution of numeral systems}{67}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 1. Subitising and simple numerals}{67}{section*.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 2. Counting and the emergence of numeracy}{68}{section*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 3. Serialisation}{68}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 4. Functional elements}{69}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Conclusions}{69}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Emergent numeral systems}{71}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Hurford’s base games}{72}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline additive base game}{73}{section*.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline multiplicative base game}{73}{section*.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Basic Phenomenology}{74}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Domain adaptivity in the base games}{75}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Implicit biases and external constraints}{75}{section*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Domain adaptivity in the multiplicative base game}{77}{section*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Counting games}{79}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Simple numerals, and beyond?}{81}{section*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Conclusions}{82}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Mechanisms and interpretations}{83}{section*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions}{85}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Bayesian naming game}{86}{section*.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Bayesian language game}{86}{section*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline empirical validity}{88}{section*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Main contributions}{89}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Future work}{90}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Other Bayesian naming games}{90}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Connections to biological evolution}{91}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Nonparametric extension of the Bayesian Naming Game}{91}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Mathematical analysis of the Bayesian Naming Game}{91}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Appendices}{93}{Appendix*.88}
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Converging Markov Chains}{94}{section.1.7.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Rainy and sunny days}{94}{section*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline limiting and stationary distributions}{95}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Aperiodicity and irreducibility}{95}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline ergodicity}{96}{section*.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Lateral Inhibition Strategies}{97}{section.1.7.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Mathematical details of Dirichlet-categorical \textsc {ng}}{98}{section.1.7.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1}Dirichlet and categorical distributions}{99}{subsection.1.7.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Dirichlet-categorical distribution}{99}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2}Exponentiated distributions}{101}{subsection.1.7.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The difficult case ${"ζ}=\infty $}{101}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.3}Measuring the distance between languages}{102}{subsection.1.7.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.4}Bayesian updating and lateral inhibition}{103}{subsection.1.7.C.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D}Parameter space of the \textsc {dc} language game}{104}{section.1.7.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E}A discrete Weibull model of population turnover}{105}{section.1.7.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Discrete Weibull distribution}{107}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Modelling population turnover}{109}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F}Reformulating the packing strategy}{109}{section.1.7.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The packing strategy as a constraint on trees}{109}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The packing strategy without trees}{111}{section*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Limits of the packing strategy}{112}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {G}Base games}{113}{section.1.7.G}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {G.1}Implicit biases in the additive naming game}{113}{subsection.1.7.G.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {G.2}Properties of the additive base game}{115}{subsection.1.7.G.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Effect of ${"ξ}$}{115}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline effects of the number of simple numerals}{115}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{117}{chapter*.111}

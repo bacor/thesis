@@ -1,0 +1,909 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.11)  6 AUG 2017 22:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**il-chain-illustration.tex
+(./il-chain-illustration.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./il-chain-illustration.tex:3: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{tikzpicture}
+                       [scale=.8]\sffamily\footnotesize
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-chain-illustration.tex:3: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{tikzpicture}[
+                        scale=.8]\sffamily\footnotesize
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no ] in font nullfont!
+./il-chain-illustration.tex:3: Undefined control sequence.
+l.3 ...ikzpicture}[scale=.8]\sffamily\footnotesize
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:4: Undefined control sequence.
+l.4 ^^I\tikzset
+               {lang/.style={draw, circle, fill=main!20}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:5: Undefined control sequence.
+l.5 ^^I\tikzset
+               {obs/.style={draw, circle, fill=main}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:6: Undefined control sequence.
+l.6 ^^I\tikzset
+               {produce/.style={thick,draw,->}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:7: Undefined control sequence.
+l.7 ^^I\tikzset
+               {induce/.style={thick,draw,->,dashed}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:8: Undefined control sequence.
+l.8 ^^I\tikzset
+               {brace/.style={decoration={brace,mirror,raise=10pt}, decorate}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (94.25015pt too wide) in paragraph at lines 3--9
+[]\OT1/cmss/m/n/10 lang/.style=draw,
+ []
+
+
+Overfull \hbox (13.58334pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05556pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (51.41675pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 fill=main!20
+ []
+
+
+Overfull \hbox (70.88902pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 obs/.style=draw,
+ []
+
+
+Overfull \hbox (13.58334pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05556pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (38.22227pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 fill=main
+ []
+
+
+Overfull \hbox (116.30576pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 produce/.style=thick,draw,-
+ []
+
+
+Overfull \hbox (4.72223pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 >
+ []
+
+
+Overfull \hbox (110.27794pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 induce/.style=thick,draw,-
+ []
+
+
+Overfull \hbox (36.08337pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 >,dashed
+ []
+
+
+Overfull \hbox (208.19484pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 brace/.style=decoration=brace,mirror,raise=10pt,
+ []
+
+
+Overfull \hbox (17.38889pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (16.27782pt too wide) in paragraph at lines 3--9
+\OT1/cmss/m/n/10 rate 
+ []
+
+./il-chain-illustration.tex:10: Undefined control sequence.
+l.10 ^^I\path
+              ^^I(1,2)  node[lang] (z1) {$\lang_1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-chain-illustration.tex:10: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ^^I\path ^^I(
+                  1,2)  node[lang] (z1) {$\lang_1$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+./il-chain-illustration.tex:10: Undefined control sequence.
+<recently read> \lang 
+                      
+l.10 ^^I\path ^^I(1,2)  node[lang] (z1) {$\lang
+                                               _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:11: Undefined control sequence.
+<recently read> \obs 
+                     
+l.11 ^^I^^I^^I(3,0)  node[obs]  (x1) {$\obs
+                                           _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:12: Undefined control sequence.
+<recently read> \lang 
+                      
+l.12 ^^I^^I^^I(5,2)  node[lang] (z2) {$\lang
+                                            _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:13: Undefined control sequence.
+<recently read> \obs 
+                     
+l.13 ^^I^^I^^I(7,0)  node[obs]  (x2) {$\obs
+                                           _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:14: Undefined control sequence.
+<recently read> \lang 
+                      
+l.14 ^^I^^I^^I(9,2)  node[lang] (z3) {$\lang
+                                            _3$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:15: Undefined control sequence.
+<recently read> \obs 
+                     
+l.15 ^^I^^I^^I(11,0) node[obs]  (x3) {$\obs
+                                           _3$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:16: Undefined control sequence.
+l.16 ^^I\draw
+             [induce]  (0,1) -- (z1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:17: Undefined control sequence.
+l.17 ^^I\draw
+             [produce] (z1) -- node[midway, above, sloped] {\textsc{produce}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 17.
+
+./il-chain-illustration.tex:18: Undefined control sequence.
+l.18 ^^I\draw
+             [induce]  (x1) -- node[midway, below, sloped] {\textsc{learn}} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:19: Undefined control sequence.
+l.19 ^^I\draw
+             [produce] (z2) -- (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:20: Undefined control sequence.
+l.20 ^^I\draw
+             [induce]  (x2) -- (z3);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:21: Undefined control sequence.
+l.21 ^^I\draw
+             [produce] (z3) -- (x3);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:22: Undefined control sequence.
+l.22 ^^I\draw
+             [induce]  (x3) -- (12,1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.55562pt too wide) in paragraph at lines 10--23
+[]\OT1/cmss/m/n/10 (1,2)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 10--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 10--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (5,2)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 10--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (7,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x2)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 10--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (9,2)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z3)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 10--23
+[]$
+ []
+
+
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (11,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x3)
+ []
+
+
+Overfull \hbox (7.26392pt too wide) in paragraph at lines 10--23
+[]$\OT1/cmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (13.77777pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [in-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (0,1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z1);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (56.08342pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[midway,
+ []
+
+
+Overfull \hbox (27.0834pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 above,
+ []
+
+
+Overfull \hbox (29.16669pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 sloped]
+ []
+
+
+Overfull \hbox (21.51099pt too wide) in paragraph at lines 10--23
+\OT1/cmr/m/sc/10 pro-
+ []
+
+
+Overfull \hbox (23.86656pt too wide) in paragraph at lines 10--23
+\OT1/cmr/m/sc/10 duce
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x1);
+ []
+
+
+Overfull \hbox (13.77777pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [in-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (56.08342pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 node[midway,
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 be-
+ []
+
+
+Overfull \hbox (16.72226pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 low,
+ []
+
+
+Overfull \hbox (29.16669pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 sloped]
+ []
+
+
+Overfull \hbox (28.99988pt too wide) in paragraph at lines 10--23
+\OT1/cmr/m/sc/10 learn
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z2);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x2);
+ []
+
+
+Overfull \hbox (13.77777pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [in-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x2)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z3);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (z3)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x3);
+ []
+
+
+Overfull \hbox (13.77777pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 [in-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (x3)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (28.33342pt too wide) in paragraph at lines 10--23
+\OT1/cmss/m/n/10 (12,1); 
+ []
+
+./il-chain-illustration.tex:25: Undefined control sequence.
+l.25 ^^I\node
+             [align=left, text width=1.5cm] at (-2,2)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-chain-illustration.tex:25: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ^^I\node[
+              align=left, text width=1.5cm] at (-2,2)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./il-chain-illustration.tex:27: Undefined control sequence.
+l.27 ^^I\node
+             [align=left, text width=1.5cm] at (-2,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (66.69452pt too wide) in paragraph at lines 25--29
+[]\OT1/cmss/m/n/10 [align=left,
+ []
+
+
+Overfull \hbox (16.2778pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 text
+ []
+
+
+Overfull \hbox (59.0001pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 width=1.5cm]
+ []
+
+
+Overfull \hbox (8.41669pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 at
+ []
+
+
+Overfull \hbox (7.22223pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 (-
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 2,2)
+ []
+
+
+Overfull \hbox (18.72226pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 Lan-
+ []
+
+
+Overfull \hbox (24.41672pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 guage
+ []
+
+
+Overfull \hbox (14.77779pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 (in-
+ []
+
+
+Overfull \hbox (14.80557pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 ter-
+ []
+
+
+Overfull \hbox (19.02782pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 nal);
+ []
+
+
+Overfull \hbox (46.69452pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 [align=left,
+ []
+
+
+Overfull \hbox (16.2778pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 text
+ []
+
+
+Overfull \hbox (59.0001pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 width=1.5cm]
+ []
+
+
+Overfull \hbox (8.41669pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 at
+ []
+
+
+Overfull \hbox (7.22223pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 (-
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 2,0)
+ []
+
+
+Overfull \hbox (13.81949pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 Ut-
+ []
+
+
+Overfull \hbox (14.80557pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 ter-
+ []
+
+
+Overfull \hbox (22.69446pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 ances
+ []
+
+
+Overfull \hbox (16.2778pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 (ex-
+ []
+
+
+Overfull \hbox (14.80557pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 ter-
+ []
+
+
+Overfull \hbox (19.02782pt too wide) in paragraph at lines 25--29
+\OT1/cmss/m/n/10 nal); 
+ []
+
+
+./il-chain-illustration.tex:29: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+./il-chain-illustration.tex:32: Undefined control sequence.
+l.32     \draw
+               [brace] (0+\delta,\bracey) -- (4-\delta,\bracey)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-chain-illustration.tex:32: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32     \draw [
+                brace] (0+\delta,\bracey) -- (4-\delta,\bracey)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./il-chain-illustration.tex:34: Undefined control sequence.
+l.34     \draw
+               [brace] (4+\delta,\bracey) -- (8-\delta,\bracey)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-chain-illustration.tex:36: Undefined control sequence.
+l.36     \draw
+               [brace] (8+\delta,\bracey) -- (12-\delta,\bracey)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-chain-illustration.tex:38: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> il-chain-illustration.tex
+                             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 493706
+ 516 string characters out of 6145768
+ 56323 words of memory out of 5000000
+ 3457 multiletter control sequences out of 15000+600000
+ 4246 words of font info for 16 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 18i,4n,12p,121b,122s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-chain-illustration.pdf (1 page).

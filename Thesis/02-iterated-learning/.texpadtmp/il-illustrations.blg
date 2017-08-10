@@ -1,0 +1,9 @@
+[1] Config.pm:324> INFO - This is Biber 2.1
+[1] Config.pm:327> INFO - Logfile is '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-illustrations.blg'
+[71] biber-darwin:276> INFO - === Sun Aug  6, 2017, 23:38:25
+[71] Biber.pm:333> INFO - Reading '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-illustrations.bcf'
+[210] Biber.pm:645> INFO - Found 0 citekeys in bib section 0
+[210] Utils.pm:146> WARN - The file '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-illustrations.bcf' does not contain any citations!
+[246] bbl.pm:505> INFO - Writing '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-illustrations.bbl' with encoding 'UTF-8'
+[246] bbl.pm:596> INFO - Output to /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-illustrations.bbl
+[246] Biber.pm:106> INFO - WARNINGS: 1

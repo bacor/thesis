@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{DeVylder2006}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{De Vylder}}{D.}%
+     {Bart}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tuyls}{T.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Naming Game,Printed,amplification,cultural evolution,horizontal
+  transmission,language acquisition,naming games,sampling-response model}
+  \strng{namehash}{DBTK1}
+  \strng{fullhash}{DBTK1}
+  \field{labelyear}{2006}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1016/j.jtbi.2006.05.024
+  \endverb
+  \field{issn}{00225193}
+  \field{number}{4}
+  \field{pages}{818\bibrangedash 831}
+  \field{title}{{How to reach linguistic consensus: A proof of convergence for
+  the naming game}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0022519306002189
+  \endverb
+  \field{volume}{242}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/De Vylder, Tuyls/De Vylder, Tuyls - 2006
+  \verb - How to reach linguistic consensus A proof of convergence for the nami
+  \verb ng game.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Theoretical Biology}
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Griffiths2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canini}{C.}%
+     {Kevin~R.}{K.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanborn}{S.}%
+     {Adam~N.}{A.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Navarro}{N.}%
+     {Daniel~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{BF Psychology,Modelling}
+  \strng{namehash}{GTL+1}
+  \strng{fullhash}{GTLCKRSANNDJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Models of categorization make different representational assumptions, with
+  categories being represented by prototypes, sets of exemplars, and everything
+  in between. Rational models of categorization justify these representational
+  assumptions in terms of different schemes for estimating probability
+  distributions. However, they do not answer the question of which scheme
+  should be used in representing a given category. We show that existing
+  rational models of categorization are special cases of a statistical model
+  called the hierarchical Dirichlet process, which can be used to automatically
+  infer a representation of the appropriate complexity for a given category.%
+  }
+  \field{pages}{323328}
+  \field{title}{{Unifying rational models of categorization via the
+  hierarchical Dirichlet process}}
+  \verb{url}
+  \verb http://wrap.warwick.ac.uk/36020/
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Griffiths et al/Griffiths et al. - 2007 -
+  \verb  Unifying rational models of categorization via the hierarchical Dirich
+  \verb let process.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the 29th annual conference of the
+  cognitive science society}
+  \field{year}{2007}
+\endentry
+
+\entry{Hurford1987}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hurford}{H.}%
+     {James~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basil Blackwell}%
+  }
+  \strng{namehash}{HJR1}
+  \strng{fullhash}{HJR1}
+  \field{labelyear}{1987}
+  \field{sortinit}{H}
+  \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+  \list{location}{1}{%
+    {Oxford/New York}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Num
+  \verb ber The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Lite
+  \verb rature/Hurford/Hurford - 1987 - Language and Number The Emergence of a
+  \verb Cognitive System(2).pdf:pdf
+  \endverb
+  \field{year}{1987}
+\endentry
+
+\entry{Smith2014}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Smith}{S.}%
+     {Andrew~D.M.}{A.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SAD1}
+  \strng{fullhash}{SAD1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1002/wcs.1285
+  \endverb
+  \field{issn}{19395078}
+  \field{number}{3}
+  \field{pages}{281\bibrangedash 293}
+  \field{title}{{Models of language evolution and change}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1002/wcs.1285
+  \endverb
+  \field{volume}{5}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2014 - Models of language e
+  \verb volution and change.pdf:pdf
+  \endverb
+  \field{journaltitle}{Wiley Interdisciplinary Reviews: Cognitive Science}
+  \field{year}{2014}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

@@ -1,0 +1,749 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Brochhagen2016}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brochhagen}{B.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Franke}{F.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,cognitive biases,iterated learning,language evo-}
+  \strng{namehash}{BTFM1}
+  \strng{fullhash}{BTFM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{B}
+  \field{title}{{Effects of transmission perturbation in the cultural evolution
+  of language}}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Brochhagen, Franke/Brochhagen, Franke - 2
+  \verb 016 - Effects of transmission perturbation in the cultural evolution of
+  \verb  language.pdf:pdf
+  \endverb
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2016}
+\endentry
+
+\entry{Burkett2010}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Burkett}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,printed}
+  \strng{namehash}{BDGTL1}
+  \strng{fullhash}{BDGTL1}
+  \field{labelyear}{2010}
+  \field{sortinit}{B}
+  \field{booktitle}{The evolution of language: Proceedings of EvoLang}
+  \field{pages}{58\bibrangedash 65}
+  \field{title}{{Iterated learning of multiple languages from multiple
+  teachers}}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Burkett, Griffiths/Burkett, Griffiths - 2
+  \verb 010 - Iterated learning of multiple languages from multiple teachers(2)
+  \verb .pdf:pdf
+  \endverb
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2010}
+\endentry
+
+\entry{Carr2016}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Carr}{C.}%
+     {Jon~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Kenny}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornish}{C.}%
+     {Hannah}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Printed,categorization,communication,compositionality,language
+  evolution,learning,sound symbolism}
+  \strng{namehash}{CJW+1}
+  \strng{fullhash}{CJWSKCHKS1}
+  \field{labelyear}{2016}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1111/cogs.12371
+  \endverb
+  \field{issn}{03640213}
+  \field{pages}{1\bibrangedash 32}
+  \field{title}{{The Cultural Evolution of Structured Languages in an
+  Open-Ended, Continuous World}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/cogs.12371
+  \endverb
+  \field{volume}{12371}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Carr et al/Carr et al. - 2016 - The Cultu
+  \verb ral Evolution of Structured Languages in an Open-Ended, Continuous Worl
+  \verb d.pdf:pdf
+  \endverb
+  \field{journaltitle}{Cognitive Science}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Ferdinand2009}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ferdinand}{F.}%
+     {Vanessa}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuidema}{Z.}%
+     {Willem}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,Printed}
+  \strng{namehash}{FVZW1}
+  \strng{fullhash}{FVZW1}
+  \field{labelyear}{2009}
+  \field{sortinit}{F}
+  \field{booktitle}{Proceedings of the 31st Annual Conference of the Cognitive
+  Science Society.}
+  \field{pages}{1786\bibrangedash 1791}
+  \field{title}{{Thomas' Theorem meets Bayes' Rule: a Model of the Iterated
+  Learning of Language}}
+  \list{location}{1}{%
+    {Austin, Texas}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Ferdinand, Zuidema/Ferdinand, Zuidema - 2
+  \verb 009 - Thomas' Theorem meets Bayes' Rule a Model of the Iterated Learnin
+  \verb g of Language.pdf:pdf
+  \endverb
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{Griffiths2005}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalish}{K.}%
+     {Michael~L.}{M.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{printed}
+  \strng{namehash}{GTLKML1}
+  \strng{fullhash}{GTLKML1}
+  \field{labelyear}{2005}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Models of language evolution have demonstrated how aspects of human language,
+  such as compositionality, can arise in populations of interacting agents.
+  This paper analyzes how languages change as the result of a particular form
+  of interaction: agents learning from one another. We show that, when the
+  learners are rational Bayesian agents, this process of iterated learning
+  converges to the prior distribution over languages assumed by those learners.
+  The rate of convergence is set by the amount of information conveyed by the
+  data seen by each generation; the less informative the data, the faster the
+  process converges to the prior.%
+  }
+  \field{pages}{827\bibrangedash 832}
+  \field{title}{{A Bayesian view of language evolution by iterated learning}}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Griffiths, Kalish/Griffiths, Kalish - 200
+  \verb 5 - A Bayesian view of language evolution by iterated learning.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the 27th annual conference of the
+  cognitive science society}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2005}
+\endentry
+
+\entry{Griffiths2007a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalish}{K.}%
+     {Michael~L.}{M.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,Printed,bayesian models,cultural transmission,iterated
+  learning,language evolution}
+  \strng{namehash}{GTLKML1}
+  \strng{fullhash}{GTLKML1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1080/15326900701326576
+  \endverb
+  \field{issn}{03640213}
+  \field{number}{3}
+  \field{pages}{441\bibrangedash 480}
+  \field{title}{{Language Evolution by Iterated Learning With Bayesian Agents}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1080/15326900701326576
+  \endverb
+  \field{volume}{31}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Griffiths, Kalish/Griffiths, Kalish - 200
+  \verb 7 - Language Evolution by Iterated Learning With Bayesian Agents.pdf:pd
+  \verb f
+  \endverb
+  \field{journaltitle}{Cognitive Science}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2007}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Griffiths2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canini}{C.}%
+     {Kevin~R.}{K.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanborn}{S.}%
+     {Adam~N.}{A.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Navarro}{N.}%
+     {Daniel~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{BF Psychology,Modelling}
+  \strng{namehash}{GTL+1}
+  \strng{fullhash}{GTLCKRSANNDJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Models of categorization make different representational assumptions, with
+  categories being represented by prototypes, sets of exemplars, and everything
+  in between. Rational models of categorization justify these representational
+  assumptions in terms of different schemes for estimating probability
+  distributions. However, they do not answer the question of which scheme
+  should be used in representing a given category. We show that existing
+  rational models of categorization are special cases of a statistical model
+  called the hierarchical Dirichlet process, which can be used to automatically
+  infer a representation of the appropriate complexity for a given category.%
+  }
+  \field{pages}{323328}
+  \field{title}{{Unifying rational models of categorization via the
+  hierarchical Dirichlet process}}
+  \verb{url}
+  \verb http://wrap.warwick.ac.uk/36020/
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Griffiths et al/Griffiths et al. - 2007 -
+  \verb  Unifying rational models of categorization via the hierarchical Dirich
+  \verb let process.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the 29th annual conference of the
+  cognitive science society}
+  \field{year}{2007}
+\endentry
+
+\entry{Jacoby2017}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Jacoby}{J.}%
+     {Nori}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McDermott}{M.}%
+     {Josh~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier Ltd.}%
+  }
+  \strng{namehash}{JNMJH1}
+  \strng{fullhash}{JNMJH1}
+  \field{labelyear}{2017}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb 10.1016/j.cub.2016.12.031
+  \endverb
+  \field{issn}{0960-9822}
+  \field{number}{27}
+  \field{pages}{1\bibrangedash 12}
+  \field{title}{{Integer Ratio Priors on Musical Rhythm Revealed
+  Cross-culturally by Iterated Reproduction}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/j.cub.2016.12.031
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Jacoby, McDermott/Jacoby, McDermott - 201
+  \verb 7 - Integer Ratio Priors on Musical Rhythm Revealed Cross-culturally by
+  \verb  Iterated Reproduction.pdf:pdf;:Users/Bas/Dropbox/Literature/Jacoby, Mc
+  \verb Dermott/Jacoby, McDermott - 2017 - Integer Ratio Priors on Musical Rhyt
+  \verb hm Revealed Cross-culturally by Iterated Reproduction(2).pdf:pdf
+  \endverb
+  \field{journaltitle}{Current Biology}
+  \field{year}{2017}
+\endentry
+
+\entry{Kirby2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornish}{C.}%
+     {Hannah}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Kenny}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Cultural Evolution,Humans,Language,Learning,Learning:
+  physiology,Linguistics,Models,Photic Stimulation,Theoretical}
+  \strng{namehash}{KSCHSK1}
+  \strng{fullhash}{KSCHSK1}
+  \field{labelyear}{2008}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  We introduce an experimental paradigm for studying the cumulative cultural
+  evolution of language. In doing so we provide the first experimental
+  validation for the idea that cultural transmission can lead to the appearance
+  of design without a designer. Our experiments involve the iterated learning
+  of artificial languages by human participants. We show that languages
+  transmitted culturally evolve in such a way as to maximize their own
+  transmissibility: over time, the languages in our experiments become easier
+  to learn and increasingly structured. Furthermore, this structure emerges
+  purely as a consequence of the transmission of language over generations,
+  without any intentional design on the part of individual language learners.
+  Previous computational and mathematical models suggest that iterated learning
+  provides an explanation for the structure of human language and link
+  particular aspects of linguistic structure with particular constraints acting
+  on language during its transmission. The experimental work presented here
+  shows that the predictions of these models, and models of cultural evolution
+  more generally, can be tested in the laboratory.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0707835105
+  \endverb
+  \field{isbn}{1068110686}
+  \field{issn}{0027-8424}
+  \field{number}{31}
+  \field{pages}{10681\bibrangedash 10686}
+  \field{title}{{Cumulative cultural evolution in the laboratory: An
+  experimental approach to the origins of structure in human language}}
+  \field{volume}{105}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Kirby, Cornish, Smith/Kirby, Cornish, Smi
+  \verb th - 2008 - Cumulative cultural evolution in the laboratory An experime
+  \verb ntal approach to the origins of structure in h.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2008}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kirby2007}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dowman}{D.}%
+     {Mike}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,printed}
+  \strng{namehash}{KSDMGTL1}
+  \strng{fullhash}{KSDMGTL1}
+  \field{labelyear}{2007}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Human language arises from biological evolution, individual learning, and
+  cultural transmission, but the interaction of these three processes has not
+  been widely studied. We set out a formal framework for analyzing cultural
+  transmission, which allows us to investigate how innate learning biases are
+  related to universal properties of language. We show that cultural
+  transmission can magnify weak biases into strong linguistic universals,
+  undermining one of the arguments for strong innate constraints on language
+  learning. As a consequence, the strength of innate biases can be shielded
+  from natural selection, allowing these genes to drift. Furthermore, even when
+  there is no natural selection, cultural transmission can produce apparent
+  adaptations. Cultural transmission thus provides an alternative to
+  traditional nativist and adaptationist explanations for the properties of
+  human languages.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0608222104
+  \endverb
+  \field{isbn}{0027-8424 (Print)$\backslash$n0027-8424 (Linking)}
+  \field{issn}{0027-8424}
+  \field{number}{12}
+  \field{pages}{5241\bibrangedash 5245}
+  \field{title}{{Innateness and culture in the evolution of language.}}
+  \field{volume}{104}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Kirby, Dowman, Griffiths/Kirby, Dowman, G
+  \verb riffiths - 2007 - Innateness and culture in the evolution of language.p
+  \verb df:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2007}
+\endentry
+
+\entry{Kirby2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tamariz}{T.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornish}{C.}%
+     {Hannah}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Kenny}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier B.V.}%
+  }
+  \keyw{cultural transmission,printed}
+  \strng{namehash}{KS+1}
+  \strng{fullhash}{KSTMCHSK1}
+  \field{labelyear}{2015}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1016/j.cognition.2015.03.016
+  \endverb
+  \field{issn}{0010-0277}
+  \field{pages}{87\bibrangedash 102}
+  \field{title}{{Compression and communication in the cultural evolution of
+  linguistic structure}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/j.cognition.2015.03.016
+  \endverb
+  \field{volume}{141}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Kirby et al/Kirby et al. - 2015 - Compres
+  \verb sion and communication in the cultural evolution of linguistic structur
+  \verb e.pdf:pdf
+  \endverb
+  \field{journaltitle}{Cognition}
+  \field{year}{2015}
+\endentry
+
+\entry{Madsen2015a}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Madsen}{M.}%
+     {Mathias~Winther}{M.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MMW1}
+  \strng{fullhash}{MMW1}
+  \field{labelyear}{2015}
+  \field{sortinit}{M}
+  \field{pages}{1\bibrangedash 15}
+  \field{title}{{Random Processes and Ergodicity}}
+  \verb{url}
+  \verb http://homepages.cwi.nl/{~}schaffne/courses/inftheory/2015/blackboard/R
+  \verb andom Processes and Ergodicity.pdf
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Madsen/Madsen - 2015 - Random Processes a
+  \verb nd Ergodicity.pdf:pdf
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{Niyogi2009}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Niyogi}{N.}%
+     {Partha}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berwick}{B.}%
+     {Robert~C}{R.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,printed}
+  \strng{namehash}{NPBRC1}
+  \strng{fullhash}{NPBRC1}
+  \field{labelyear}{2009}
+  \field{sortinit}{N}
+  \field{number}{25}
+  \field{pages}{10124\bibrangedash 10129}
+  \field{title}{{The proper treatment of language acquisition and change in a
+  population setting}}
+  \field{volume}{106}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Niyogi, Berwick/Niyogi, Berwick - 2009 -
+  \verb The proper treatment of language acquisition and change in a population
+  \verb  setting.pdf:pdf
+  \endverb
+  \field{journaltitle}{PNAS}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{Norris1997}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Norris}{N.}%
+     {J.~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{NJR1}
+  \strng{fullhash}{NJR1}
+  \field{labelyear}{1997}
+  \field{sortinit}{N}
+  \field{title}{{Markov Chains}}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Norris/Norris - 1997 - Markov Chains.pdf:
+  \verb pdf
+  \endverb
+  \field{year}{1997}
+\endentry
+
+\entry{Smith2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Smith}{S.}%
+     {Kenny}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{MSc Thesis,bayesian,cultural evolution,iterated learning,language
+  learning,language universals,learning}
+  \strng{namehash}{SK1}
+  \strng{fullhash}{SK1}
+  \field{labelyear}{2009}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Previous analytic results (Griffiths {\&} Kalish, 2007) show that repeated
+  learning and transmission of languages in populations of Bayesian learners
+  results in distributions of languages which directly reflect the biases of
+  learners. This result potentially has profound implications for our
+  understanding of the link between the human language learning apparatus and
+  the dis- tribution of languages in the world. It is shown here that a
+  variation on these models (such that learners learn from the linguistic
+  behaviour of multiple individuals, rather than a sin- gle individual) changes
+  this transparent relationship between learning bias and typology. This
+  suggests that inferring learn- ing bias from typology (or population
+  behaviour from labora- tory diffusion chains) is potentially unsafe.%
+  }
+  \field{pages}{697\bibrangedash 702}
+  \field{title}{{Iterated learning in populations of Bayesian agents}}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2009 - Iterated learning in
+  \verb  populations of Bayesian agents.pdf:pdf
+  \endverb
+  \field{journaltitle}{Cogsci Society Conference}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{Tamariz2017}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tamariz}{T.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cultural transmission,emergence,experimental,iterated
+  learning,semiotics,transmission chains}
+  \strng{namehash}{TM1}
+  \strng{fullhash}{TM1}
+  \field{labelyear}{2017}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  Why are languages the way they are? The biases and constraints that explain
+  why languages display the traits they do—instead of other possible
+  ones—include human cognition, social dynamics, communicative function, the
+  structure of meanings, and the interactions between these. Cultural language
+  evolution is concerned with explaining the causal pathways that link these
+  biases and constraints with fundamental linguistic traits, such as
+  combinatoriality, compositionality, conventionality, and arbitrariness. The
+  cultural evolution of language, or the emergence of a language from no
+  language, begins when motivated signals are used in context by individuals
+  who do not share a means of communication. Repeated interaction between
+  interlocutors makes individual signals compressible through reduction or
+  simplification and can entrench idiosyncratic patterns. Transmission to new
+  learners results in the increasing compressibility at the level of the system
+  through the introduction of categories and regular rules, and in the spread
+  of conventional, arbitrary signals.%
+  }
+  \verb{doi}
+  \verb 10.1146/annurev-linguistics-011516-033807
+  \endverb
+  \field{issn}{2333-9683}
+  \field{number}{1}
+  \field{pages}{389\bibrangedash 407}
+  \field{title}{{Experimental Studies on the Cultural Evolution of Language}}
+  \verb{url}
+  \verb http://www.annualreviews.org/doi/10.1146/annurev-linguistics-011516-033
+  \verb 807
+  \endverb
+  \field{volume}{3}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Tamariz/Tamariz - 2017 - Experimental Stu
+  \verb dies on the Cultural Evolution of Language.pdf:pdf
+  \endverb
+  \field{journaltitle}{Annual Review of Linguistics}
+  \field{year}{2017}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Whalen2017}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Whalen}{W.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griffiths}{G.}%
+     {Thomas~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier Inc.}%
+  }
+  \keyw{MSc Thesis,Printed}
+  \strng{namehash}{WAGTL1}
+  \strng{fullhash}{WAGTL1}
+  \field{labelyear}{2017}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1016/j.jmp.2016.10.008
+  \endverb
+  \field{issn}{00222496}
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{{Adding population structure to models of language evolution by
+  iterated learning}}
+  \field{volume}{76}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Whalen, Griffiths/Whalen, Griffiths - 201
+  \verb 7 - Adding population structure to models of language evolution by iter
+  \verb ated learning.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Mathematical Psychology}
+  \field{annotation}{%
+  NULL%
+  }
+  \field{year}{2017}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

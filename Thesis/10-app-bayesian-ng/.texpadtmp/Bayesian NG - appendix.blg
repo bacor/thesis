@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/bayesian-ng-appendix/.texpadtmp/Bayesian NG - appendix.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Bayesian_NG_-_appendix-blx.bib
+Database file #2: ~/bibliography.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 3 entries,
+            6047 wiz_defined-function locations,
+            1154 strings with 10470 characters,
+and the built_in function-call counts, 7981 in all, are:
+= -- 263
+> -- 282
+< -- 59
++ -- 99
+- -- 130
+* -- 662
+:= -- 682
+add.period$ -- 0
+call.type$ -- 3
+change.case$ -- 22
+chr.to.int$ -- 36
+cite$ -- 4
+duplicate$ -- 760
+empty$ -- 834
+format.name$ -- 138
+if$ -- 1776
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 104
+num.names$ -- 82
+pop$ -- 658
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 436
+stack$ -- 0
+substring$ -- 220
+swap$ -- 325
+text.length$ -- 74
+text.prefix$ -- 2
+top$ -- 1
+type$ -- 102
+warning$ -- 0
+while$ -- 94
+width$ -- 0
+write$ -- 100

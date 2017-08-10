@@ -1,0 +1,834 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Baronchelli2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8532d9be6c124f254353927432e2d846}
+      \strng{fullhash}{8532d9be6c124f254353927432e2d846}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Social conventions govern countless behaviors all of us engage in every day, from how we greet each other to the languages we speak. But how can shared conventions emerge spontaneously in the absence of a central coordinating authority? The Naming Game model shows that networks of locally interacting individuals can spontaneously self-organize to produce global coordination. Here, we provide a gentle introduction to the main features of the model, from the dynamics observed in homogeneously mixing populations to the role played by more complex social networks, and to how slight modifications of the basic interaction rules give origin to a richer phenomenology in which more conventions can co-exist indefinitely.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0774-5141}
+      \field{title}{{A gentle introduction to the minimal Naming Game}}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1075/bjl.30.08bar
+      \endverb
+      \verb{eprint}
+      \verb 1701.07419
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2017 - A gentle introduction to the minimal Naming Game.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1701.07419%7B%%7D0Ahttp://dx.doi.org/10.1075/bjl.30.08bar
+      \endverb
+    \endentry
+    \entry{Baronchelli2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{Loreto}{L\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0e112ca4eee75ffe38cf1fe6a01bb2aa}
+      \strng{fullhash}{0e112ca4eee75ffe38cf1fe6a01bb2aa}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2008}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0129-1831}
+      \field{journaltitle}{International Journal of Modern Physics C}
+      \field{month}{05}
+      \field{number}{05}
+      \field{title}{{In-depth Analysis of the Naming Game: The Homogeneous Mixing Case}}
+      \field{volume}{19}
+      \field{year}{2008}
+      \field{pages}{785\bibrangedash 812}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1142/S0129183108012522
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli, Loreto, Steels/Baronchelli, Loreto, Steels - 2008 - In-depth Analysis of the Naming Game The Homogeneous Mixing Case.pdf:pdf;:Users/Bas/Dropbox/Literature/Baronchelli, Loreto, Steels/Baronchelli, Loreto, Steels - 2008 - In-depth Analysis of the Naming Game The Homogeneous Mixing Case.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.worldscientific.com/doi/abs/10.1142/S0129183108012522
+      \endverb
+      \keyw{Naming Game,Printed,cultural evolution,emergence,language self-organization,of consensus,social interaction,statistical physics}
+    \endentry
+    \entry{Burkett2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e6ca971b0eb14344cb3c44f57de292fe}{Burkett}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a758dd7c85183d900b35816f447ceee9}
+      \strng{fullhash}{a758dd7c85183d900b35816f447ceee9}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{booktitle}{The evolution of language: Proceedings of EvoLang}
+      \field{title}{{Iterated learning of multiple languages from multiple teachers}}
+      \field{year}{2010}
+      \field{pages}{58\bibrangedash 65}
+      \range{pages}{8}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Burkett, Griffiths/Burkett, Griffiths - 2010 - Iterated learning of multiple languages from multiple teachers(2).pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,printed}
+    \endentry
+    \entry{DeVylder2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=038eedf0301d8a30d78260c1043bba69}{{De\bibnamedelimb Vylder}}{D\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=abe873d21d37af0af9b6711c1efd9caa}{Tuyls}{T\bibinitperiod}{Karl}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5e945e64f27e8f651cb89583021806e6}
+      \strng{fullhash}{5e945e64f27e8f651cb89583021806e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2006}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{{How to reach linguistic consensus: A proof of convergence for the naming game}}
+      \field{volume}{242}
+      \field{year}{2006}
+      \field{pages}{818\bibrangedash 831}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2006.05.024
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/De Vylder, Tuyls/De Vylder, Tuyls - 2006 - How to reach linguistic consensus A proof of convergence for the naming game.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0022519306002189
+      \endverb
+      \keyw{Naming Game,Printed,amplification,cultural evolution,horizontal transmission,language acquisition,naming games,sampling-response model}
+    \endentry
+    \entry{DeBoer1999}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=a3193d3927841b957494b24a4632331b}{Boer}{B\bibinitperiod}{Bart}{B\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=87dd753570e7aedecb00795d8f6f3809}{Vogt}{V\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{979fb28716224834071d575d20f7a2d9}
+      \strng{fullhash}{979fb28716224834071d575d20f7a2d9}
+      \field{sortinit}{d}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper shows that realistic and coherent vowel systems can emerge from scratch in a population of agents that imitate each other under human-like constraints of production and perception. The simulation is extended so that populations can change; old agents can be removed, and new agents can be added. In these circumstances vowel systems can also emerge and be preserved. It is shown that sometimes an age structure in the population can improve preservation of the vowel systems.}
+      \field{booktitle}{Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}
+      \field{isbn}{3540664521}
+      \field{issn}{16113349}
+      \field{title}{{Emergence of Speech Sounds in Changing Populations}}
+      \field{volume}{1674}
+      \field{year}{1999}
+      \field{pages}{664\bibrangedash 673}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/3-540-48304-7_87
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/de Boer, Vogt/de Boer, Vogt - 1999 - Emergence of Speech Sounds in Changing Populations.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/3-540-48304-7%7B%5C_%7D87
+      \endverb
+    \endentry
+    \entry{Dediu2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fda04ea79dc20e87a3b289671a150723}{Dediu}{D\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fda04ea79dc20e87a3b289671a150723}
+      \strng{fullhash}{fda04ea79dc20e87a3b289671a150723}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The recent Bayesian approaches to language evolution and change seem to suggest that genetic biases can impact on the characteristics of language, but, at the same time, that its cultural transmission can partially free it from these same genetic constraints. One of the current debates centres on the striking differences between sampling and a posteriori maximising Bayesian learners, with the first converging on the prior bias while the latter allows a certain freedom to language evolution. The present paper shows that this difference disappears if populations more complex than a single teacher and a single learner are considered, with the resulting behaviours more similar to the sampler. This suggests that generalisations based on the language produced by Bayesian agents in such homogeneous single agent chains are not warranted. It is not clear which of the assumptions in such models are responsible, but these findings seem to support the rising concerns on the validity of the "acquisitionist" assumption, whereby the locus of language change and evolution is taken to be the first language acquirers (children) as opposed to the competent language users (the adults). {©} 2009 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{number}{3}
+      \field{title}{{Genetic biasing through cultural transmission: Do simple Bayesian models of language evolution generalise?}}
+      \field{volume}{259}
+      \field{year}{2009}
+      \field{pages}{552\bibrangedash 561}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2009.04.004
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Dediu/Dediu - 2009 - Genetic biasing through cultural transmission Do simple Bayesian models of language evolution generalise.pdf:pdf
+      \endverb
+      \keyw{Bayesian agents,Computer model,Language evolution}
+    \endentry
+    \entry{Ferdinand2009}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=54b0d850ffa3a780540c15576bf78bc7}{Ferdinand}{F\bibinitperiod}{Vanessa}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=44ad51ff065eed44fec5244bbae59fd4}{Zuidema}{Z\bibinitperiod}{Willem}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Austin, Texas}%
+      }
+      \strng{namehash}{899ef54f9f9eef9f7c05b0d22cf9ab63}
+      \strng{fullhash}{899ef54f9f9eef9f7c05b0d22cf9ab63}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{booktitle}{Proceedings of the 31st Annual Conference of the Cognitive Science Society.}
+      \field{title}{{Thomas' Theorem meets Bayes' Rule: a Model of the Iterated Learning of Language}}
+      \field{year}{2009}
+      \field{pages}{1786\bibrangedash 1791}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Ferdinand, Zuidema/Ferdinand, Zuidema - 2009 - Thomas' Theorem meets Bayes' Rule a Model of the Iterated Learning of Language.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,Printed}
+    \endentry
+    \entry{Griffiths2007a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=17d4942c0347e890edcf7c19e24c0527}{Kalish}{K\bibinitperiod}{Michael\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9f2d1c4972181970fd9cd6bb48408578}
+      \strng{fullhash}{9f2d1c4972181970fd9cd6bb48408578}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2007}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{issn}{03640213}
+      \field{journaltitle}{Cognitive Science}
+      \field{month}{05}
+      \field{number}{3}
+      \field{title}{{Language Evolution by Iterated Learning With Bayesian Agents}}
+      \field{volume}{31}
+      \field{year}{2007}
+      \field{pages}{441\bibrangedash 480}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1080/15326900701326576
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Griffiths, Kalish/Griffiths, Kalish - 2007 - Language Evolution by Iterated Learning With Bayesian Agents.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1080/15326900701326576
+      \endverb
+      \keyw{MSc Thesis,Printed,bayesian models,cultural transmission,iterated learning,language evolution}
+    \endentry
+    \entry{Grifoni2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a54287f4f5b3a812ff2eab5170effe8a}{Grifoni}{G\bibinitperiod}{Patrizia}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=334a17e062a6e1b99570ed54d504d23e}{Ulizia}{U\bibinitperiod}{Arianna\bibnamedelima D}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=5cfa53d1429c87d775b4ee6fe2df93a0}{Ferri}{F\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{984c9ba2730ef6ec423c8ad12e67e553}
+      \strng{fullhash}{984c9ba2730ef6ec423c8ad12e67e553}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7462}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{number}{3}
+      \field{title}{{Computational methods and grammars in language evolution : a survey}}
+      \field{volume}{45}
+      \field{year}{2016}
+      \field{pages}{369\bibrangedash 403}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/s10462-015-9449-3
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Grifoni, Ulizia, Ferri/Grifoni, Ulizia, Ferri - 2016 - Computational methods and grammars in language evolution a survey.pdf:pdf
+      \endverb
+      \keyw{Agent-based models,Evolutionary computation,Game-theoretic models,Grammatical evolution,Language evolution,Multimodal language,Natural language,Printed,agent-based models,evolutionary computation,game-theoretic models,grammatical evolution,language evolution,multimodal language,natural language}
+    \endentry
+    \entry{Jaeger2009}{incollection}{}
+      \name{author}{11}{}{%
+        {{hash=3e23f63902cb824af4a955a17b0b0951}{Jaeger}{J\bibinitperiod}{Herbert}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=85cb46a3926f8572efdaa571ce75ab96}{Andrea}{A\bibinitperiod}{Baronchelli}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e61fc2a53cce75d095978dce55b0ef0c}{Ted}{T\bibinitperiod}{Briscoe}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=672a7c6d7ae3709c4198123b6bce0a9e}{Morten}{M\bibinitperiod}{H.\bibnamedelimi Christiansen}{H\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=04e6613905aec889d86b7ddc2e914c2b}{Jäger}{J\bibinitperiod}{Gerhard}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=837fb963baa9e0149a7e7dc700b1cdf7}{Komarova}{K\bibinitperiod}{Natalia}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=5dd3361ee65a9c47abb41d15036105e0}{Richerson}{R\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=207b1569180057f2395a0befdad16544}{Triesch}{T\bibinitperiod}{Jochen}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2c51c695149c657c29336b2759ffb4ab}{Bickerton}{B\bibinitperiod}{Derek}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b859ddb271ff5612581e74a60e5c46f3}{Szathmáry}{S\bibinitperiod}{Eörs}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{4cefd6b3ddd501ab08d6f921a6021538}
+      \strng{fullhash}{ad0105056a4a41a53099006766d90537}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2009}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Biological Foundations and Origin of Syntax}
+      \field{isbn}{9780262013567}
+      \field{month}{09}
+      \field{title}{{What Can Mathematical, Computational, and Robotic Models Tell Us about the Origins of Syntax?}}
+      \field{year}{2009}
+      \field{pages}{385\bibrangedash 410}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.7551/mitpress/9780262013567.003.0018
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Jaeger et al/Jaeger et al. - 2009 - What Can Mathematical, Computational, and Robotic Models Tell Us about the Origins of Syntax.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262013567.001.0001/upso-9780262013567%20http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262013567.001.0001/upso-9780262013567-chapter-18
+      \endverb
+    \endentry
+    \entry{Juckett1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c98e733d16d8886801a43a12ea058566}{Juckett}{J\bibinitperiod}{David\bibnamedelima A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e68211be2c067bb0bb2041186968c84d}{Rosenberg}{R\bibinitperiod}{Barnett}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4416341a5023e043131f94e40248ce8b}
+      \strng{fullhash}{4416341a5023e043131f94e40248ce8b}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{1993}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00476374}
+      \field{journaltitle}{Mechanisms of Ageing and Development}
+      \field{month}{06}
+      \field{number}{1-2}
+      \field{title}{{Comparison of the Gomperz and Weibull Functions as Descriptors for Human Mortality Distributions and their Intersections}}
+      \field{volume}{69}
+      \field{year}{1993}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
+      \verb{doi}
+      \verb http://doi.org/10.1016/0047-6374(93)90068-3
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Juckett, Rosenberg/Juckett, Rosenberg - 1993 - Comparison of the Gomperz and Weibull Functions as Descriptors for Human Mortality Distributions and their I.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/0047637493900683
+      \endverb
+      \keyw{Weibull Distribution}
+    \endentry
+    \entry{Kirby2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=5ed68939babf4e2fda875cfb9fb294fe}{Griffiths}{G\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{de9b0c495dbedbf892dbc714e6fde1a4}
+      \strng{fullhash}{de9b0c495dbedbf892dbc714e6fde1a4}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Iterated learning describes the process whereby an individual learns their behaviour by exposure to another individual's behaviour, who themselves learnt it in the same way. It can be seen as a key mechanism of cultural evolution. We review various methods for understanding how behaviour is shaped by the iterated learning process: computational agent-based simulations; mathematical modelling; and laboratory experiments in humans and non-human animals. We show how this framework has been used to explain the origins of structure in language, and argue that cultural evolution must be considered alongside biological evolution in explanations of language origins. ?? 2014.}
+      \field{annotation}{NULL}
+      \field{isbn}{1873-6882 (Electronic)$\backslash$r0959-4388 (Linking)}
+      \field{issn}{18736882}
+      \field{journaltitle}{Current Opinion in Neurobiology}
+      \field{title}{{Iterated learning and the evolution of language}}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{pages}{108\bibrangedash 114}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.conb.2014.07.014
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby, Griffiths, Smith/Kirby, Griffiths, Smith - 2014 - Iterated learning and the evolution of language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.conb.2014.07.014
+      \endverb
+    \endentry
+    \entry{Kirby2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b4ee24058ffe2d14df3188027e17c696}{Brighton}{B\bibinitperiod}{Henry}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{21fb09ce5362ac9e70a6d77423093a35}
+      \strng{fullhash}{21fb09ce5362ac9e70a6d77423093a35}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2004}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What constitutes linguistic evidence for Universal Grammar (UG)? The principal approach to this question equates UG on the one hand with language universals on the other. Parsimonious and general characterizations of linguistic variation are assumed to uncover features of UG. This paper reviews a recently developed evolutionary approach to language that casts doubt on this assumption: the Iterated Learning Model (ILM). We treat UG as a model of our prior learning bias, and consider how languages may adapt in response to this bias. By dealing directly with populations of linguistic agents, the ILM allows us to study the adaptive landscape that particular learning biases result in. The key result from this work is that the relationship between UG and language structure is non-trivial.}
+      \field{isbn}{0378-4177}
+      \field{issn}{0378-4177}
+      \field{journaltitle}{Studies in Language}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{{From UG to Universals: Linguistic adaptation through iterated learning}}
+      \field{volume}{28}
+      \field{year}{2004}
+      \field{pages}{587\bibrangedash 607}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1075/sl.28.3.09kir
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby, Smith, Brighton/Kirby, Smith, Brighton - 2004 - From UG to Universals Linguistic adaptation through iterated learning.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jbe-platform.com/content/journals/10.1075/sl.28.3.09kir
+      \endverb
+    \endentry
+    \entry{Kirby2015}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b1cb64537febfa5e7cb79496413e02cd}{Tamariz}{T\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0295a129288c40a0a99629d34d6803f}{Cornish}{C\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{ef60023c67508691392b444d2341c937}
+      \strng{fullhash}{d36abfe58829ec90ea0dd35d73dae016}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0277}
+      \field{journaltitle}{Cognition}
+      \field{title}{{Compression and communication in the cultural evolution of linguistic structure}}
+      \field{volume}{141}
+      \field{year}{2015}
+      \field{pages}{87\bibrangedash 102}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.cognition.2015.03.016
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby et al/Kirby et al. - 2015 - Compression and communication in the cultural evolution of linguistic structure.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.cognition.2015.03.016
+      \endverb
+      \keyw{cultural transmission,printed}
+    \endentry
+    \entry{Reali2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9049597d243b5afc4a9426df738435b6}{Reali}{R\bibinitperiod}{Florencia}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{df4eef0d124c423dfdb8b62e759fbfbb}
+      \strng{fullhash}{df4eef0d124c423dfdb8b62e759fbfbb}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scientists studying how languages change over time often make an analogy between biological and cultural evolution, with words or grammars behaving like traits subject to natural selection. Recent work has exploited this analogy by using models of biological evolution to explain the properties of languages and other cultural artefacts. However, the mechanisms of biological and cultural evolution are very different: biological traits are passed between generations by genes, while languages and concepts are transmitted through learning. Here we show that these different mechanisms can have the same results, demonstrating that the transmission of frequency distributions over variants of linguistic forms by Bayesian learners is equivalent to the Wright-Fisher model of genetic drift. This simple learning mechanism thus provides a justification for the use of models of genetic drift in studying language evolution. In addition to providing an explicit connection between biological and cultural evolution, this allows us to define a 'neutral' model that indicates how languages can change in the absence of selection at the level of linguistic variants. We demonstrate that this neutral model can account for three phenomena: the s-shaped curve of language change, the distribution of word frequencies, and the relationship between word frequencies and extinction rates.}
+      \field{annotation}{NULL}
+      \field{isbn}{09628452}
+      \field{issn}{1471-2954}
+      \field{journaltitle}{Proceedings. Biological sciences / The Royal Society}
+      \field{number}{1680}
+      \field{title}{{Words as alleles: connecting language evolution with Bayesian learners to models of genetic drift.}}
+      \field{volume}{277}
+      \field{year}{2010}
+      \field{pages}{429\bibrangedash 36}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1098/rspb.2009.1513
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Reali, Griffiths/Reali, Griffiths - 2010 - Words as alleles connecting language evolution with Bayesian learners to models of genetic drift.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842651%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract
+      \endverb
+      \keyw{Alleles,Bayes Theorem,Cultural Evolution,Genetic,Genetic Drift,Humans,Language,Learning,Linguistics,MSc Thesis,Models,Vocabulary}
+    \endentry
+    \entry{Regier2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0225adbedae10539fd24476b498668b4}{Regier}{R\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d3d5c11491b1f45f9d77946df28b87a9}{Kemp}{K\bibinitperiod}{Charles}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3a20ce2c0ab7072f88f26c2d86c99aa4}{Kay}{K\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fe72a5d97113c2c0bbb02097e3323dbd}
+      \strng{fullhash}{fe72a5d97113c2c0bbb02097e3323dbd}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Why do languages have the semantic categories they do? Each language partitions human experience into a system of semantic categories, labeled by words or morphemes, which are used to communicate about experience. These categories often differ widely across ... $\backslash$n}
+      \field{annotation}{NULL}
+      \field{journaltitle}{The handbook of language emergence}
+      \field{title}{{Word meanings across languages support efficient communication}}
+      \field{year}{2015}
+      \field{pages}{237\bibrangedash 263}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1002/9781118346136.ch11
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Regier, Kemp, Kay/Regier, Kemp, Kay - 2015 - Word meanings across languages support efficient communication.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis}
+    \endentry
+    \entry{Rodriguez2007}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=6b6658c3af68eeed8e4e1b68072bcd0c}{Rogríguez}{R\bibinitperiod}{Germán}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6b6658c3af68eeed8e4e1b68072bcd0c}
+      \strng{fullhash}{6b6658c3af68eeed8e4e1b68072bcd0c}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes on Generalized Linear Models}
+      \field{chapter}{7}
+      \field{title}{{Survival Models}}
+      \field{year}{2007}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Rogríguez/Rogríguez - 2007 - Survival Models.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://data.princeton.edu/wws509/notes/
+      \endverb
+    \endentry
+    \entry{Smith2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ac8ecf1cb3981d04b8cedc11b2603cc}{Smith}{S\bibinitperiod}{Andrew\bibnamedelima D.M.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \strng{fullhash}{7ac8ecf1cb3981d04b8cedc11b2603cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2014}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{19395078}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Cognitive Science}
+      \field{month}{05}
+      \field{number}{3}
+      \field{title}{{Models of language evolution and change}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{281\bibrangedash 293}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/wcs.1285
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2014 - Models of language evolution and change.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/wcs.1285
+      \endverb
+    \endentry
+    \entry{Smith2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=411f2bbc9a4add6206457602060eff73}{Smith}{S\bibinitperiod}{Kenny}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{411f2bbc9a4add6206457602060eff73}
+      \strng{fullhash}{411f2bbc9a4add6206457602060eff73}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Previous analytic results (Griffiths {\&} Kalish, 2007) show that repeated learning and transmission of languages in populations of Bayesian learners results in distributions of languages which directly reflect the biases of learners. This result potentially has profound implications for our understanding of the link between the human language learning apparatus and the dis- tribution of languages in the world. It is shown here that a variation on these models (such that learners learn from the linguistic behaviour of multiple individuals, rather than a sin- gle individual) changes this transparent relationship between learning bias and typology. This suggests that inferring learn- ing bias from typology (or population behaviour from labora- tory diffusion chains) is potentially unsafe.}
+      \field{annotation}{NULL}
+      \field{journaltitle}{Cogsci Society Conference}
+      \field{title}{{Iterated learning in populations of Bayesian agents}}
+      \field{year}{2009}
+      \field{pages}{697\bibrangedash 702}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Smith/Smith - 2009 - Iterated learning in populations of Bayesian agents.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,bayesian,cultural evolution,iterated learning,language learning,language universals,learning}
+    \endentry
+    \entry{Smith2002}{article}{}
+      \name{author}{5}{uniquelist=1}{%
+        {{hash=03e17abfaa77a9d34375fdb268f2367f}{Smith}{S\bibinitperiod}{Linda\bibnamedelima B}{L\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=fcb3b19dd5f37cb66aee383058acadc7}{Jones}{J\bibinitperiod}{Susan\bibnamedelima S}{S\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=32fdca0ce371277abb876c782ea79755}{Landau}{L\bibinitperiod}{Barbara}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=13860d71c898cc5ba8be9e34f0615105}{Gershkoff-Stowe}{G\bibinithyphendelim S\bibinitperiod}{Lisa}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6cd18cb52269a3eb725bc73ab593dadd}{Samuelson}{S\bibinitperiod}{Larissa}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9aca23fb9ccae70d07b389df22805668}
+      \strng{fullhash}{419c825dd747c180debe1c56741e9292}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By the age of 3, children easily learn to name new objects, extending new names for unfamiliar objects by similarity in shape. Two experiments tested the proposal that experience in learning object names tunes children's attention to the properties relevant for naming--in the present case, to the property of shape--and thus facilitates the learning of more object names. In Experiment 1, a 9-week longitudinal study, 17-month-old children who repeatedly played with and heard names for members of unfamiliar object categories well organized by shapeformed the generalization that only objects with ith similar shapes have the same name. Trained children also showed a dramatic increase in acquisition of new object names outside of the laboratory during the course of the study. Experiment 2 replicated these findings and showed that they depended on children's learning both a coherent category structure and object names. Thus, children who learn specific names for specific things in categories with a common organizing property--in this case, shape--also learn to attend to just the right property--in this case, shape--for learning more object names.}
+      \field{isbn}{0956-7976$\backslash$n1467-9280}
+      \field{issn}{0956-7976}
+      \field{journaltitle}{Psychological science : a journal of the American Psychological Society / APS}
+      \field{number}{1}
+      \field{title}{{Object name learning provides on-the-job training for attention.}}
+      \field{volume}{13}
+      \field{year}{2002}
+      \field{pages}{13\bibrangedash 19}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1111/1467-9280.00403
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Smith et al/Smith et al. - 2002 - Object name learning provides on-the-job training for attention.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Steels2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper surveys recent research on language evolution, focusing in particular on models of cultural evolution and how they are being developed and tested using agent-based computational simulations and robotic experiments. The key challenges for evolutionary theories of language are outlined and some example results are discussed, highlighting models explaining how linguistic conventions get shared, how conceptual frameworks get coordinated through language, and how hierarchical structure could emerge. The main conclusion of the paper is that cultural evolution is a much more powerful process that usually assumed, implying that less innate structures or biases are required and consequently that human language evolution has to rely less on genetic evolution. ?? 2011 Elsevier B.V.}
+      \field{isbn}{1571-0645}
+      \field{issn}{15710645}
+      \field{journaltitle}{Physics of Life Reviews}
+      \field{number}{4}
+      \field{title}{{Modeling the cultural evolution of language}}
+      \field{volume}{8}
+      \field{year}{2011}
+      \field{pages}{339\bibrangedash 356}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.plrev.2011.10.014
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels/Steels - 2011 - Modeling the cultural evolution of language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.plrev.2011.10.014
+      \endverb
+      \keyw{Biolinguistics,Cultural evolution,Evolutionary linguistics,Language evolution,Printed,Semiotic dynamics}
+    \endentry
+    \entry{Steels2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human languages are extraordinarily complex adaptive systems. They feature intricate hierarchical sound structures, are able to express elaborate meanings and use sophisticated syntactic and semantic structures to relate sound to meaning. What are the cognitive mechanisms that speakers and listeners need to create and sustain such a remarkable system? What is the collective evolutionary dynamics that allows a language to self-organize, become more complex and adapt to changing challenges in expressive power? This paper focuses on grammar. It presents a basic cycle observed in the historical language record, whereby meanings move from lexical to syntactic and then to a morphological mode of expression before returning to a lexical mode, and discusses how we can discover and validate mechanisms that can cause these shifts using agent-based models.This article is part of the themed issue 'The major synthetic evolutionary transitions'.}
+      \field{isbn}{0000000191}
+      \field{issn}{0962-8436}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{month}{08}
+      \field{number}{1701}
+      \field{title}{{Agent-based models for the emergence and evolution of grammar}}
+      \field{volume}{371}
+      \field{year}{2016}
+      \field{pages}{20150447}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rstb.2015.0447
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels et al/Steels et al. - 2016 - Agent-based models for the emergence and evolution of grammar.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/27431525%7B%%7D5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4958941%20http://rstb.royalsocietypublishing.org/lookup/doi/10.1098/rstb.2015.0447
+      \endverb
+      \keyw{agent-based models,emergence of grammar,fluid construction grammar,grammaticalization,language evolution,major transitions in evolution}
+    \endentry
+    \entry{Tamariz2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b1cb64537febfa5e7cb79496413e02cd}{Tamariz}{T\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{515ea71ff703de05eb254705a14413a7}
+      \strng{fullhash}{515ea71ff703de05eb254705a14413a7}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The paper starts with a nice distinction of three different meanings of language evolution: - biological evolution - language change - cultural emergence of linguistic structure It obviously deals with the latter. The main point is clear: "language evolves to maximise expressivity under pressures for communication whilst minimising complexity under pressure to be learnable" {\#} Combinatoriality and compositionality. Langaage is combinatorial: there are only a limited ways to combine phonemes into morphemes. They limit the meaning-bearing signals that can be constructed. Those signals can in turn be combined to compositionally build larger meaning-bearing signals. It has been hypothesized that a pressure for simplicity leads to combinatoriality (Verhoef) and that, more generally, compositionality emerges from a pressure for compressibility. The idea is that this structure can be an outcome of iterated learning. The observation is then that the entropy decreases in iterated learning (and evolution more generally) {\#} Signal-meaning mapping In different social learning paradims, conventions can emerge from local interactions. But the exact outcome differs per paradigm. Small groups tend to settle on symbolic, purely conventional signs, where larger groups favour iconic signs that are easier learnt. Also, regularity tends to increase in iterated learning paradigms, eliminating unpredictable variation. This can be the result of an amplification of (weak) biases. Importantly, Kirby et al. observethat languages have to be easy to learn (i.e., compressible), which compromises expressivity. The trade-off between compressibility and expressivity is argued to be the source of structure, i.e. of combinatoriality and compositionality. Finally, meanings also influence sign-meaning mappings. They for example make sure that frequent and distinct meanings get distinct signs The conclusion is again programmatic: "Linguistic structure evolves culturally under pressure from learning and communication. Languages adapt to the first pressure by becoming compressible; to the sec- ond, by maintaining relevant distinctions. Both together lead inevitably to the characteristic structural design features of language such as combinatoriality and com- positionality." But, one might wonder if this is really true: is this an *inevitable *consequence? They conclude by speculating that universal word-order tendencies might have sprung from individuals' (innate?) biases.}
+      \field{issn}{2352-250X}
+      \field{journaltitle}{Current Opinion in Psychology}
+      \field{number}{8}
+      \field{title}{{The cultural evolution of language}}
+      \field{year}{2016}
+      \field{pages}{37\bibrangedash 43}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.copsyc.2015.09.003
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Tamariz, Kirby/Tamariz, Kirby - 2016 - The cultural evolution of language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.copsyc.2015.09.003
+      \endverb
+      \keyw{MSc Thesis,printed}
+    \endentry
+    \entry{Wellens2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=aa48b8f63580aba8052809ce47d1ca3b}{Wellens}{W\bibinitperiod}{Pieter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Vrije Universiteit Brussel}%
+      }
+      \strng{namehash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \strng{fullhash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strategies in the Emergence of Lexical Systems.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Whalen2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=509f558f6075b18e64df8ea2daf69612}{Whalen}{W\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Inc.}%
+      }
+      \strng{namehash}{0b9ef7cc2f7cdee17d034c0559213032}
+      \strng{fullhash}{0b9ef7cc2f7cdee17d034c0559213032}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2017}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{issn}{00222496}
+      \field{journaltitle}{Journal of Mathematical Psychology}
+      \field{month}{02}
+      \field{title}{{Adding population structure to models of language evolution by iterated learning}}
+      \field{volume}{76}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.jmp.2016.10.008
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Whalen, Griffiths/Whalen, Griffiths - 2017 - Adding population structure to models of language evolution by iterated learning.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,Printed}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

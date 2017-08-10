@@ -1,0 +1,76 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Madsen2015a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f3ebd665208e1a9f30395a7964ece7a0}{Madsen}{M\bibinitperiod}{Mathias\bibnamedelima Winther}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f3ebd665208e1a9f30395a7964ece7a0}
+      \strng{fullhash}{f3ebd665208e1a9f30395a7964ece7a0}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Random Processes and Ergodicity}}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Madsen/Madsen - 2015 - Random Processes and Ergodicity.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://homepages.cwi.nl/%7B~%7Dschaffne/courses/inftheory/2015/blackboard/Random%20Processes%20and%20Ergodicity.pdf
+      \endverb
+    \endentry
+    \entry{Norris1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68aa645028d4261cffefbbf7ec200228}{Norris}{N\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambdrige}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{68aa645028d4261cffefbbf7ec200228}
+      \strng{fullhash}{68aa645028d4261cffefbbf7ec200228}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780511810633}
+      \field{title}{{Markov Chains}}
+      \field{year}{1997}
+      \verb{doi}
+      \verb doi.org/10.1017/CBO9780511810633
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Norris/Norris - 1997 - Markov Chains.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

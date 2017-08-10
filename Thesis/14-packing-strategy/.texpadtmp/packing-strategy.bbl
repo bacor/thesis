@@ -1,0 +1,212 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Calude2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b2193cfe9729d56f3b4ba1cd36963058}{Calude}{C\bibinitperiod}{Andreea\bibnamedelima S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a406b1a03ad3fc1b70acb2eb2fc9d}{Verkerk}{V\bibinitperiod}{Annemarie}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ac3e92c82e326efa9d2137df49068a19}
+      \strng{fullhash}{ac3e92c82e326efa9d2137df49068a19}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Numerals have fascinated and mystified linguists, mathematicians and lay persons alike for centuries. The productive use of numerals (in languages where this happens) exploits recursivity to give rise to what we call the 'the number line'. While the smaller numerals 1–10 have enjoyed intense scrutiny, the typological study of the formation of the higher numerals has received comparatively less atten-tion. This article contains a comprehensive typological account of how languages in the Indo-European language family code numerals beyond 10 (10–99, 100s, 1,000s), the morphemes involved, and how these are ordered. We use this dataset from eighty-one Indo-European languages with phylogenetic comparative methods to propose diachronic reconstructions of these patterns in the Proto-Indo-European language. Our findings indicate that small numerals (11–19) show the widest cross-linguistic variation, and that higher numerals exhibit more consistency in both component parts and their ordering. Additionally, we show statistical evidence of correlations between the ordering of base and atom morphemes and other word order patterns (noun-postposition, noun-genitive, and verb-object order).}
+      \field{issn}{2058-4571}
+      \field{journaltitle}{Journal of Language Evolution}
+      \field{number}{2}
+      \field{title}{{The typology and diachrony of higher numerals in Indo-European: a phylogenetic comparative study}}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{91\bibrangedash 108}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1093/jole/lzw003
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Calude, Verkerk/Calude, Verkerk - 2016 - The typology and diachrony of higher numerals in Indo-European a phylogenetic comparative study.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/jole/article-lookup/doi/10.1093/jole/lzw003
+      \endverb
+    \endentry
+    \entry{Greenberg1978}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7d3afb2e7304e7deba6333440b0f4d58}{Greenberg}{G\bibinitperiod}{Joseph\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7d3afb2e7304e7deba6333440b0f4d58}
+      \strng{fullhash}{7d3afb2e7304e7deba6333440b0f4d58}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1978}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The system of numerals is described by a specific part of the grammar of the language Note: numbers are part of the grammar of a language. p. 223 (generalization 1) Every language has a numeral system of finite scope Note: In every language there is a largest number that can be expressed p. 274 (Same system even when there are two). By and large, the numerals used in counting are the same as the cardinal numbers in the form they are when they qualify nouns. In some languages, however, they differ from counting forms. However, they always exhibit the same mathematical structure. For example, we never have a language in which counting forms are decimal while the forms which qualify nouns are vigesimal. p. 274 (generalization 1; zero) it is corollary deductible from generalization 1 that no natural language has a place system with the zero principle, such as found in the written system of Arabic numerals. p. 275 (generalization 3; zero) Zero is never expressed as part of the numeral system p. 275 (counting and number system) the numeral system is based on counting, and counting begins with one; we do not count a set without members. p. 275 (monolexemic) simple lexical representation Numeral system instead of number system p. 275 (generalization 4) In every numerical system some numbers receive simple lexical representation. p. 275 (atoms and bases) Every system has one or more numerals which receive simple lexical expressions. We shall call them here atoms. Atoms are of two kinds, simple atoms and bases. p. 275 (generalization 6) The largest value of L in systems with only simple lexical representation is 5 and the smallest is 2. p. 277 (generalization 9) The existence of multiplication implies the existence of addition. p. 277 (going on; Mayan languages) The only arithmetical operation beyond the four fundamental ones is one which might be called the going-on operation. It is found in the Mayan grunp and in a few Finno-Ugric languages. Such constructions often involve an ordinal interpretation. p. 279 (generalization 11) When a number is expressed by a substraction, or when a subtraction occurs as a constituent of a complex expression, the subtrahend is never larger than the remainder. p. 279 (generalization 12) A subtrahend is always a simple lexical expression. p. 280 (generalization 14) Every minuend is a base of the system or a multiple of the base p. 280 (generalization 15) Division is always expressed as a multiplication by a fraction. Only units or multiples of units are dividends, and the denominator of the fraction is always 2 or a power of 2 p. 282 Steps in the analysis of numerical systems. p. 282 (first step) To each numeral is assigned one or more numbers based on morphemic identifications, and the arithmetical functions are inferred. In the case of simple lexical expression, the function is the identity function. p. 282-283 (same number, different phonetical streches) The identification of phonologically different stretches as representing the same number is of three different kinds. p. 282-283 (agglutinal) One of these is agglutinal-fusional, as when English fif- is fifteen is taken to represent the same number as five in twenty-five. Note: this happens in mazatec P. 283 (suppletion) The second kind is suppletion, as when in Chrau mat indicates 10, but for 20 we find var jat wher var means 2. This leads us to deduce that jat is a suppletive alternant for 10. P. 283 (pormanteau) A further type, portmanteau expression, Note: this is equivalent to contraction. p. 283 (link) We next note that in ciertian numerical expressions in languages, the arithmetical operations themselves are represented by overt morphemes. and in two hundred and three. Such an overt morphemic expression of an operation will be called a link. p. 283 (operations) links are not the only way in which operations are expressed. Word order, prosodic phenomena, inflection, or some combination of them are other methods. Note: Third step is to identify possible serialization, both in terms of addition and of multiplication p. 284 (serialization) Mio: when there is a base or multiplication. Non-serialized is like 7 in mazatec. p.285 (generalization 17) A serialized augend is always larger than its addends. Note: augend a number to which another number (the addend) is added p. 288 (generalization 21) all the bases of a system are divisible by the fundamental base Note: both additively and multiplicatively. 290 (generalization 25) Only a base is ever multiplied by 1 p. 292 (generaliztion 28) if there are any numerals in which the expression of the multiplier follows that of the multiplicand, the language is one in which the numeral follows the noun. p. 295 (generalization 35) If 1 is expressed as a multiplier with a particular base, it is expressed with all higher bases}
+      \field{booktitle}{Universals of Human Language Volume 3 Word Structure}
+      \field{title}{{Generalizations about numeral systems}}
+      \field{volume}{3}
+      \field{year}{1978}
+      \field{pages}{271\bibrangedash 309}
+      \range{pages}{39}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Greenberg/Greenberg - 1978 - Generalizations about numeral systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://books.google.com/books?hl=en%7B%5C&%7Dlr=%7B%5C&%7Did=UV8Gtnf5iCwC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PA249%7B%5C&%7Ddq=greenberg+1978+numerals%7B%5C&%7Dots=98YvjlJyVZ%7B%5C&%7Dsig=ffTFdkqfjk0XIw8dazZ1kAs-hRA
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Hurford1975}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1975}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Studies in Linguistics}
+      \field{title}{{The Linguistic Theory of Numerals}}
+      \field{year}{1975}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Oxford/New York}%
+      }
+      \list{publisher}{1}{%
+        {Basil Blackwell}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1987}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+      \field{year}{1987}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford1999}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Numeral Types and Changes Worldwide}
+      \field{title}{{Artificially growing a numerical system}}
+      \field{year}{1999}
+      \field{pages}{7\bibrangedash 41}
+      \range{pages}{35}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1999 - Artificially growing a numerical system.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A strong constraint on the arithmetical combinations allowed in compound numerals, called the Packing Strategy, applies very widely to numeral systems across the world. A previous attempt to explain the existence of the strong universal constraint, in terms of a gradual socio-historical process of standardization, will not scale up to higher-valued numerals. It is proposed that the real explanation for the Packing Strategy is that it reflects two natural principles applied in the practical task of counting objects. These two principles, "Go as far as you can with the resources you have", and "Minimize the number of entities you are dealing with", are not specific to the counting task, but are of more general application to practical tasks. ?? 2006 Elsevier B.V. All rights reserved.}
+      \field{issn}{00243841}
+      \field{journaltitle}{Lingua}
+      \field{number}{5}
+      \field{title}{{A performed practice explains a linguistic universal: Counting gives the Packing Strategy}}
+      \field{volume}{117}
+      \field{year}{2007}
+      \field{pages}{773\bibrangedash 783}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.lingua.2006.03.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 2007 - A performed practice explains a linguistic universal Counting gives the Packing Strategy.pdf:pdf
+      \endverb
+      \keyw{Counting,Grammar,Numerals,Packing Strategy,Performance,Universals}
+    \endentry
+    \entry{Knuth1968}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fcbea740aeb72b8e941e0d4aa9f6a9c6}{Knuth}{K\bibinitperiod}{Donald\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{fullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{1968}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{“Meaning” may be assigned to a string in a context-free language by defining “attributes” of the symbols in a derivation tree for that string. The attributes can be defined by functions associated with each production in the grammar. This paper examines the implications of this process when some of the attributes are “synthesized”, i.e., defined solely in terms of attributes of the descendants of the corresponding nonterminal symbol, while other attributes are “inherited”, i.e., defined in terms of attributes of the ancestors of the nonterminal symbol. An algorithm is given which detects when such semantic rules could possibly lead to circular definition of some attributes. An example is given of a simple programming language defined with both inherited and synthesized attributes, and the method of definition is compared to other techniques for formal specification of semantics which have appeared in the literature.}
+      \field{isbn}{0025-5661}
+      \field{issn}{00255661}
+      \field{journaltitle}{Mathematical Systems Theory}
+      \field{number}{2}
+      \field{title}{{Semantics of context-free languages}}
+      \field{volume}{2}
+      \field{year}{1968}
+      \field{pages}{127\bibrangedash 145}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/BF01692511
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Knuth/Knuth - 1968 - Semantics of context-free languages.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

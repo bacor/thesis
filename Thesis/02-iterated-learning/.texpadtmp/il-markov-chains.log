@@ -1,0 +1,1716 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.11)  9 AUG 2017 13:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**il-markov-chains.tex
+(./il-markov-chains.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./il-markov-chains.tex:3: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{tikzpicture}
+                       [xscale=2.2,yscale=1.2]\sffamily\footnotesize
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-markov-chains.tex:3: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{tikzpicture}[
+                        xscale=2.2,yscale=1.2]\sffamily\footnotesize
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+./il-markov-chains.tex:3: Undefined control sequence.
+l.3 ...scale=2.2,yscale=1.2]\sffamily\footnotesize
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:4: Undefined control sequence.
+l.4 ^^I\tikzset
+               {lang/.style={draw, circle, fill=main!20}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:5: Undefined control sequence.
+l.5 ^^I\tikzset
+               {obs/.style={draw, circle, fill=main}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:6: Undefined control sequence.
+l.6 ^^I\tikzset
+               {obslang/.style={draw, circle, fill=main!60}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:7: Undefined control sequence.
+l.7 ^^I\tikzset
+               {produce/.style={thick,draw,->}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:8: Undefined control sequence.
+l.8 ^^I\tikzset
+               {limit/.style={draw,->,dashed}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:9: Undefined control sequence.
+l.9 ^^I\tikzset
+               {formula/.style={midway,above}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (94.25015pt too wide) in paragraph at lines 3--10
+[]\OT1/cmss/m/n/10 lang/.style=draw,
+ []
+
+
+Overfull \hbox (13.58334pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05556pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (51.41675pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 fill=main!20
+ []
+
+
+Overfull \hbox (70.88902pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 obs/.style=draw,
+ []
+
+
+Overfull \hbox (13.58334pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05556pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (38.22227pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 fill=main
+ []
+
+
+Overfull \hbox (13.50002pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 ob-
+ []
+
+
+Overfull \hbox (78.08348pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 slang/.style=draw,
+ []
+
+
+Overfull \hbox (13.58334pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05556pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (51.41675pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 fill=main!60
+ []
+
+
+Overfull \hbox (116.30576pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 produce/.style=thick,draw,-
+ []
+
+
+Overfull \hbox (4.72223pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 >
+ []
+
+
+Overfull \hbox (78.94456pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 limit/.style=draw,-
+ []
+
+
+Overfull \hbox (36.08337pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 >,dashed
+ []
+
+
+Overfull \hbox (14.52782pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 for-
+ []
+
+
+Overfull \hbox (111.91687pt too wide) in paragraph at lines 3--10
+\OT1/cmss/m/n/10 mula/.style=midway,above 
+ []
+
+
+./il-markov-chains.tex:12: LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ^^I\begin{scope}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./il-markov-chains.tex:13: Undefined control sequence.
+l.13 ^^I^^I\path
+                 ^^I(0,0) node[obs]  (x0) {$\obs_0$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-markov-chains.tex:13: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ^^I^^I\path ^^I(
+                     0,0) node[obs]  (x0) {$\obs_0$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 13.
+./il-markov-chains.tex:13: Undefined control sequence.
+<recently read> \obs 
+                     
+l.13 ^^I^^I\path ^^I(0,0) node[obs]  (x0) {$\obs
+                                                _0$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:14: Undefined control sequence.
+<recently read> \lang 
+                      
+l.14 ^^I^^I^^I^^I(1,0) node[lang] (z1) {$\lang
+                                              _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:15: Undefined control sequence.
+<recently read> \obs 
+                     
+l.15 ^^I^^I^^I^^I(2,0) node[obs]  (x1) {$\obs
+                                             _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:16: Undefined control sequence.
+<recently read> \lang 
+                      
+l.16 ^^I^^I^^I^^I(3,0) node[lang] (z2) {$\lang
+                                              _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:17: Undefined control sequence.
+<recently read> \obs 
+                     
+l.17 ^^I^^I^^I^^I(4,0) node[obs]  (x2) {$\obs
+                                             _2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:18: Undefined control sequence.
+l.18 ^^I^^I\draw
+                [produce]  (x0) -- node[formula] {$p_{\LA}(\lang \mid \obs)$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:18: Undefined control sequence.
+l.18 ...w[produce]  (x0) -- node[formula] {$p_{\LA
+                                                  }(\lang \mid \obs)$}  (z1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:18: Undefined control sequence.
+l.18 ...ce]  (x0) -- node[formula] {$p_{\LA}(\lang
+                                                   \mid \obs)$}  (z1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:18: Undefined control sequence.
+l.18 ...-- node[formula] {$p_{\LA}(\lang \mid \obs
+                                                  )$}  (z1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:19: Undefined control sequence.
+l.19 ^^I^^I\draw
+                [produce] (z1) -- node[formula] {$p_{\PA}(\obs \mid \lang)$}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:19: Undefined control sequence.
+l.19 ...aw[produce] (z1) -- node[formula] {$p_{\PA
+                                                  }(\obs \mid \lang)$} (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:19: Undefined control sequence.
+l.19 ...duce] (z1) -- node[formula] {$p_{\PA}(\obs
+                                                   \mid \lang)$} (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:19: Undefined control sequence.
+l.19 ...-- node[formula] {$p_{\PA}(\obs \mid \lang
+                                                  )$} (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:20: Undefined control sequence.
+l.20 ^^I^^I\draw
+                [produce]  (x1) -- node[formula] {$p_{\LA}(\lang \mid \obs)$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:20: Undefined control sequence.
+l.20 ...w[produce]  (x1) -- node[formula] {$p_{\LA
+                                                  }(\lang \mid \obs)$}  (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:20: Undefined control sequence.
+l.20 ...ce]  (x1) -- node[formula] {$p_{\LA}(\lang
+                                                   \mid \obs)$}  (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:20: Undefined control sequence.
+l.20 ...-- node[formula] {$p_{\LA}(\lang \mid \obs
+                                                  )$}  (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:21: Undefined control sequence.
+l.21 ^^I^^I\draw
+                [produce] (z2) -- node[formula] {$p_{\PA}(\obs \mid \lang)$}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:21: Undefined control sequence.
+l.21 ...aw[produce] (z2) -- node[formula] {$p_{\PA
+                                                  }(\obs \mid \lang)$} (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:21: Undefined control sequence.
+l.21 ...duce] (z2) -- node[formula] {$p_{\PA}(\obs
+                                                   \mid \lang)$} (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:21: Undefined control sequence.
+l.21 ...-- node[formula] {$p_{\PA}(\obs \mid \lang
+                                                  )$} (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-markov-chains.tex:22: LaTeX Error: \begin{document} ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ^^I\end{scope}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (40.55562pt too wide) in paragraph at lines 13--23
+[]\OT1/cmss/m/n/10 (0,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x0)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 13--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (1,0)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 13--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (2,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 13--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 13--23
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (4,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x2)
+ []
+
+
+Overfull \hbox (7.26392pt too wide) in paragraph at lines 13--23
+[]$\OT1/cmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x0)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 13--23
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 13--23
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z1);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 13--23
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 13--23
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x1);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 13--23
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 13--23
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z2);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 13--23
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 13--23
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 13--23
+\OT1/cmss/m/n/10 (x2);
+ []
+
+
+./il-markov-chains.tex:25: LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ^^I\begin{scope}
+                     [yshift=-1cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-markov-chains.tex:25: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ^^I\begin{scope}[
+                      yshift=-1cm]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./il-markov-chains.tex:26: Undefined control sequence.
+l.26 ^^I^^I\path
+                 ^^I(1,0) node[lang] (z1) {$\lang_1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:26: Undefined control sequence.
+<recently read> \lang 
+                      
+l.26 ^^I^^I\path ^^I(1,0) node[lang] (z1) {$\lang
+                                                 _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:27: Undefined control sequence.
+<recently read> \lang 
+                      
+l.27 ^^I^^I^^I^^I(3,0) node[lang] (z2) {$\lang
+                                              _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:28: Undefined control sequence.
+l.28 ^^I^^I^^I^^I(5,0) node (limit) {$p(\lang
+                                             )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ^^I^^I\draw
+                [produce] (z1) -- node[formula] {$\sum_\obs p_{\LA}(\lang \m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...produce] (z1) -- node[formula] {$\sum_\obs
+                                                   p_{\LA}(\lang \mid \obs)\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Double subscript.
+l.29 ...duce] (z1) -- node[formula] {$\sum_\obs p_
+                                                  {\LA}(\lang \mid \obs)\cdo...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...] (z1) -- node[formula] {$\sum_\obs p_{\LA
+                                                  }(\lang \mid \obs)\cdot p_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...-- node[formula] {$\sum_\obs p_{\LA}(\lang
+                                                   \mid \obs)\cdot p_{\PA}(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...rmula] {$\sum_\obs p_{\LA}(\lang \mid \obs
+                                                  )\cdot p_{\PA}(\obs \mid \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ..._\obs p_{\LA}(\lang \mid \obs)\cdot p_{\PA
+                                                  }(\obs \mid \lang)$} (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...p_{\LA}(\lang \mid \obs)\cdot p_{\PA}(\obs
+                                                   \mid \lang)$} (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:29: Undefined control sequence.
+l.29 ...ng \mid \obs)\cdot p_{\PA}(\obs \mid \lang
+                                                  )$} (z2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:30: Undefined control sequence.
+l.30 ^^I^^I\draw
+                [limit] (z2) -- (limit);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-markov-chains.tex:31: LaTeX Error: \begin{document} ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ^^I\end{scope}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (56.66672pt too wide) in paragraph at lines 25--32
+[]\OT1/cmss/m/n/10 [yshift=-
+ []
+
+
+Overfull \hbox (20.2778pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 1cm]
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (1,0)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--32
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (43.1945pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 node[lang]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--32
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (5,0)
+ []
+
+
+Overfull \hbox (20.05559pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 node
+ []
+
+
+Overfull \hbox (26.50003pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (limit)
+ []
+
+
+Overfull \hbox (15.58684pt too wide) in paragraph at lines 25--32
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ()$\OT1/cmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (z1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (24.01125pt too wide) in paragraph at lines 25--32
+[][] []\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 25--32
+\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 25--32
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 25--32
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (19.90283pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (z2);
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 [limit]
+ []
+
+
+Overfull \hbox (17.12505pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (z2)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (29.27782pt too wide) in paragraph at lines 25--32
+\OT1/cmss/m/n/10 (limit);
+ []
+
+
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+
+
+./il-markov-chains.tex:32: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+
+./il-markov-chains.tex:34: LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ^^I\begin{scope}
+                     [yshift=-2cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-markov-chains.tex:34: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ^^I\begin{scope}[
+                      yshift=-2cm]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./il-markov-chains.tex:35: Undefined control sequence.
+l.35 ^^I^^I\path
+                 ^^I(0,0) node[obs]  (x0) {$\obs_0$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:35: Undefined control sequence.
+<recently read> \obs 
+                     
+l.35 ^^I^^I\path ^^I(0,0) node[obs]  (x0) {$\obs
+                                                _0$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:36: Undefined control sequence.
+<recently read> \obs 
+                     
+l.36 ^^I^^I^^I^^I(2,0) node[obs]  (x1) {$\obs
+                                             _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:37: Undefined control sequence.
+<recently read> \obs 
+                     
+l.37 ^^I^^I^^I^^I(4,0) node[obs]  (x2) {$\obs
+                                             _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:38: Undefined control sequence.
+l.38 ^^I^^I^^I^^I(5,0) node (limit) {$p(\obs
+                                            )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:39: Undefined control sequence.
+l.39 ^^I^^I\draw
+                [produce]  (x0) -- node[formula]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ^^I^^I^^I{$\sum_\lang
+                           p_{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Double subscript.
+l.40 ^^I^^I^^I{$\sum_\lang p_
+                             {\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ^^I^^I^^I{$\sum_\lang p_{\PA
+                                 }(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ^^I^^I^^I{$\sum_\lang p_{\PA}(\obs
+                                        \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ^^I^^I^^I{$\sum_\lang p_{\PA}(\obs \mid \lang
+                                                  ) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ...lang p_{\PA}(\obs \mid \lang) \cdot p_{\LA
+                                                  }(\lang \mid \obs)$}  (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ...{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang
+                                                   \mid \obs)$}  (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:40: Undefined control sequence.
+l.40 ... \mid \lang) \cdot p_{\LA}(\lang \mid \obs
+                                                  )$}  (x1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:41: Undefined control sequence.
+l.41 ^^I^^I\draw
+                [produce]  (x1) -- node[formula]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ^^I^^I^^I{$\sum_\lang
+                           p_{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Double subscript.
+l.42 ^^I^^I^^I{$\sum_\lang p_
+                             {\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ^^I^^I^^I{$\sum_\lang p_{\PA
+                                 }(\obs \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ^^I^^I^^I{$\sum_\lang p_{\PA}(\obs
+                                        \mid \lang) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ^^I^^I^^I{$\sum_\lang p_{\PA}(\obs \mid \lang
+                                                  ) \cdot p_{\LA}(\lang \mid...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ...lang p_{\PA}(\obs \mid \lang) \cdot p_{\LA
+                                                  }(\lang \mid \obs)$}  (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ...{\PA}(\obs \mid \lang) \cdot p_{\LA}(\lang
+                                                   \mid \obs)$}  (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:42: Undefined control sequence.
+l.42 ... \mid \lang) \cdot p_{\LA}(\lang \mid \obs
+                                                  )$}  (x2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:43: Undefined control sequence.
+l.43 ^^I^^I\draw
+                [limit] (x2) -- (limit);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-markov-chains.tex:44: LaTeX Error: \begin{document} ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ^^I\end{scope}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (56.66672pt too wide) in paragraph at lines 34--45
+[]\OT1/cmss/m/n/10 [yshift=-
+ []
+
+
+Overfull \hbox (20.2778pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 2cm]
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (0,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x0)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 34--45
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (2,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 34--45
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (4,0)
+ []
+
+
+Overfull \hbox (39.83337pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node[obs]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x2)
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 34--45
+[]$
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (5,0)
+ []
+
+
+Overfull \hbox (20.05559pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node
+ []
+
+
+Overfull \hbox (26.50003pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (limit)
+ []
+
+
+Overfull \hbox (15.58684pt too wide) in paragraph at lines 34--45
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ()$\OT1/cmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x0)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (24.01125pt too wide) in paragraph at lines 34--45
+[][] []\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 34--45
+\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 34--45
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 34--45
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x1);
+ []
+
+
+Overfull \hbox (19.5278pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 [pro-
+ []
+
+
+Overfull \hbox (22.11111pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 duce]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x1)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (57.33344pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 node[formula]
+ []
+
+
+Overfull \hbox (24.01125pt too wide) in paragraph at lines 34--45
+[][] []\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 34--45
+\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (12.19794pt too wide) in paragraph at lines 34--45
+\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 34--45
+\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (20.16673pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x2);
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 [limit]
+ []
+
+
+Overfull \hbox (17.38895pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (x2)
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 --
+ []
+
+
+Overfull \hbox (29.27782pt too wide) in paragraph at lines 34--45
+\OT1/cmss/m/n/10 (limit);
+ []
+
+
+./il-markov-chains.tex:47: LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ^^I\begin{scope}
+                     [yshift=-3cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-markov-chains.tex:47: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ^^I\begin{scope}[
+                      yshift=-3cm]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./il-markov-chains.tex:48: Undefined control sequence.
+l.48 ^^I^^I\path
+                 ^^I(1,0) node[obslang] (zx1) {$\lang_1, \obs_1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:48: Undefined control sequence.
+<recently read> \lang 
+                      
+l.48 ...\path ^^I(1,0) node[obslang] (zx1) {$\lang
+                                                  _1, \obs_1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:48: Undefined control sequence.
+l.48 ...I(1,0) node[obslang] (zx1) {$\lang_1, \obs
+                                                  _1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:49: Undefined control sequence.
+<recently read> \lang 
+                      
+l.49 ^^I^^I^^I^^I(3,0) node[obslang] (zx2) {$\lang
+                                                  _2, \obs_2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:49: Undefined control sequence.
+l.49 ...I(3,0) node[obslang] (zx2) {$\lang_2, \obs
+                                                  _2$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:50: Undefined control sequence.
+l.50 ^^I^^I^^I^^I(5,0) node (limit) {$p(\lang
+                                             ,\obs)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:50: Undefined control sequence.
+l.50 ^^I^^I^^I^^I(5,0) node (limit) {$p(\lang,\obs
+                                                  )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ^^I^^I\draw
+                [produce] (zx1) -- node[formula] {$p_{\LA}(\lang \mid \obs)\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...w[produce] (zx1) -- node[formula] {$p_{\LA
+                                                  }(\lang \mid \obs)\cdot p_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...ce] (zx1) -- node[formula] {$p_{\LA}(\lang
+                                                   \mid \obs)\cdot p_{\PA}(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...-- node[formula] {$p_{\LA}(\lang \mid \obs
+                                                  )\cdot p_{\PA}(\obs \mid \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...la] {$p_{\LA}(\lang \mid \obs)\cdot p_{\PA
+                                                  }(\obs \mid \lang)$} (zx2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...p_{\LA}(\lang \mid \obs)\cdot p_{\PA}(\obs
+                                                   \mid \lang)$} (zx2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:51: Undefined control sequence.
+l.51 ...ng \mid \obs)\cdot p_{\PA}(\obs \mid \lang
+                                                  )$} (zx2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./il-markov-chains.tex:52: Undefined control sequence.
+l.52 ^^I^^I\draw
+                [limit] (zx2) -- (limit);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./il-markov-chains.tex:53: LaTeX Error: \begin{document} ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ^^I\end{scope}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./il-markov-chains.tex:54: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> il-markov-chains.tex
+                        
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 493706
+ 460 string characters out of 6145768
+ 56323 words of memory out of 5000000
+ 3456 multiletter control sequences out of 15000+600000
+ 3945 words of font info for 15 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 18i,4n,12p,136b,125s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/02-iterated-learning/.texpadtmp/il-markov-chains.pdf (1 page).

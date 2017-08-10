@@ -98,7 +98,9 @@ def save_ABG_simulation(params, results, directory, name):
     base_counts, num_bases, num_unique_bases, successes = results
     _base = os.path.join(directory, name)
     
-    base_counts = np.array([M.todense() for M in base_counts])
+    if type(base_counts[0]) == dok_matrix:
+        base_counts = np.array([M.todense() for M in base_counts])
+    
     np.save(_base+'-base-counts.npy', base_counts, allow_pickle=False)
     np.savetxt(_base+'-num-bases.txt.gz', np.array(num_bases))
     np.savetxt(_base+'-num-unique-bases.txt.gz', np.array(num_unique_bases))

@@ -1,0 +1,524 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Baronchelli2006}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Università di Roma "La Sapienza"}%
+      }
+      \strng{namehash}{8532d9be6c124f254353927432e2d846}
+      \strng{fullhash}{8532d9be6c124f254353927432e2d846}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Statistical mechanics approach to language games}}
+      \field{type}{phdthesis}
+      \field{year}{2006}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2006 - Statistical mechanics approach to language games.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Baronchelli2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8532d9be6c124f254353927432e2d846}
+      \strng{fullhash}{8532d9be6c124f254353927432e2d846}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Social conventions govern countless behaviors all of us engage in every day, from how we greet each other to the languages we speak. But how can shared conventions emerge spontaneously in the absence of a central coordinating authority? The Naming Game model shows that networks of locally interacting individuals can spontaneously self-organize to produce global coordination. Here, we provide a gentle introduction to the main features of the model, from the dynamics observed in homogeneously mixing populations to the role played by more complex social networks, and to how slight modifications of the basic interaction rules give origin to a richer phenomenology in which more conventions can co-exist indefinitely.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0774-5141}
+      \field{title}{{A gentle introduction to the minimal Naming Game}}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1075/bjl.30.08bar
+      \endverb
+      \verb{eprint}
+      \verb 1701.07419
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2017 - A gentle introduction to the minimal Naming Game.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1701.07419%7B%%7D0Ahttp://dx.doi.org/10.1075/bjl.30.08bar
+      \endverb
+    \endentry
+    \entry{Baronchelli2007}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8016c679e59628afeaf16d66f8d358a9}{Dall'Asta}{D\bibinitperiod}{Luca}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=c068c2d1d3e5f1a31c85e847bede1b17}{Barrat}{B\bibinitperiod}{Alain}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{Loreto}{L\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ea99136d91efcab1f033c30f0c5f14bb}
+      \strng{fullhash}{ab90c8fac6f8e9302468254b0025ec21}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2007}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a model of negotiation dynamics whose aim is that of mimicking the mechanisms leading to opinion and convention formation in a population of individuals. The negotiation process, as opposed to "herdinglike" or "bounded confidence" driven processes, is based on a microscopic dynamics where memory and feedback play a central role. Our model displays a nonequilibrium phase transition from an absorbing state in which all agents reach a consensus to an active stationary state characterized either by polarization or fragmentation in clusters of agents with different opinions. We show the existence of at least two different universality classes, one for the case with two possible opinions and one for the case with an unlimited number of opinions. The phase transition is studied analytically and numerically for various topologies of the agents' interaction network. In both cases the universality classes do not seem to depend on the specific interaction topology, the only relevant feature being the total number of different opinions ever present in the system.}
+      \field{eprintclass}{cond-mat}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1539-3755}
+      \field{journaltitle}{Physical Review E}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{{Nonequilibrium phase transition in negotiation dynamics}}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{051102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.76.051102
+      \endverb
+      \verb{eprint}
+      \verb 0611717
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli et al/Baronchelli et al. - 2007 - Nonequilibrium phase transition in negotiation dynamics.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.76.051102
+      \endverb
+    \endentry
+    \entry{Baronchelli2006a}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8595475e3d70cc98e56c58a72565287c}{Felici}{F\bibinitperiod}{Maddalena}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{Loreto}{L\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=4f3e96900894e647eb748f2c50586e4d}{Caglioti}{C\bibinitperiod}{Emanuele}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c4369f16ccd0afff96eef14df1b0b35d}
+      \strng{fullhash}{428364a3f68c0125a0c75cd0bdb83843}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2006}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What processes can explain how very large populations are able to converge on the use of a particular word or grammatical construction without global coordination? Answering this question helps to understand why new language constructs usually propagate along an S-shaped curve with a rather sudden transition towards global agreement. It also helps to analyze and design new technologies that support or orchestrate self-organizing communication systems, such as recent social tagging systems for the web. The article introduces and studies a microscopic model of communicating autonomous agents performing language games without any central control. We show that the system undergoes a disorder/order transition, going trough a sharp symmetry breaking process to reach a shared set of conventions. Before the transition, the system builds up non-trivial scale-invariant correlations, for instance in the distribution of competing synonyms, which display a Zipf-like law. These correlations make the system ready for the transition towards shared conventions, which, observed on the time-scale of collective behaviors, becomes sharper and sharper with system size. This surprising result not only explains why human language can scale up to very large populations but also suggests ways to optimize artificial semiotic dynamics.}
+      \field{eprintclass}{physics}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1742-5468}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{month}{06}
+      \field{number}{06}
+      \field{title}{{Sharp transition towards shared vocabularies in multi-agent systems}}
+      \field{volume}{2006}
+      \field{year}{2006}
+      \field{pages}{P06014\bibrangedash P06014}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2006/06/P06014
+      \endverb
+      \verb{eprint}
+      \verb 0509075
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Baronchelli et al/Baronchelli et al. - 2006 - Sharp transition towards shared vocabularies in multi-agent systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/physics/0509075%20http://dx.doi.org/10.1088/1742-5468/2006/06/P06014%20http://stacks.iop.org/1742-5468/2006/i=06/a=P06014?key=crossref.bf3cc4efe8e947cf29459b7c9f5b74ca
+      \endverb
+      \keyw{Naming Game,Printed}
+    \endentry
+    \entry{DallAsta2006}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4e176a17f71a999cf9c1c6fe2535bb7d}{Dall'Asta}{D\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=3864786585ea0e820706c3afbcde96aa}{Baronchelli}{B\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=15ff640c13839584f9fabdca489ce937}{Barrat}{B\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d4ee14cbc9eeabe17b1e9b6ca7d1f31c}{Loreto}{L\bibinitperiod}{V}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd2e07e803fa98e1f0310bd8d295b7db}
+      \strng{fullhash}{6ac73d7d38e38c1da8466543ca5aeed5}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2006}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we analyze the effect of a non-trivial topology on the dynamics of the so-called Naming Game, a recently introduced model which addresses the issue of how shared conventions emerge spontaneously in a population of agents. We consider in particular the small-world topology and study the convergence towards the global agreement as a function of the population size N as well as of the parameter p which sets the rate of rewiring leading to the small-world network. As long as p {>}{>} 1/ N, there exists a crossover time scaling as N/p(2) which separates an early one-dimensional-like dynamics from a late-stage mean-field-like behavior. At the beginning of the process, the local quasi-one-dimensional topology induces a coarsening dynamics which allows for a minimization of the cognitive effort (memory) required to the agents. In the late stages, on the other hand, the mean-field-like topology leads to a speed-up of the convergence process with respect to the one-dimensional case.}
+      \field{eprintclass}{cond-mat}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{0295-5075}
+      \field{issn}{0295-5075}
+      \field{journaltitle}{Europhysics Letters (EPL)}
+      \field{month}{03}
+      \field{number}{6}
+      \field{title}{{Agreement dynamics on small-world networks}}
+      \field{volume}{73}
+      \field{year}{2006}
+      \field{pages}{969\bibrangedash 975}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1209/epl/i2005-10481-7
+      \endverb
+      \verb{eprint}
+      \verb 0603205
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Dall'Asta et al/Dall'Asta et al. - 2006 - Agreement dynamics on small-world networks.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb papers3://publication/doi/10.1209/epl/i2005-10481-7%20http://stacks.iop.org/0295-5075/73/i=6/a=969?key=crossref.aec11f8365436df370bd4dbaa626ecba
+      \endverb
+    \endentry
+    \entry{DeVylder2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=038eedf0301d8a30d78260c1043bba69}{{De\bibnamedelimb Vylder}}{D\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=abe873d21d37af0af9b6711c1efd9caa}{Tuyls}{T\bibinitperiod}{Karl}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5e945e64f27e8f651cb89583021806e6}
+      \strng{fullhash}{5e945e64f27e8f651cb89583021806e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2006}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{{How to reach linguistic consensus: A proof of convergence for the naming game}}
+      \field{volume}{242}
+      \field{year}{2006}
+      \field{pages}{818\bibrangedash 831}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2006.05.024
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/De Vylder, Tuyls/De Vylder, Tuyls - 2006 - How to reach linguistic consensus A proof of convergence for the naming game.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0022519306002189
+      \endverb
+      \keyw{Naming Game,Printed,amplification,cultural evolution,horizontal transmission,language acquisition,naming games,sampling-response model}
+    \endentry
+    \entry{Loreto2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{Loreto}{L\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=8532d9be6c124f254353927432e2d846}{Baronchelli}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=4e3ea757023c9108a60ab1db12de7493}{Mukherjee}{M\bibinitperiod}{Animesh}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1a22fb0b033be6099b070c1a8dd33a4e}{Puglisi}{P\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a57e6a5b5ce6eee5df4e5c3deb97a96b}{Tria}{T\bibinitperiod}{Francesca}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4313ff68565f15b2592afd9030b0976d}
+      \strng{fullhash}{64bf8e69008de17ef64ff6c4eb3c5961}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2011}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Language dynamics is a rapidly growing field that focuses on all processes related to the emergence, evolution, change and extinction of languages. Recently, the study of self-organization and evolution of language and meaning has led to the idea that a community of language users can be seen as a complex dynamical system, which collectively solves the problem of developing a shared communication framework through the back-and-forth signaling between individuals. We shall review some of the progress made in the past few years and highlight potential future directions of research in this area. In particular, the emergence of a common lexicon and of a shared set of linguistic categories will be discussed, as examples corresponding to the early stages of a language. The extent to which synthetic modeling is nowadays contributing to the ongoing debate in cognitive science will be pointed out. In addition, the burst of growth of the web is providing new experimental frameworks. It makes available a huge amount of resources, both as novel tools and data to be analyzed, allowing quantitative and large-scale analysis of the processes underlying the emergence of a collective information and language dynamics.}
+      \field{isbn}{1742-5468}
+      \field{issn}{1742-5468}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{month}{04}
+      \field{number}{04}
+      \field{title}{{Statistical physics of language dynamics}}
+      \field{volume}{2011}
+      \field{year}{2011}
+      \field{pages}{P04006}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2011/04/P04006
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Loreto et al/Loreto et al. - 2011 - Statistical physics of language dynamics.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/1742-5468/2011/i=04/a=P04006?key=crossref.f57e3a52fdf1508a65d024bc952f83e6
+      \endverb
+      \keyw{00,11,1742-5468,29,33,Printed,c 2011 iop publishing,critical phenomena of socio-economic,economic systems,ltd and sissa,p04006,scaling in socio-,stochastic processes,systems}
+    \endentry
+    \entry{Oliphant1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=df62263cdf9713e527a966713b73f784}{Oliphant}{O\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5caf75312d8511497a72cf0fc4c06452}{Batali}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5bd45054a21ab43961de9db6a6555fca}
+      \strng{fullhash}{5bd45054a21ab43961de9db6a6555fca}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{1996}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{If the members of a population of animals are to enjoy the benefit that might accrue from the exchange of information, their communicative behavior must be coordinated - most of the time that an animal sends a signal in some type of situation, others respond to the signal in a manner appropriate to the situation that inspired it. We investigate how coordinated communication could emerge among animals capable of producing and responding to simple signals, and how such coordination could be maintained, when new members of a population learn to communicate by observing the other members. We describe a learning procedure that enables an individual to achieve the maximum possible accuracy in communicating with a given population. If all new members of the population use this procedure, or one of the approximations to it we describe, the coordination of the population's communication will steadily increase, ultimately yielding a highly coordinated system. Our results are derived mathematically from a formal model of simple communication systems. We illustrate these results with computational simulations. and discuss their biological plausibility and their relevance to more complex communication systems, including human language.}
+      \field{journaltitle}{Center for research on language newsletter}
+      \field{number}{1}
+      \field{title}{{Learning and the Emergence of Coordinated Communication}}
+      \field{volume}{11}
+      \field{year}{1996}
+      \field{pages}{1\bibrangedash 46}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1.1.27.2287
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Oliphant, Batali/Oliphant, Batali - 1996 - Learning and the Emergence of Coordinated Communication.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Steels1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1995}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Language is a shared set of conventions for mapping meanings to utterances. This paper explores self-organization as the primary mechanism for the formation of a vocabulary. It reports on a computational experiment in which a group of distributed agents develop ways to identify each other using names or spatial descriptions. It is also shown that the proposed mechanism copes with the acquisition of an existing vocabulary by new agents entering the community and with an expansion of the set of meanings.}
+      \field{isbn}{1064-5462}
+      \field{issn}{1064-5462}
+      \field{journaltitle}{Artificial Life}
+      \field{month}{01}
+      \field{number}{3}
+      \field{title}{{A Self-Organizing Spatial Vocabulary}}
+      \field{volume}{2}
+      \field{year}{1995}
+      \field{pages}{319\bibrangedash 332}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1162/artl.1995.2.319
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels/Steels - 1995 - A Self-Organizing Spatial Vocabulary.pdf:pdf;:Users/Bas/Dropbox/Literature/Steels/Steels - 1995 - A Self-Organizing Spatial Vocabulary(2).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.mitpressjournals.org/doi/abs/10.1162/artl.1995.2.319
+      \endverb
+    \endentry
+    \entry{Steels2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper surveys recent research on language evolution, focusing in particular on models of cultural evolution and how they are being developed and tested using agent-based computational simulations and robotic experiments. The key challenges for evolutionary theories of language are outlined and some example results are discussed, highlighting models explaining how linguistic conventions get shared, how conceptual frameworks get coordinated through language, and how hierarchical structure could emerge. The main conclusion of the paper is that cultural evolution is a much more powerful process that usually assumed, implying that less innate structures or biases are required and consequently that human language evolution has to rely less on genetic evolution. ?? 2011 Elsevier B.V.}
+      \field{isbn}{1571-0645}
+      \field{issn}{15710645}
+      \field{journaltitle}{Physics of Life Reviews}
+      \field{number}{4}
+      \field{title}{{Modeling the cultural evolution of language}}
+      \field{volume}{8}
+      \field{year}{2011}
+      \field{pages}{339\bibrangedash 356}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.plrev.2011.10.014
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels/Steels - 2011 - Modeling the cultural evolution of language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.plrev.2011.10.014
+      \endverb
+      \keyw{Biolinguistics,Cultural evolution,Evolutionary linguistics,Language evolution,Printed,Semiotic dynamics}
+    \endentry
+    \entry{Steels2012}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter outlines the main challenges a theory for the cultural evolution of language should address and proposes a particular theory which is worked out and explored in greater detail in the remaining chapters of this book. The theory rests on two biologically inspired mechanisms, namely selection and self-organization, mapped onto the cultural, more specifically, linguistic domain. Selectionism is an alternative to rational top-down design. It introduces a distinction between processes that generate possible linguistic variants in a population (for example, different ways to express tense and aspect) and processes that select some variants to survive and become dominant in a language, based on criteria that translate into increased communicative success, such as expressive adequacy, minimal cognitive effort, learnability and social conformity. Self-organization occurs when speakers and hearers align their communication systems based on the outcome of each interaction. It explains how convergence may arise without central coordination or direct telepathic meaning transfer. This chapter explains these basic hypotheses in more detail and introduces a methodology for exploring them based on the notion of a language game.}
+      \field{booktitle}{Experiments in Cultural Language Evolution}
+      \field{isbn}{978 90 272 0456 1}
+      \field{issn}{902720456X}
+      \field{title}{{Introduction. Self-organization and selection in cultural language evolution}}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1075/ais.3.02ste
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels/Steels - 2012 - Introduction. Self-organization and selection in cultural language evolution.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb www.emergent-languages.org/wp-content/papercite-data/pdf/steels-intro.pdf%20https://benjamins.com/catalog/ais.3.02ste
+      \endverb
+    \endentry
+    \entry{Steels2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=f44f15948662d139a6bb90191ce9a81a}{Trijp}{T\bibinitperiod}{Remi}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Language Science Press}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-944675-42-8}
+      \field{series}{Computational Models of Language Evolution}
+      \field{title}{{The Talking Heads experiment: Origins of words and meanings}}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.17169/langsci.b49.75
+      \endverb
+    \endentry
+    \entry{Steels2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human languages are extraordinarily complex adaptive systems. They feature intricate hierarchical sound structures, are able to express elaborate meanings and use sophisticated syntactic and semantic structures to relate sound to meaning. What are the cognitive mechanisms that speakers and listeners need to create and sustain such a remarkable system? What is the collective evolutionary dynamics that allows a language to self-organize, become more complex and adapt to changing challenges in expressive power? This paper focuses on grammar. It presents a basic cycle observed in the historical language record, whereby meanings move from lexical to syntactic and then to a morphological mode of expression before returning to a lexical mode, and discusses how we can discover and validate mechanisms that can cause these shifts using agent-based models.This article is part of the themed issue 'The major synthetic evolutionary transitions'.}
+      \field{isbn}{0000000191}
+      \field{issn}{0962-8436}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{month}{08}
+      \field{number}{1701}
+      \field{title}{{Agent-based models for the emergence and evolution of grammar}}
+      \field{volume}{371}
+      \field{year}{2016}
+      \field{pages}{20150447}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rstb.2015.0447
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels et al/Steels et al. - 2016 - Agent-based models for the emergence and evolution of grammar.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/27431525%7B%%7D5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4958941%20http://rstb.royalsocietypublishing.org/lookup/doi/10.1098/rstb.2015.0447
+      \endverb
+      \keyw{agent-based models,emergence of grammar,fluid construction grammar,grammaticalization,language evolution,major transitions in evolution}
+    \endentry
+    \entry{Steels2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=492be106dd40848213cde7a05c654bea}{Belpaeme}{B\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4fa174b2ac32b8e096c42b7d63ec6805}
+      \strng{fullhash}{4fa174b2ac32b8e096c42b7d63ec6805}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2005}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0140-525X}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{month}{08}
+      \field{number}{04}
+      \field{title}{{Coordinating perceptually grounded categories through language: A case study for colour}}
+      \field{volume}{28}
+      \field{year}{2005}
+      \field{pages}{469\bibrangedash 529}
+      \range{pages}{61}
+      \verb{doi}
+      \verb 10.1017/S0140525X05000087
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels, Belpaeme/Steels, Belpaeme - 2005 - Coordinating perceptually grounded categories through language A case study for colour.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.journals.cambridge.org/abstract%7B%5C_%7DS0140525X05000087
+      \endverb
+      \keyw{grounding,language,semantics}
+    \endentry
+    \entry{Wellens2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=aa48b8f63580aba8052809ce47d1ca3b}{Wellens}{W\bibinitperiod}{Pieter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Vrije Universiteit Brussel}%
+      }
+      \strng{namehash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \strng{fullhash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strategies in the Emergence of Lexical Systems.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

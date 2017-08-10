@@ -1,0 +1,311 @@
+\ProvidesPackage{bcthesis}[2017/04/26 BC Thesis]
+
+%%%$
+% BC Thesis Package by Bas Cornelissen
+% Based on v1.1
+% April 26, 2017
+% v2.0
+
+
+%%%%%%%%%%%%
+% PACKAGES %
+%%%%%%%%%%%%
+
+\usepackage{amsmath,amssymb,amsthm,mathtools,stmaryrd,wasysym}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{nicefrac}
+\usepackage{tikz,tikz-qtree,tikz-qtree-compat}
+\usepackage{xifthen}
+\usepackage{csquotes}
+\usepackage[english]{babel}
+\usepackage[all]{xy}
+
+\usepackage{../src/marginfootnotes}
+\graphicspath{{../figures/}}
+
+\usepackage{tikz-3dplot}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc}
+
+%%%%%%%%%%%%
+% GEOMETRY %
+%%%%%%%%%%%%
+
+\usepackage[outer=6.5cm, textwidth=12cm, marginparsep=1.25cm, marginparwidth=4cm]{geometry}
+
+
+
+
+%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY %
+%%%%%%%%%%%%%%%%
+
+% Bibfile is loaded in class file
+\usepackage[backend=biber, isbn=false, url=false, style=authoryear]{biblatex}
+\DefineBibliographyStrings{english}{references={Bibliography}}
+\setlength{\bibitemsep}{.35\baselineskip}
+
+
+
+
+%%%%%%%%%% 
+% COLORS %
+%%%%%%%%%%
+\definecolor{red}{RGB}{180, 20, 12}
+\definecolor{light-gray}{gray}{0.7}
+\definecolor{gray}{gray}{0.5}
+\definecolor{main}{HTML}{ed6751}
+\definecolor{second}{HTML}{78C3D0}
+\definecolor{lorange}{HTML}{F4A396}
+\definecolor{superlightmain}{HTML}{FDEFED}
+% #ed6751, #ee7662, #f08573, #f29485, #f4a396, #f6b3a8, #f7c2b9, 
+% #f9d1ca, #fbe0dc, #fdefed
+ 
+ 
+ 
+%%%%%%%%%
+% FONTS %
+%%%%%%%%%
+ 
+% Font; requires XeLaTeX, not LuaLaTeX!
+\usepackage{mathspec} 
+
+% By default use all ligatures
+\defaultfontfeatures{Ligatures=TeX}
+
+% Note: Crimson's ff, fi, etc ligatures are in dlig=Rare in fontspec
+% see http://nitens.org/taraborelli/TeXOpenType
+%\setmainfont[Ligatures=Rare]{Crimson}
+\setmainfont{Minion Pro} 
+\setsansfont[Numbers=OldStyle]{Roboto Condensed} 
+%\setmonofont{Inconsolata} 
+
+% Font for IPA transcriptions; Andika/Gentium Plus
+%\newfontfamily\phoneticFont[]{Gentium Plus}
+\newfontfamily\phoneticFont[Scale=MatchLowercase]{GentiumPlus}
+\newcommand{\phonetic}[1]{{\phoneticFont #1} }
+
+% Math fonts
+\setmathsfont(Digits,Latin,Greek){Minion Pro}
+\setmathrm[
+	Path=/Library/Fonts/,
+	Extension=.otf,
+	UprightFont=MinionPro-Regular,
+	ItalicFont=MinionPro-It,
+	BoldFont=MinionPro-Medium,
+	BoldItalicFont=MinionPro-MediumIt
+]{Minion Pro}
+\setmathsf[Scale=MatchLowercase]{Roboto Condensed}
+
+% To solve the problem with numbers etc. in footnotes: https://tex.stackexchange.com/questions/231915/temporarily-changing-the-math-font-in-certain-environments
+% Use unicode-math instead of mathspec?
+
+% https://tex.stackexchange.com/questions/307745/xelatex-latin-modern-mathbb-and-mathcal
+%\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n}
+%\let\mathbb\relax % remove the definition by unicode-math
+%\DeclareMathAlphabet{\mathbb}{U}{msb}{m}{n}
+
+%%%%%%%%%%%%%%
+% TYPOGRAPHY %
+%%%%%%%%%%%%%%
+
+% Line height
+\renewcommand{\baselinestretch}{1.07}
+
+% Headers
+\setkomafont{section}{\huge\mdseries}
+\setkomafont{paragraph}{\color{main}\sffamily\scshape\mdseries\lowercase}
+\setkomafont{footnote}{\color{main}\footnotesize\sffamily}
+% todo: math in footnotes... For example, digits are set in minion 
+
+% Caption typography
+\setkomafont{caption}{\color{main}\sffamily\footnotesize}
+\setkomafont{captionlabel}{\color{black}\sffamily\scshape\mdseries}
+\renewcommand{\figurename}{figure} % Instead of smallcaps
+
+% Setup caption
+\usepackage{caption}
+\captionsetup{labelsep=space}
+\captionsetup{format=plain} 
+
+% Side captions
+\usepackage[margincaption,raggedright]{sidecap}
+\sidecaptionvpos{figure}{t} 
+\sidecaptionvpos{table}{t}
+
+% Subfigures, margins, etc.
+\newcommand\subfig[1]{{\color{black}#1.}}
+\newcommand{\figtopmargin}{0.255cm}
+\newcommand{\figleftmarginA}{0.815cm} % for units <1000
+
+% Table row height
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{1.2}
+
+\renewcommand*{\sectionformat}{}
+\renewcommand*{\subsectionformat}{}
+\renewcommand*{\subsubsectionformat}{}
+
+%%%%%%%%%%%%%
+% FOOTNOTES %
+%%%%%%%%%%%%%
+
+%\usepackage{scrextend,dblfnote}
+%\deffootnote[10pt]{10pt}{10pt}{\makebox[10pt][l]{\textbf{\thefootnotemark}\hspace{12pt}}}
+%\setlength{\footnotesep}{\baselineskip}
+%\setlength{\skip\footins}{2\baselineskip}
+%\renewcommand{\footnoterule}{}
+%\renewcommand*{\bibfont}{\footnotesize}
+
+
+\newcounter{mfootnote}%
+\newcommand{\mfootnote}[1]{%
+	\refstepcounter{mfootnote}%
+	\textsuperscript{\themfootnote}%
+	\botmarginpar[main,font=\sffamily\footnotesize]{%
+		\\[.5em]%
+		\mbox{\bfseries{\themfootnote}} #1}{}%
+}
+\renewcommand{\footnote}[1]{\mfootnote{#1}}
+
+
+
+%%%%%%%%%%%%
+% PHONETIC %
+%%%%%%%%%%%%
+
+% Should be the last package required!
+% ISSUE: gb4e clashes with sidecap, throwing 'TeX capacity exceeded' errors
+\usepackage{gb4e}
+\usepackage{cgloss}
+
+% Fixes an overflow error since gb4e treats _ and ^ special
+\noautomath
+
+% Use italic, phonetic font for first line
+\newcommand\phoneticItalic{\it\phoneticFont}
+\let\eachwordone=\phoneticItalic
+
+% Language
+\newcommand\lng[1]{\emph{#1}}
+
+% Inline gloss
+\newcommand{\inlgloss}[3]{%
+	\emph{#1}%
+	\ifthenelse{\isempty{#2}}{}{ `#2'}%
+	\ifthenelse{\isempty{#3}}{}{ (#3)}%
+}
+
+
+
+
+%%%%%%%%%%%%%
+% FOOTNOTES %
+%%%%%%%%%%%%%
+\newcommand{\mcomment}[1]{\marginpar{%
+	\footnotesize\flushleft\sffamily\color{second}%
+	\textsc{\textbf{comment}} %
+	#1%
+}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% C U S T O M    D E F S % %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\BASE}{\textsc{base}}
+\newcommand{\ATOM}{\textsc{atom}}
+\newcommand{\SUM}{\textsc{sum}}
+\newcommand{\PROD}{\textsc{prod}}
+\tikzset{level distance=2.5em}
+\newcommand{\attr}[1]{{\color{gray}\hspace{.1em}:\hspace{.1em}{\footnotesize{#1}}}}
+
+\newtheorem{theorem}{Theorem}
+\input{../src/bayesnet.tex}
+\usetikzlibrary{arrows.meta}
+
+\newcommand{\HH}{\mathcal{H}}
+\newcommand{\DD}{\mathcal{D}}
+\newcommand{\XX}{\mathcal{X}}
+\newcommand{\ZZ}{\mathcal{Z}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\calM}{\mathcal{M}}
+\newcommand{\xx}{\mathbf{x}}
+
+\newcommand{\bil}{\textsc{bil}}
+\newcommand{\bsr}{\textsc{bsr}}
+\newcommand{\sr}{\textsc{sr}}
+
+\newcommand{\PA}{\textsc{pa}} % production algorithm
+\newcommand{\LA}{\textsc{la}} % learning algorithm
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vecpi}{\vect{\pi}}
+\newtheorem{lemma}{Lemma}
+
+\newcommand{\simplex}{\Delta}
+
+\newcommand\ind[1]{\left\llbracket#1\right\rrbracket}
+
+\newcommand{\tableref}[1]{\vspace{.5em}\par \footnotesize{See #1}}
+\DeclareMathOperator{\argmax}{arg\; max}
+%\DeclareMathOperator{\exp}{exp}
+
+\newcommand{\figdetails}[1]{\par\vspace{.5em}{\color{lorange}#1}}
+\newcommand{\figid}[1]{\textsc{\textbf{\lowercase{#1}}}}
+%\newcommand{\figid}[1]{\colorbox{lorange}{\color{white}\textsc{\lowercase{#1}}}}
+
+% Productions / observations / overt
+\newcommand{\obs}{x}
+\newcommand{\vobs}{\vect{x}}
+
+% Langauge / unobservable / latent
+\newcommand{\vlang}{\vect{\theta}}
+\newcommand{\lang}{\theta}
+
+\newcommand{\Mspace}{\mathcal{M}}
+\newcommand{\Sspace}{\mathcal{S}}
+\newcommand{\Ospace}{\mathcal{O}}
+\newcommand{\langspace}{\mathcal{Z}}
+\newcommand{\obsspace}{\mathcal{X}}
+\newcommand{\UG}{\textsc{ug}}
+\newcommand{\LAD}{\textsc{lad}}
+\newcommand{\MAP}{\textsc{map}}
+
+\usepackage{letltxmacro}
+\LetLtxMacro{\originaleqref}{\eqref}
+\renewcommand{\eqref}{eq.~\ref}
+
+% Iterated Learning thing
+\newcommand{\ilm}{\textsc{ilm}}
+\newcommand{\blcl}{\CIRCLE}
+\newcommand{\orcl}{{\color{main}\CIRCLE}}
+\newcommand{\bluecl}{{\color{second}\CIRCLE}}
+\newcommand{\bltr}{\blacktriangle}
+\newcommand{\ortr}{{\color{main}\blacktriangle}}
+\newcommand{\blsq}{\blacksquare}
+\newcommand{\orsq}{{\color{main}\blacksquare}}
+
+
+% BNG
+\newcommand{\sN}{{(0)}}
+\newcommand{\sT}{{(t)}}
+\newcommand{\sTT}{{(t+1)}}
+
+\newcommand{\parttitle}[4]{%
+	\maketitle
+	%\tableofcontents*
+	{\sffamily\bfseries\noindent#4\par\vspace{1cm}}}
+
+\newcommand\showbibliography\printbibliography
+
+
+\newcommand{\appendixtitle}[4]{\parttitle{#1}{#2}{#3}{#4}}
+
+\newcommand{\DC}{\textsc{dc}}
+\newcommand{\vectsum}[1]{\Sigma(#1)}
+
+\endinput

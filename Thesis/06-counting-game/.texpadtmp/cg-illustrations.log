@@ -1,0 +1,653 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.11.11)  3 AUG 2017 22:10
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**cg-illustrations.tex
+(./cg-illustrations.tex
+./cg-illustrations.tex:4: Undefined control sequence.
+l.4 \begin
+          {tikzpicture}[yscale=.5]\sffamily\footnotesize
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:4: Undefined control sequence.
+l.4 \begin{tikzpicture}[yscale=.5]\sffamily
+                                           \footnotesize
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:4: Undefined control sequence.
+l.4 ...kzpicture}[yscale=.5]\sffamily\footnotesize
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:6: Undefined control sequence.
+l.6 	\foreach
+              \x in {0,...,5} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:6: Undefined control sequence.
+l.6 	\foreach \x
+                 in {0,...,5} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:7: Undefined control sequence.
+l.7 		\pgfmathsetmacro
+                      {\n}{int(10+2*\x)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:7: Undefined control sequence.
+l.7 		\pgfmathsetmacro{\n
+                         }{int(10+2*\x)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:7: Undefined control sequence.
+l.7 		\pgfmathsetmacro{\n}{int(10+2*\x
+                                      )}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:8: Undefined control sequence.
+l.8 		\node
+            at (\x, -2) {$\n$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:8: Undefined control sequence.
+l.8 		\node at (\x
+                  , -2) {$\n$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:8: Undefined control sequence.
+<recently read> \n 
+                   
+l.8 		\node at (\x, -2) {$\n
+                            $};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:10: Undefined control sequence.
+l.10 	\draw
+           [line width=1] (0,-1) -- (5,-1);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:11: Undefined control sequence.
+l.11 	\foreach
+               \x in {0,...,5}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:11: Undefined control sequence.
+l.11 	\foreach \x
+                  in {0,...,5}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:12: Undefined control sequence.
+l.12 		\draw
+             (\x, -1.15) -- (\x, -0.85);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:12: Undefined control sequence.
+l.12 		\draw (\x
+                , -1.15) -- (\x, -0.85);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:12: Undefined control sequence.
+l.12 		\draw (\x, -1.15) -- (\x
+                               , -0.85);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:14: Undefined control sequence.
+l.14 	\foreach
+               \x in {.5,1.5,...,4.5}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:14: Undefined control sequence.
+l.14 	\foreach \x
+                  in {.5,1.5,...,4.5}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:15: Undefined control sequence.
+l.15 		\draw
+             (\x, -1.1) -- (\x, -0.9);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:15: Undefined control sequence.
+l.15 		\draw (\x
+                , -1.1) -- (\x, -0.9);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:15: Undefined control sequence.
+l.15 		\draw (\x, -1.1) -- (\x
+                              , -0.9);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:17: Undefined control sequence.
+l.17 	\node
+            at (-1,-2) {$\mathcal{N}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:17: Undefined control sequence.
+<recently read> \mathcal 
+                         
+l.17 	\node at (-1,-2) {$\mathcal
+                                 {N}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:19: Undefined control sequence.
+l.19 	\foreach
+               \x in {0,...,4} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:19: Undefined control sequence.
+l.19 	\foreach \x
+                  in {0,...,4} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:20: Undefined control sequence.
+l.20 		\pgfmathsetmacro
+                       {\n}{int(5-\x)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:20: Undefined control sequence.
+l.20 		\pgfmathsetmacro{\n
+                          }{int(5-\x)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:20: Undefined control sequence.
+l.20 		\pgfmathsetmacro{\n}{int(5-\x
+                                    )}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:21: Undefined control sequence.
+l.21 		\node
+             at (\x, 5) {$\nicefrac{1}{\n}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:21: Undefined control sequence.
+l.21 		\node at (\x
+                   , 5) {$\nicefrac{1}{\n}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:21: Undefined control sequence.
+<recently read> \nicefrac 
+                          
+l.21 		\node at (\x, 5) {$\nicefrac
+                                   {1}{\n}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:21: Undefined control sequence.
+l.21 		\node at (\x, 5) {$\nicefrac{1}{\n
+                                         }$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:24: Undefined control sequence.
+l.24 	\node
+            at (6.5, 5) {$p(n \in E(x))$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:26: Undefined control sequence.
+l.26 	\foreach
+               \y in {4,...,0} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:26: Undefined control sequence.
+l.26 	\foreach \y
+                  in {4,...,0} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:27: Undefined control sequence.
+l.27 		\pgfmathsetmacro
+                       {\base}{int(\y+6)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:27: Undefined control sequence.
+l.27 		\pgfmathsetmacro{\base
+                             }{int(\y+6)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:27: Undefined control sequence.
+l.27 		\pgfmathsetmacro{\base}{int(\y
+                                     +6)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:28: Undefined control sequence.
+l.28 		\node
+             at (-1,\y) {$E(\base)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:28: Undefined control sequence.
+l.28 		\node at (-1,\y
+                      ) {$E(\base)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:28: Undefined control sequence.
+l.28 		\node at (-1,\y) {$E(\base
+                                 )$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:30: Undefined control sequence.
+l.30 		\pgfmathsetmacro
+                       {\prob}{int(\y+1)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:30: Undefined control sequence.
+l.30 		\pgfmathsetmacro{\prob
+                             }{int(\y+1)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:30: Undefined control sequence.
+l.30 		\pgfmathsetmacro{\prob}{int(\y
+                                     +1)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:31: Undefined control sequence.
+l.31 		\node
+            [align=right] at (6.5,\y) {$\nicefrac{\prob}{5}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:31: Undefined control sequence.
+l.31 		\node[align=right] at (6.5,\y
+                                    ) {$\nicefrac{\prob}{5}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:31: Undefined control sequence.
+<recently read> \nicefrac 
+                          
+l.31 		\node[align=right] at (6.5,\y) {$\nicefrac
+                                                 {\prob}{5}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:31: Undefined control sequence.
+l.31 ...align=right] at (6.5,\y) {$\nicefrac{\prob
+                                                  }{5}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:33: Undefined control sequence.
+l.33 		\pgfmathsetmacro
+                       {\xmax}{\y+1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:33: Undefined control sequence.
+l.33 		\pgfmathsetmacro{\xmax
+                             }{\y+1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:33: Undefined control sequence.
+l.33 		\pgfmathsetmacro{\xmax}{\y
+                                 +1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:34: Undefined control sequence.
+l.34 		\draw
+             (0,\y) -- (\xmax, \y);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:34: Undefined control sequence.
+l.34 		\draw (0,\y
+                  ) -- (\xmax, \y);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:34: Undefined control sequence.
+l.34 		\draw (0,\y) -- (\xmax
+                             , \y);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:34: Undefined control sequence.
+l.34 		\draw (0,\y) -- (\xmax, \y
+                                 );
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:35: Undefined control sequence.
+l.35 		\foreach
+                \x in {0,...,\xmax}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:35: Undefined control sequence.
+l.35 		\foreach \x
+                   in {0,...,\xmax}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:35: Undefined control sequence.
+l.35 		\foreach \x in {0,...,\xmax
+                                  }{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:36: Undefined control sequence.
+l.36 			\pgfmathsetmacro
+                        {\ticklow}{\y-.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:36: Undefined control sequence.
+l.36 			\pgfmathsetmacro{\ticklow
+                                 }{\y-.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:36: Undefined control sequence.
+l.36 			\pgfmathsetmacro{\ticklow}{\y
+                                     -.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:37: Undefined control sequence.
+l.37 			\pgfmathsetmacro
+                        {\tickhigh}{\y+.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:37: Undefined control sequence.
+l.37 			\pgfmathsetmacro{\tickhigh
+                                  }{\y+.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:37: Undefined control sequence.
+l.37 			\pgfmathsetmacro{\tickhigh}{\y
+                                      +.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:38: Undefined control sequence.
+l.38 			\draw
+              (\x, \ticklow) -- (\x, \tickhigh);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:38: Undefined control sequence.
+l.38 			\draw (\x
+                 , \ticklow) -- (\x, \tickhigh);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:38: Undefined control sequence.
+l.38 			\draw (\x, \ticklow
+                           ) -- (\x, \tickhigh);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:38: Undefined control sequence.
+l.38 			\draw (\x, \ticklow) -- (\x
+                                   , \tickhigh);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cg-illustrations.tex:38: Undefined control sequence.
+l.38 			\draw (\x, \ticklow) -- (\x, \tickhigh
+                                              );
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.pdf" (1 page, 32975 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

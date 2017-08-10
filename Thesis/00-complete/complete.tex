@@ -1,0 +1,212 @@
+\documentclass[twoside,a4paper,10pt]{scrbook}
+
+\usepackage{../src/bcthesis}
+\usepackage{standalone}
+\usepackage[toc]{appendix}
+
+\addbibresource{~/bibliography.bib}
+\graphicspath{{../figures/}}
+\usepackage[final]{pdfpages}
+\usepackage{../src/illcmolthesis}
+\usepackage{xcolor}
+\usepackage{etoc}
+\usepackage{multicol}
+\deftocheading{toc}{}%
+
+\renewcommand{\parttitle}[4]{{%
+	% Page style
+	\color{main}\sffamily%
+	%
+	% Title 
+	\chapter[#1]{\textsc{\color{black}\thechapter} #2}\label{ch:#3}
+
+	% Abstract
+	\fontsize{12pt}{2em}\selectfont{\noindent#4}\par
+	\vfill
+
+	{\color{black}\normalsize%
+%		\noindent\textbf{Contents}
+		\localtableofcontents
+	}
+	
+	% Style this page and start new one
+	\thispagestyle{empty}
+	%\pagecolor{main}
+	\newpage%\pagecolor{white}
+}}
+
+\setkomafont{chapter}{%
+	\color{main}%
+	\fontsize{60pt}{1em}\selectfont\bfseries
+}
+\renewcommand*{\chapterheadstartvskip}{}
+\renewcommand*{\chapterformat}{}%
+\renewcommand*{\showbibliography}{}
+
+\begin{document}
+
+\includepdf{../00-cover/Cover}
+
+
+\title{\textbf{Bayesian Language Games}\\Unifying and evaluating agent-based models\\ of horizontal and vertical language evolution}
+\author{Bas Cornelissen}
+\birthdate{26 February 1992}
+\birthplace{Utrecht}
+\defensedate{30 August 2017}
+\supervisor{Willem Zuidema}
+\committeemember{prof.~dr.~Frank Veltman}
+\committeemember{dr.~Wilker Aziz}
+\committeemember{prof.~dr.~Benedikt Löwe}
+\maketitle	
+
+
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+
+{\sffamily{{\fontsize{12pt}{2em}\selectfont{\noindent\color{main}%
+\textbf{Abstract.\;\;} Human language is one of the most intricately structured communication system in the natural world.
+	Over the last decades researchers in various fields have developed the idea that languages are primarily shaped by processes of cultural evolution, and that these processes can account for the structure of language.
+	Computational models play an important role in their arguments.
+	This thesis asks what those models can teach us about cultural language evolution.
+	To that end, the first part of this thesis connects the two main branches of agent-based models, naming games and iterated learning, in a new \emph{Bayesian language game}.
+	The game gives a unified view on the field and suggests a characterisation of the behaviour exhibited by the main agent-based models of language evolution.
+	It moreover addresses shortcomings of earlier models. 
+	We find lineage-specific languages reflecting the innate biases of the learners.
+	The second part of this thesis aims to compare that behaviour with the evolution of actual language.
+	Numeral systems are argued to be an ideal empirical test case for models of cultural language evolution.
+	We revisit Hurford’s pioneering work on the modelling of the emergence of numeral systems, and discuss some further results.
+	
+	
+	\vfill
+	\noindent
+	\textbf{Preface.\;\;}
+	Dear reader, 
+	I will keep it short. 
+	As I write, my mother is preparing a delicious meal. And, as you will understand, I cannot keep my parents waiting. 
+	They haven't seen me much over the last few months, and I'm afraid they are not the only ones.
+	Let me just say thanks to all those wonderful, warm, and loving people that make life so much fun.
+	Oh and Jelle, of course, thanks for putting up with me ;-)
+\thispagestyle{empty}	
+
+}}}}
+
+
+
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+
+\tableofcontents
+
+% Chapter 1: Introduction
+\input{../01-introduction/introduction}
+
+%\part{Agent-based models of cultural language evolution}
+
+%Chapter 2: Iterated learning
+\input{../02-iterated-learning/iterated-learning}
+
+% Chapter 3: Naming Game
+\input{../03-naming-games/naming-games}
+
+% Chapter 4: Bayesian Naming Game
+\input{../04-bayesian-naming-games/bayesian-naming-games}
+
+
+%%%\part{The evolution of numeral systems}
+
+% Chapter 5: Numeral Systems
+\input{../05-numerals/numerals}
+
+% Chapter 6: Counting Game
+\input{../06-counting-game/counting-game}
+
+% Chapter 7: conclusions
+\input{../07-conclusion/conclusion}
+
+
+
+
+%\appendix
+\begin{subappendices}
+
+	{% Appendices page
+		\sffamily%
+		\addchap{Appendices}
+		
+		% Table 
+		{\vfill\color{black}\normalsize%
+			\noindent%\textbf{Contents}
+			\localtableofcontents
+		}
+		
+		% Style this page and start new one
+		\thispagestyle{empty}
+		\newpage
+	}
+	
+	\renewcommand*{\appendixtitle}[4]{%
+		%\newpage%
+		\section[#1]{#2}\label{app:#3}
+		{\color{main}\sffamily\bfseries\noindent#4\par\vspace{1cm}}%
+	}
+
+	% Restyle sections
+	\renewcommand*{\sectionformat}{%
+		{\color{main}\thesection}
+	}
+	\setkomafont{section}{\Huge\bfseries}
+	\renewcommand{\thesection}{\Alph{section}}
+	\RedeclareSectionCommand[beforeskip=2cm]{section}
+	
+	% Appendix Markov Chains
+	\input{../08-app-markov-chains/app-markov-chains}
+	
+	% Appendix Lateral Inhibition strategies
+	\input{../09-app-li-strategies/app-li-strategies}
+
+	% Appendix mathematical details BNG
+	\input{../10-app-bayesian-ng/appendix-bayesian-ng}
+
+	% Appendix BNG illustrations
+	\input{../11-app-bng-params/app-params}
+	
+	\input{../12-app-population-turnover/app-population-turnover}
+	
+	% Appendix Packing Strategy
+	\input{../14-packing-strategy/packing-strategy}
+	
+	% Appendix counting games
+	\input{../13-counting-games/13-app-counting-games}
+\end{subappendices}
+
+% Bibliography
+
+{% Appendices page
+	\sffamily%
+	\addchap{Bibliography}
+	\thispagestyle{empty}
+}
+
+%\setlength{\bibsep}{0pt plus 0.3ex}
+\setlength\bibitemsep{0pt}
+%\setlength\bibhang{.\parindent} % default value: \parindent
+\renewcommand*{\bibfont}{\footnotesize}
+
+%\begin{multicols}{2}
+{\footnotesize\raggedright \printbibliography[heading=none]}
+%\end{multicols}
+
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+
+\end{document}

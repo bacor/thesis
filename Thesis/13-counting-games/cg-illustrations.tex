@@ -1,0 +1,44 @@
+%\documentclass{../src/bcthesispart}
+%\begin{document}
+
+\begin{tikzpicture}[yscale=.5,xscale=1]\sffamily\footnotesize
+
+	% Axis with numbers
+	\def\axisy{-1.5}
+	\foreach \x in {0,...,9} {
+		\pgfmathsetmacro{\n}{int(11 + \x)}
+		\node at (\x, \axisy-.7) {$\n$};
+		
+		\draw[dotted] (\x, 4) -- (\x, \axisy);
+	}	
+	\draw[line width=1] (0,\axisy) -- (9,\axisy);
+	\foreach \x in {0,...,9}{
+		\draw (\x, \axisy-.15) -- (\x, \axisy+.15);
+	}
+	\node at (-1,\axisy-.7) {$\mathcal{N}$};
+
+	% x labels for E^{-1}(X)
+	\foreach \x in {0,...,4} {
+		\pgfmathsetmacro{\n}{int(\x+1)}
+		\node[text=main] at (2*\x+.5, 5) {$P_\n$}; 
+		\def\d{.35}
+		\draw[main] (2*\x-\d,5.7) rectangle (2*\x+1+\d, \x-.7);
+	}
+	
+	% y axis: E(x)
+	\foreach \y in {4,...,0} {
+		\pgfmathsetmacro{\base}{int(\y+6)}
+		\pgfmathsetmacro{\k}{int(\y+1)}
+		\node at (-1.4,\y) {$E(b_\k = \base)$};
+		
+		\pgfmathsetmacro{\xmax}{2*\y+1}
+		\draw (0,\y) -- (\xmax, \y);		
+		\node[fill, circle, inner sep=0] at (\xmax, \y) {};
+		\foreach \x in {0,...,\xmax}{
+			\node[fill, circle, inner sep=1.5] at (\x, \y) {};
+		}
+	}
+		
+\end{tikzpicture}
+
+%\end{document}

@@ -1,0 +1,256 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Baronchelli2006}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2006}
+  \field{sortinit}{B}
+  \field{title}{{Statistical mechanics approach to language games}}
+  \list{institution}{1}{%
+    {Universit{\`{a}} di Roma "La Sapienza"}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2006 - Statisti
+  \verb cal mechanics approach to language games.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2006}
+\endentry
+
+\entry{Baronchelli2017}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2017}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Social conventions govern countless behaviors all of us engage in every day,
+  from how we greet each other to the languages we speak. But how can shared
+  conventions emerge spontaneously in the absence of a central coordinating
+  authority? The Naming Game model shows that networks of locally interacting
+  individuals can spontaneously self-organize to produce global coordination.
+  Here, we provide a gentle introduction to the main features of the model,
+  from the dynamics observed in homogeneously mixing populations to the role
+  played by more complex social networks, and to how slight modifications of
+  the basic interaction rules give origin to a richer phenomenology in which
+  more conventions can co-exist indefinitely.%
+  }
+  \verb{doi}
+  \verb 10.1075/bjl.30.08bar
+  \endverb
+  \verb{eprint}
+  \verb 1701.07419
+  \endverb
+  \field{issn}{0774-5141}
+  \field{pages}{1\bibrangedash 24}
+  \field{title}{{A gentle introduction to the minimal Naming Game}}
+  \verb{url}
+  \verb http://arxiv.org/abs/1701.07419{\%}0Ahttp://dx.doi.org/10.1075/bjl.30.0
+  \verb 8bar
+  \endverb
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli/Baronchelli - 2017 - A gentle
+  \verb  introduction to the minimal Naming Game.pdf:pdf
+  \endverb
+  \field{eprinttype}{arXiv}
+  \field{year}{2017}
+\endentry
+
+\entry{Baronchelli2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Baronchelli}{B.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreto}{L.}%
+     {Vittorio}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steels}{S.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cultural evolution,emergence,language self-organization,of
+  consensus,social interaction,statistical physics}
+  \strng{namehash}{BALVSL1}
+  \strng{fullhash}{BALVSL1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1142/S0129183108012522
+  \endverb
+  \field{issn}{0129-1831}
+  \field{number}{05}
+  \field{pages}{785\bibrangedash 812}
+  \field{title}{{in-Depth Analysis of the Naming Game Dynamics: the Homogeneous
+  Mixing Case}}
+  \verb{url}
+  \verb http://www.worldscientific.com/doi/abs/10.1142/S0129183108012522
+  \endverb
+  \field{volume}{19}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Baronchelli, Loreto, Steels/Baronchelli,
+  \verb Loreto, Steels - 2008 - in-Depth Analysis of the Naming Game Dynamics t
+  \verb he Homogeneous Mixing Case.pdf:pdf
+  \endverb
+  \field{journaltitle}{International Journal of Modern Physics C}
+  \field{year}{2008}
+\endentry
+
+\entry{Hurford1987}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hurford}{H.}%
+     {James~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basil Blackwell}%
+  }
+  \strng{namehash}{HJR1}
+  \strng{fullhash}{HJR1}
+  \field{labelyear}{1987}
+  \field{sortinit}{H}
+  \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+  \list{location}{1}{%
+    {Oxford/New York}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Num
+  \verb ber The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Lite
+  \verb rature/Hurford/Hurford - 1987 - Language and Number The Emergence of a
+  \verb Cognitive System(2).pdf:pdf
+  \endverb
+  \field{year}{1987}
+\endentry
+
+\entry{Hurford2007}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hurford}{H.}%
+     {James~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Counting,Grammar,Numerals,Packing Strategy,Performance,Universals}
+  \strng{namehash}{HJR1}
+  \strng{fullhash}{HJR1}
+  \field{labelyear}{2007}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  A strong constraint on the arithmetical combinations allowed in compound
+  numerals, called the Packing Strategy, applies very widely to numeral systems
+  across the world. A previous attempt to explain the existence of the strong
+  universal constraint, in terms of a gradual socio-historical process of
+  standardization, will not scale up to higher-valued numerals. It is proposed
+  that the real explanation for the Packing Strategy is that it reflects two
+  natural principles applied in the practical task of counting objects. These
+  two principles, "Go as far as you can with the resources you have", and
+  "Minimize the number of entities you are dealing with", are not specific to
+  the counting task, but are of more general application to practical tasks. ??
+  2006 Elsevier B.V. All rights reserved.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.lingua.2006.03.002
+  \endverb
+  \field{issn}{00243841}
+  \field{number}{5}
+  \field{pages}{773\bibrangedash 783}
+  \field{title}{{A performed practice explains a linguistic universal: Counting
+  gives the Packing Strategy}}
+  \field{volume}{117}
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 2007 - A performed prac
+  \verb tice explains a linguistic universal Counting gives the Packing Strateg
+  \verb y.pdf:pdf
+  \endverb
+  \field{journaltitle}{Lingua}
+  \field{year}{2007}
+\endentry
+
+\entry{Kirby1996}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kirby}{K.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KS1}
+  \strng{fullhash}{KS1}
+  \field{labelyear}{1996}
+  \field{sortinit}{K}
+  \field{title}{{The Emergence of Language Universals}}
+  \list{institution}{1}{%
+    {University of Edinburgh}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Kirby/Kirby - 1996 - The Emergence of Lan
+  \verb guage Universals.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{1996}
+\endentry
+
+\entry{Wellens2012}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wellens}{W.}%
+     {Pieter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WP1}
+  \strng{fullhash}{WP1}
+  \field{labelyear}{2012}
+  \field{sortinit}{W}
+  \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+  \list{institution}{1}{%
+    {Vrije Universiteit Brussel}%
+  }
+  \verb{file}
+  \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strateg
+  \verb ies in the Emergence of Lexical Systems.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

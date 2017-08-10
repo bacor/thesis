@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Naming Game}{2}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}The Minimal Naming Game}{3}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Basic phenomenology}{4}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Scaling relations and network structure}{5}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Lateral Inhibition}{5}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Proof of convergence}{7}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline preliminaries}{8}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline the sampling-response model}{9}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Convergence}{10}{section*.12}

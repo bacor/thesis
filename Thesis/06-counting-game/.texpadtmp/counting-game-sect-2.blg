@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/counting-game/.texpadtmp/counting-game-sect-2.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: counting-game-sect-2-blx.bib
+Database file #2: ~/bibliography.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 8 entries,
+            6047 wiz_defined-function locations,
+            1195 strings with 12179 characters,
+and the built_in function-call counts, 25425 in all, are:
+= -- 1145
+> -- 801
+< -- 285
++ -- 288
+- -- 286
+* -- 1648
+:= -- 1587
+add.period$ -- 0
+call.type$ -- 8
+change.case$ -- 185
+chr.to.int$ -- 34
+cite$ -- 14
+duplicate$ -- 2725
+empty$ -- 2679
+format.name$ -- 395
+if$ -- 5888
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 0
+newline$ -- 234
+num.names$ -- 422
+pop$ -- 2255
+preamble$ -- 1
+purify$ -- 196
+quote$ -- 0
+skip$ -- 1561
+stack$ -- 0
+substring$ -- 885
+swap$ -- 970
+text.length$ -- 198
+text.prefix$ -- 7
+top$ -- 1
+type$ -- 289
+warning$ -- 0
+while$ -- 190
+width$ -- 0
+write$ -- 225

@@ -1,0 +1,119 @@
+\ProvidesPackage{bcthesis}[2017/04/26 BC Thesis]
+
+%%%$
+% BC Thesis Package by Bas Cornelissen
+% Based on v1.1
+% April 26, 2017
+% v2.0
+
+
+%%% PACKAGES
+\usepackage{mathtools}
+\usepackage[usenames]{color}
+\usepackage{standalone}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{nicefrac}
+\usepackage{tikz,tikz-qtree,tikz-qtree-compat}
+\usepackage{xifthen}
+%\usepackage{../src/marginfootnotes}
+\definecolor{light-gray}{gray}{0.7}
+\definecolor{gray}{gray}{0.5}
+
+\usepackage[outer=6.5cm, textwidth=12cm, marginparsep=1.25cm, marginparwidth=4cm]{geometry}%, marginparsep=1cm, marginparwidth=4.25cm]{geometry}
+
+% Bibfile is loaded in class file
+\usepackage[backend=bibtex, isbn=false, url=false, style=authoryear]{biblatex}
+\DefineBibliographyStrings{english}{references={Bibliography}}
+\setlength{\bibitemsep}{.35\baselineskip}
+
+% Restyle footnotes
+\usepackage{scrextend,dblfnote}
+\deffootnote[10pt]{10pt}{10pt}{\makebox[10pt][l]{\textbf{\thefootnotemark}\hspace{12pt}}}
+\setlength{\footnotesep}{\baselineskip}
+\setlength{\skip\footins}{2\baselineskip}
+\renewcommand{\footnoterule}{}
+\renewcommand*{\bibfont}{\footnotesize}
+     
+% Font; requires XeLaTeX, not LuaLaTeX!
+\usepackage{mathspec} 
+
+% By default use all ligatures
+\defaultfontfeatures{Ligatures=TeX}
+
+% Note: Crimson's ff, fi, etc ligatures are in dlig=Rare in fontspec
+% see http://nitens.org/taraborelli/TeXOpenType
+%\setmainfont[Ligatures=Rare]{Crimson}
+\setmainfont{Minion Pro} 
+\setsansfont[Numbers=OldStyle]{Roboto Condensed} 
+%\setmonofont{Inconsolata} 
+
+% Font for IPA transcriptions; Andika/Gentium Plus
+%\newfontfamily\phoneticFont[]{Gentium Plus}
+\newfontfamily\phoneticFont[Scale=MatchLowercase]{GentiumPlus}
+\newcommand{\phonetic}[1]{{\phoneticFont #1} }
+
+% Math
+\setmathsfont(Digits,Latin,Greek){Minion Pro}
+
+% Math SF
+\setmathsf[Scale=MatchLowercase]{Roboto Condensed}
+
+% Additional niceties
+%\usepackage{microtype}
+
+% Line height
+\renewcommand{\baselinestretch}{1.07}
+
+%%%%%%%%%
+% FIGURES & COLORS
+\definecolor{red}{RGB}{180, 20, 12}
+
+% Should be the last package required!
+\usepackage{gb4e,cgloss}
+
+% Use italic, phonetic font for first line
+\newcommand\phoneticItalic{\it\phoneticFont}
+\let\eachwordone=\phoneticItalic
+
+\newcommand\lng[1]{\emph{#1}}
+
+\newcommand{\inlgloss}[3]{%
+\emph{#1}%
+\ifthenelse{\isempty{#2}}{}{ `#2'}%
+\ifthenelse{\isempty{#3}}{}{ (#3)}%
+}
+
+
+\definecolor{main}{HTML}{ed6751}
+\definecolor{second}{HTML}{78C3D0}
+
+\setkomafont{section}{\huge\mdseries}
+\setkomafont{paragraph}{\color{main}\sffamily\scshape\mdseries\lowercase}
+%todo: math in footnotes... For example, digits are set in minion 
+\setkomafont{footnote}{\color{main}\footnotesize\sffamily}
+
+% Caption typography
+\setkomafont{caption}{\color{red}\sffamily\footnotesize}
+\setkomafont{captionlabel}{\color{black}\sffamily\scshape\mdseries}
+\renewcommand{\figurename}{figure} % Instead of smallcaps
+
+% Setup caption
+\usepackage{caption}
+\captionsetup{labelsep=space}
+\captionsetup{format=plain} 
+
+% Side captions
+\usepackage[margincaption,raggedright]{sidecap}
+\sidecaptionvpos{figure}{t} 
+\sidecaptionvpos{table}{t}
+
+
+\newcommand\subfig[1]{{\color{black}#1.}}
+\newcommand{\figtopmargin}{0.255cm}
+
+% Figure margin A, for units in the hundreds
+\newcommand{\figleftmarginA}{0.815cm}
+\endinput

@@ -1,0 +1,323 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Berwick2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3525769907fd3647866f9b5e57c5c163}{Berwick}{B\bibinitperiod}{Robert\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=28167c0b3800bc5cfb686676277005b0}{Chomsky}{C\bibinitperiod}{Noam}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{5bc06a1ba235ea5c4f69e3b57a57e388}
+      \strng{fullhash}{5bc06a1ba235ea5c4f69e3b57a57e388}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0911-6044}
+      \field{journaltitle}{Journal of Neurolinguistics}
+      \field{number}{B}
+      \field{title}{{Why only us: Recent questions and answers}}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{166\bibrangedash 177}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jneuroling.2016.12.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Berwick, Chomsky/Berwick, Chomsky - 2017 - Why only us Recent questions and answers.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jneuroling.2016.12.002
+      \endverb
+    \endentry
+    \entry{Burkett2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e6ca971b0eb14344cb3c44f57de292fe}{Burkett}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a758dd7c85183d900b35816f447ceee9}
+      \strng{fullhash}{a758dd7c85183d900b35816f447ceee9}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NULL}
+      \field{booktitle}{The evolution of language: Proceedings of EvoLang}
+      \field{title}{{Iterated learning of multiple languages from multiple teachers}}
+      \field{year}{2010}
+      \field{pages}{58\bibrangedash 65}
+      \range{pages}{8}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Burkett, Griffiths/Burkett, Griffiths - 2010 - Iterated learning of multiple languages from multiple teachers(2).pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,printed}
+    \endentry
+    \entry{DeVylder2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=038eedf0301d8a30d78260c1043bba69}{{De\bibnamedelimb Vylder}}{D\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=abe873d21d37af0af9b6711c1efd9caa}{Tuyls}{T\bibinitperiod}{Karl}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5e945e64f27e8f651cb89583021806e6}
+      \strng{fullhash}{5e945e64f27e8f651cb89583021806e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2006}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{{How to reach linguistic consensus: A proof of convergence for the naming game}}
+      \field{volume}{242}
+      \field{year}{2006}
+      \field{pages}{818\bibrangedash 831}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2006.05.024
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/De Vylder, Tuyls/De Vylder, Tuyls - 2006 - How to reach linguistic consensus A proof of convergence for the naming game.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0022519306002189
+      \endverb
+      \keyw{Naming Game,Printed,amplification,cultural evolution,horizontal transmission,language acquisition,naming games,sampling-response model}
+    \endentry
+    \entry{Ghahramani2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bf5cf30deddddad00a6341ad7a414445}{Ghahramani}{G\bibinitperiod}{Zoubin}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bf5cf30deddddad00a6341ad7a414445}
+      \strng{fullhash}{bf5cf30deddddad00a6341ad7a414445}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How can a machine learn from experience? Probabilistic modelling provides a framework for understanding what learning is, and has therefore emerged as one of the principal theoretical and practical approaches for designing machines that learn from data acquired through experience. The probabilistic framework, which describes how to represent and manipulate uncertainty about models and predictions, has a central role in scientific data analysis, machine learning, robotics, cognitive science and artificial intelligence. This Review provides an introduction to this framework, and discusses some of the state-of-the-art advances in the field, namely, probabilistic programming, Bayesian optimization, data compression and automatic model discovery.}
+      \field{annotation}{NULL}
+      \field{isbn}{0028-0836}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{number}{7553}
+      \field{title}{{Probabilistic machine learning and artificial intelligence}}
+      \field{volume}{521}
+      \field{year}{2015}
+      \field{pages}{452\bibrangedash 459}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/nature14541
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Ghahramani/Ghahramani - 2015 - Probabilistic machine learning and artificial intelligence.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature14541
+      \endverb
+    \endentry
+    \entry{Hurford1975}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1975}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Studies in Linguistics}
+      \field{title}{{The Linguistic Theory of Numerals}}
+      \field{year}{1975}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1975 - The Linguistic Theory of Numerals(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Oxford/New York}%
+      }
+      \list{publisher}{1}{%
+        {Basil Blackwell}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1987}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+      \field{year}{1987}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Kirby2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{466ad0e29b90ba35b93ae3a5b45f2e2b}
+      \strng{fullhash}{466ad0e29b90ba35b93ae3a5b45f2e2b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computationally implemented model of the transmission of$\backslash$nlinguistic behavior over time is presented. In this iterated learning$\backslash$nmodel (ILM), there is no biological evolution, natural selection, nor$\backslash$nany measurement of the success of the agents at communicating (except$\backslash$nfor results-gathering purposes). Nevertheless, counter to intuition,$\backslash$nsignificant evolution of linguistic behavior is observed. From an$\backslash$ninitially unstructured communication system (a protolanguage), a fully$\backslash$ncompositional syntactic meaning-string mapping emerges. Furthermore,$\backslash$ngiven a nonuniform frequency distribution over a meaning space and a$\backslash$nproduction mechanism that prefers short strings, a realistic$\backslash$ndistribution of string lengths and patterns of stable irregularity$\backslash$nemerges, suggesting that the ILM is a good model for the evolution of$\backslash$nsome of the fundamental features of human language}
+      \field{annotation}{NULL}
+      \field{isbn}{1089-778X VO - 5}
+      \field{issn}{1089778X}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{number}{2}
+      \field{title}{{Spontaneous evolution of linguistic structure - An iterated learning model of the emergence of regularity and irregularity}}
+      \field{volume}{5}
+      \field{year}{2001}
+      \field{pages}{102\bibrangedash 110}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/4235.918430
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby/Kirby - 2001 - Spontaneous evolution of linguistic structure - An iterated learning model of the emergence of regularity and irregularit.pdf:pdf
+      \endverb
+      \keyw{Cultural selection,Evolution,Grammar induction,Iterated learning,Language}
+    \endentry
+    \entry{Reali2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9049597d243b5afc4a9426df738435b6}{Reali}{R\bibinitperiod}{Florencia}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{df4eef0d124c423dfdb8b62e759fbfbb}
+      \strng{fullhash}{df4eef0d124c423dfdb8b62e759fbfbb}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scientists studying how languages change over time often make an analogy between biological and cultural evolution, with words or grammars behaving like traits subject to natural selection. Recent work has exploited this analogy by using models of biological evolution to explain the properties of languages and other cultural artefacts. However, the mechanisms of biological and cultural evolution are very different: biological traits are passed between generations by genes, while languages and concepts are transmitted through learning. Here we show that these different mechanisms can have the same results, demonstrating that the transmission of frequency distributions over variants of linguistic forms by Bayesian learners is equivalent to the Wright-Fisher model of genetic drift. This simple learning mechanism thus provides a justification for the use of models of genetic drift in studying language evolution. In addition to providing an explicit connection between biological and cultural evolution, this allows us to define a 'neutral' model that indicates how languages can change in the absence of selection at the level of linguistic variants. We demonstrate that this neutral model can account for three phenomena: the s-shaped curve of language change, the distribution of word frequencies, and the relationship between word frequencies and extinction rates.}
+      \field{annotation}{NULL}
+      \field{isbn}{09628452}
+      \field{issn}{1471-2954}
+      \field{journaltitle}{Proceedings. Biological sciences / The Royal Society}
+      \field{number}{1680}
+      \field{title}{{Words as alleles: connecting language evolution with Bayesian learners to models of genetic drift.}}
+      \field{volume}{277}
+      \field{year}{2010}
+      \field{pages}{429\bibrangedash 36}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1098/rspb.2009.1513
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Reali, Griffiths/Reali, Griffiths - 2010 - Words as alleles connecting language evolution with Bayesian learners to models of genetic drift.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842651%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract
+      \endverb
+      \keyw{Alleles,Bayes Theorem,Cultural Evolution,Genetic,Genetic Drift,Humans,Language,Learning,Linguistics,MSc Thesis,Models,Vocabulary}
+    \endentry
+    \entry{Steels2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7bd89c62500a30ed10a68c41c2bc07d4}{Steels}{S\bibinitperiod}{Luc}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \strng{fullhash}{7bd89c62500a30ed10a68c41c2bc07d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper surveys recent research on language evolution, focusing in particular on models of cultural evolution and how they are being developed and tested using agent-based computational simulations and robotic experiments. The key challenges for evolutionary theories of language are outlined and some example results are discussed, highlighting models explaining how linguistic conventions get shared, how conceptual frameworks get coordinated through language, and how hierarchical structure could emerge. The main conclusion of the paper is that cultural evolution is a much more powerful process that usually assumed, implying that less innate structures or biases are required and consequently that human language evolution has to rely less on genetic evolution. ?? 2011 Elsevier B.V.}
+      \field{isbn}{1571-0645}
+      \field{issn}{15710645}
+      \field{journaltitle}{Physics of Life Reviews}
+      \field{number}{4}
+      \field{title}{{Modeling the cultural evolution of language}}
+      \field{volume}{8}
+      \field{year}{2011}
+      \field{pages}{339\bibrangedash 356}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.plrev.2011.10.014
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Steels/Steels - 2011 - Modeling the cultural evolution of language.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.plrev.2011.10.014
+      \endverb
+      \keyw{Biolinguistics,Cultural evolution,Evolutionary linguistics,Language evolution,Printed,Semiotic dynamics}
+    \endentry
+    \entry{Wellens2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=aa48b8f63580aba8052809ce47d1ca3b}{Wellens}{W\bibinitperiod}{Pieter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Vrije Universiteit Brussel}%
+      }
+      \strng{namehash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \strng{fullhash}{aa48b8f63580aba8052809ce47d1ca3b}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Adaptive Strategies in the Emergence of Lexical Systems}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Wellens/Wellens - 2012 - Adaptive Strategies in the Emergence of Lexical Systems.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

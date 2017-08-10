@@ -1,0 +1,358 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.11.11)  6 AUG 2017 21:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**simplex-illustration.tex
+(./simplex-illustration.tex
+./simplex-illustration.tex:3: Undefined control sequence.
+l.3 \tdplotsetmaincoords
+                        {70}{60}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:4: Undefined control sequence.
+l.4 	\begin
+           {tikzpicture}[scale=3,tdplot_main_coords]\footnotesize
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:4: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.4 	\begin{tikzpicture}[scale=3,tdplot_
+                                        main_coords]\footnotesize
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./simplex-illustration.tex:4: Undefined control sequence.
+l.4 ...e}[scale=3,tdplot_main_coords]\footnotesize
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:9: Undefined control sequence.
+l.9 		\draw
+            [->,main] (0,0,0) -- (\laxis,0,0) node [below] {$\lang_1$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:9: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.9 ...in] (0,0,0) -- (\laxis,0,0) node [below] {$
+                                                  \lang_1$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./simplex-illustration.tex:9: Undefined control sequence.
+l.9 ...0,0,0) -- (\laxis,0,0) node [below] {$\lang
+                                                  _1$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.9 ...,0,0) -- (\laxis,0,0) node [below] {$\lang_
+                                                  1$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./simplex-illustration.tex:9: Too many }'s.
+l.9 ...0) -- (\laxis,0,0) node [below] {$\lang_1$}
+                                                  ;
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+./simplex-illustration.tex:10: Undefined control sequence.
+l.10 		\draw
+             [->,main] (0,0,0) -- (0,\laxis,0) node [right] {$\lang_2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:10: Undefined control sequence.
+l.10 		\draw [->,main] (0,0,0) -- (0,\laxis
+                                           ,0) node [right] {$\lang_2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:10: Undefined control sequence.
+<recently read> \lang 
+                      
+l.10 ...,0,0) -- (0,\laxis,0) node [right] {$\lang
+                                                  _2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:11: Undefined control sequence.
+l.11 		\draw
+             [->,main] (0,0,0) -- (0,0,\laxis) node [left] {$\lang_3$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:11: Undefined control sequence.
+l.11 		\draw [->,main] (0,0,0) -- (0,0,\laxis
+                                             ) node [left] {$\lang_3$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:11: Undefined control sequence.
+<recently read> \lang 
+                      
+l.11 ...0,0,0) -- (0,0,\laxis) node [left] {$\lang
+                                                  _3$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:13: Undefined control sequence.
+l.13 		\begin
+             {scope}[
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:17: Undefined control sequence.
+l.17 		\foreach
+                \coord in {1} {%{1,...,\nticks} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:17: Undefined control sequence.
+l.17 		\foreach \coord
+                       in {1} {%{1,...,\nticks} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:18: Undefined control sequence.
+l.18 		  \draw
+               [main] (\coord,\ltick,0) -- ++(0,-\ltick,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:18: Undefined control sequence.
+l.18 		  \draw [main] (\coord
+                             ,\ltick,0) -- ++(0,-\ltick,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:18: Undefined control sequence.
+l.18 		  \draw [main] (\coord,\ltick
+                                    ,0) -- ++(0,-\ltick,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:18: Undefined control sequence.
+l.18 ...w [main] (\coord,\ltick,0) -- ++(0,-\ltick
+                                                  ,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:18: Undefined control sequence.
+l.18 ...ick,0) -- ++(0,-\ltick,0) -- ++(0,0,\ltick
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:19: Undefined control sequence.
+l.19 		  node [at start,below left,main] {\coord
+                                                };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:20: Undefined control sequence.
+l.20 		  \draw
+               [main] (\ltick,\coord,0) -- ++(-\ltick,0,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:20: Undefined control sequence.
+l.20 		  \draw [main] (\ltick
+                             ,\coord,0) -- ++(-\ltick,0,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:20: Undefined control sequence.
+l.20 		  \draw [main] (\ltick,\coord
+                                    ,0) -- ++(-\ltick,0,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:20: Undefined control sequence.
+l.20 ...raw [main] (\ltick,\coord,0) -- ++(-\ltick
+                                                  ,0,0) -- ++(0,0,\ltick)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:20: Undefined control sequence.
+l.20 ...ord,0) -- ++(-\ltick,0,0) -- ++(0,0,\ltick
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:21: Undefined control sequence.
+l.21 		  node [pos=1,right,main] {\coord
+                                        };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:22: Undefined control sequence.
+l.22 		  \draw
+               [main] (\ltick,0,\coord) -- ++(-\ltick,0,0) -- ++(0,\ltick,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:22: Undefined control sequence.
+l.22 		  \draw [main] (\ltick
+                             ,0,\coord) -- ++(-\ltick,0,0) -- ++(0,\ltick,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:22: Undefined control sequence.
+l.22 		  \draw [main] (\ltick,0,\coord
+                                      ) -- ++(-\ltick,0,0) -- ++(0,\ltick,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:22: Undefined control sequence.
+l.22 ...raw [main] (\ltick,0,\coord) -- ++(-\ltick
+                                                  ,0,0) -- ++(0,\ltick,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:22: Undefined control sequence.
+l.22 ...,\coord) -- ++(-\ltick,0,0) -- ++(0,\ltick
+                                                  ,0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./simplex-illustration.tex:23: Undefined control sequence.
+l.23 		  node [at start,above left,main] {\coord
+                                                };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (6.25967pt too wide) in paragraph at lines 3--25
+[]\tenrm 7060 tikzpicture[scale=3,tdplot$[]\teni ain[]oords\tenrm ][\tensy ^^@ \teni >; main\tenrm ](0\teni ; \tenrm 0\teni ; \tenrm 0) \tensy ^^@ ^^@\tenrm (1\teni :\tenrm 2\teni ; \tenrm 0\teni ; \tenrm 0)\teni node\tenrm [\teni below\tenrm ][]$$[]$; [->,main] (0,0,0)|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm 7
+.\tenrm 0
+.\tenrm 6
+.\tenrm 0
+.etc.
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/03-naming-games/.texpadtmp/simplex-illustration.pdf" (1 page, 50514 bytes).
+PDF statistics:
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

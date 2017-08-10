@@ -1,0 +1,180 @@
+\documentclass{../src/bcthesispart}
+\title{The cultural origins of language}
+\author{Bas Cornelissen}
+\begin{document}
+
+%——————————————————————————————————————————————————————————
+\parttitle{The cultural origins of language}%
+	{The cultural origins of language}%
+	{The cultural origins of language}{}
+%——————————————————————————————————————————————————————————
+
+
+
+
+\noindent
+Communication abounds in the natural world, but few, if any, communication systems are so intricately structured as human language.
+We can understand the meaning of a sentence that has never been uttered before, because we understand the words it consists of and the way in which they are combined — that is to say that language is by and large \emph{compositional}.
+The words, morphemes, themselves also have an internal structure: they consist of phonemes, combined in a accordance with a combinatorial, phonological system specific to the language.\nocite{Zuidema2013}
+The semantic and phonological combinatorics together give language what \textcite{Hockett1960} dubbed a ‘duality of patterning’ — a design feature not commonly found in communication systems of other species.
+Most animal communication systems are \emph{holistic}: every vocalisation has one specific function, and no further internal structure \parencite{Zuidema2013}.
+There are, it seems, few interdependencies between vocalisations.
+But language is quite different: just about any two sentences will have many interdependencies in their phonology, morphology, hierarchical structure, and so on. 
+It is in this sense that language has a distinct \emph{systematicity} \parencite{Kirby2017}.
+%%
+
+
+
+
+Now, the Big Question is this: where does it come from? 
+And, indeed, why only us?
+Well, we find ourselves in good company.
+Robert Berwick and Noam Chomsky (2017) \nocite{Berwick2017} have been thinking about the same question, and leave us no doubt how we should \emph{not} try to account for the structure of language: “by means of a cultural-biological interaction”.
+No, “this latter effort fails in all respects”.
+Some of that work is “trivially inadequate”, or otherwise the “Kirby-type models”, “the Kirby work” and “the Kirby line of research” do of course “not say anything about the initial origin of compositionality”.
+%%
+
+
+
+
+Good, good! More than enough reason to write a thesis about this “Kirby type work” — and in passing perhaps even cite more than two of his papers. 
+But let’s leave the polemics there. After all, what greater good do they really serve?
+%%
+
+
+
+\textcite{Berwick2017} raise some fair concerns, for example regarding the testability and empirical validity of the Kirby-type theories.
+Or regarding their explanatory power: if your ‘agents’ already know, say, context-free grammars, and they ‘evolve’ a compositional language, does your model explain anything?
+Are you then, if anything, addressing the evolution of universal grammar, or just modelling language change? 
+These are all valid concerns — or so I think, since I address some of them in this thesis, too.
+But reading Berwick and Chomsky’s paper — I haven’t read the book yet — one starts to understand what it means if two scientific traditions have lost their common ground and have started talking about radically different things, only superficially using the same words.
+%%
+
+
+
+
+%——————————————————————————————————————————————————————————
+\bigbreak\noindent
+My apologies if I overwhelmed the reader with this, well, lack of introduction, but I want to get started sooner rather than later.
+One should know that the Kirby-type theories, in the broad sense, are really the work of a large group of linguists, cognitive scientists, biologists, anthropologists, computer scientists, statisticians, and even physicists, who over the last 30 years or so have tried to turn the question of language evolution upside down.
+The ‘traditional’ debates centred around the question whether language was an adaptation or not. 
+Does language perhaps add to our reproductive fitness, or was it a key mutation event that catapulted language in the world?
+In either case, the origin of language was thought to be a fundamentally biological concern.
+We only had to find out how those brains evolved to accommodate language.
+Well, the Kirby-type work turned that around: how do languages have to change, in order to fit in our brains \parencite{Christiansen2016a}?
+Rather than evolving brains, let’s think about evolving languages.
+%%
+
+
+
+
+
+For this to even make sense, one has to drastically change the, let's say, Chomskyan conception of language.
+Language now becomes a complex adaptive system in its own right, that is subject to all kinds of pressures, at multiple different levels and timescales simultaneously \parencite{Kirby2002,Christiansen2016a,Smith2014,Kirby2017,Steels2016}.
+On a biological level and evolutionary timescale the innate mechanisms that underly human cognition and language need to develop. 
+At an individual level and much shorter timescale, humans acquire language, constrained by what their biological makeup can accommodate.
+These learning biases influence, on a cultural level and historic timescale, the cultural dynamics of language.
+Universals that emerge through processes of cultural evolution in turn shape the fitness landscape and indeed, interactions exist within in and across all levels.
+Rather than looking solely at the biology of language, the question is how it can interacts with acquisition and use.
+The idea developed is that “language has been adapted through cultural transmission over generations of language users to fit the cognitive biases in inherent in the mechanisms used for processing and acquisition” \parencite[12]{Christiansen2016}. \nocite{Tomasello1999}
+%todo (optional) include figure from Kirby?
+%%
+
+
+
+
+Returning to \textcite{Berwick2017}, I think they are quite right to point out that this work “does not really tackle questions about the evolution UG, but rather questions about how particular languages change over time, once the faculty of language itself is in place”.
+I doubt Kirby would disagree.
+Indeed, this is the entire point.
+Since if it turns out that particular languages tend to change over time in a somewhat systematic way that \emph{explains} their structure, then the explanatory burden is lifted from the faculty of language.
+And this is precisely what the Kirby-type theories argue for: that biology does not have to carry the entire explanatory load, but that a fair share of linguistic structure can be explained by a process of \emph{cultural evolution}.
+As \textcite{Kirby2017} concludes, “we expect the language faculty to contain strong constraints only if they are domain general (e.g.\ arising from general principles of simplicity) and that any domain-specific constraints will be weak.”
+If anything, the Kirby-type work is in the business of explaining away UG, rather than explaining it.
+%%
+
+
+
+
+%——————————————————————————————————————————————————————————
+\bigbreak\noindent
+Now, the evolution of language is a notoriously hard problem — I belief this is where one is supposed to mention the \emph{Société} — but how does one go about if language is moreover a complex adaptive system?
+Using mathematical and computational models is one solution.
+Modelling makes all assumptions absolutely transparent, allows one to verify their coherence and consistency and generate new hypotheses, or even predictions \parencite{Jaeger2009}.
+Accordingly, models have figured prominently in the literature on cultural language evolution.
+And that is where the habitat of this thesis is to be found.
+\emph{What can these models of language evolution actually learn us about language evolution?}
+That is the heart of this thesis, but as such, the question is too open ended. 
+I therefore break up the question in two parts.
+%...
+\begin{enumerate}
+	\item \emph{What kind of \emph{behaviour} can we expect from \emph{agent-based} models of language evolution?}
+	%——————————————————————————————————————————————————————————
+	To answer this question, I aim to formulate a model that captures a substantial share of the agent-based modelling tradition, and try to characterise its behaviour.
+	The ‘substantial share’ is easily identified, since the field falls apart in two (strictly separated) traditions. 
+	\textbf{Chapter \ref{ch:iterated-learning}} introduces the ‘vertical’ tradition around \emph{iterated learning}.
+	This is the Kirby-type work that addresses how vertical transmission between generations can shape language. 
+	\textbf{Chapter \ref{ch:naming-games}} introduces the ‘horizontal’ tradition around \emph{naming games}, which focusses on the self-organising power resulting from local interactions within a generation.
+	Although the traditions are strictly separated, I will argue in \textbf{chapter \ref{ch:bayesian-naming-games}} that their models are very similar.
+	To do so, I take inspiration from Bayesian models of iterated learning and propose the \emph{Bayesian language game}. 
+	By further changing the population model I can interpolate between both traditions and thus analyse their behaviour in a single unified framework.
+	I moreover argue that it addresses some of the problems left open by Bayesian models of iterated learning.
+	
+	\item \emph{How does that behaviour relate to actual evolved language?}
+	%——————————————————————————————————————————————————————————
+	Once it is clear what kind of behaviour these agent-based models exhibit, one should ask what this learns us about language evolution.
+	But how can one start answering such a question without an empirical test case?
+	In \textbf{chapter \ref{ch:numerals}} I therefore argue that numeral systems are a good test case, and explain in some detail what the structures are one should try to explain.
+	In \textbf{chapter \ref{ch:counting-games}} I make a first start with simulating the emergence of numeral systems, which largely amounts to revisiting and extending the pioneering work of James Hurford.
+\end{enumerate}
+%...
+The reader might want to note that the summaries at the start of every chapter further flesh out this outline.
+
+
+
+The problem of language evolution challenges many disciplinary boundaries.
+This thesis alone borders at least several branches of linguistics, statistical physics, biology, probability theory and Bayesian (cognitive) modelling.
+When starting with the current work, I was new to pretty much all of these fields (except perhaps some courses in the latter two fields) and many important results might very well have escaped my attention. 
+But some things I deliberately left out, or only touch on in passing.
+These include (1) models of biological evolution, (2) evolutionary game theory, (3) genetic algorithms, (4) evolution of \textsc{ug}, (5) empirical studies of transmission chains and (6) experimental semiotics.
+Neither will I further discuss broader debates, of which the Berwick and Chomsky paper is part.
+Instead, I try to address issues in the field of agent-based modelling of language evolution on its own terms.
+Indeed, the reader will notice that focus in the majority of this thesis is decidedly on the models, more so than on possible interpretations thereof.
+This partly reflects personal interest, but more importantly, I belief interpretations of models should, insofar as possible, built on a sound understanding of the model themselves.
+That is what I hope this thesis, if anything, contributes to.
+
+
+
+
+
+%——————————————————————————————————————————————————————————
+\paragraph{Source code and data}
+
+I have made the source code of all experiments publicly available via \href{http://bascornelissen.nl/msc-thesis/}{bascornelissen.nl/msc-thesis} (including all figures and LaTeX files).
+A reference to the ‘raw’ data from all experiments can also be found there.
+The captions of many figures contain a code like \figid{BNG06} or \figid{FIG03}.
+This identifies the experiment or figure in the repository.
+
+
+
+
+%——————————————————————————————————————————————————————————
+\paragraph{notation}
+
+Throughout the thesis I use several notational conventions.
+Vectors are written in boldface, as in $\vect x = (x_1, \dots, x_K)$, and indexed by $k$ if they have length $K$.
+Sometimes it will be convenient to abbreviate $x_0 := \sum_{k=1}^K x_k$.
+We often need to decorate variables with time-indications. The most consistent unambiguous solution, $\vect x^{(t)}, x_k^{(t)}$ etc., often clutters the notation.
+Therefore, vectors (boldface) simply get their indication in the subscript ($\vect x_1, \vect x_2, \dots, \vect x_t, \dots$) and I only use the superscript $(t)$ when confusion can arise, as in $x_k^{(t)}$. 
+If $X$ is a random variable with distribution $\text{Dist}$ parametrized by $\lambda$, then by $X \sim \text{Dist}(\lambda)$ we mean that $p_X(x) = \text{Dist}(x \mid \lambda)$ where the latter is the density (mass) function.
+%For discrete random variables we also write $p(X = x) = p_X(x)$.
+We mostly drop the random variables and write $p(x)$ and $p(x \mid z)$ rather than $p_X(x)$ and $p_{X\mid Z}(x \mid z)$.
+Normalizing constants are often irrelevant and we write $p(x) \propto f(x)$ to indicate proportionality, i.e.\ that $p(x) = \nicefrac{1}{C} \cdot f(x)$ where $C$ does not depend on $x$.
+With regard to sets, $\mathbb{N}, \mathbb{Z}, \mathbb{R}$ denote the natural numbers, integers and reals. 
+If $A$ and $B$ are sets, their Cartesian product is $A\times B$ and $B^A$ denotes the set of all functions $f: A \to B$.
+‘Spaces’ typically have a calligraphic character, so $x$ lies in $\XX$ and parameters tend to be Greek.
+Finally, $x$ is nearly always an observable variable (e.g.\ an utterance), $z$  and unobservable variables (e.g.\ internal representation of a language), $m$ a meaning and $s$ a signal.
+
+%——————————————————————————————————————————————————————————
+\showbibliography
+
+\end{document}

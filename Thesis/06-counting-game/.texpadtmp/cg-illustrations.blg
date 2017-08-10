@@ -1,0 +1,9 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.blg'
+[52] biber-darwin:276> INFO - === Thu Aug  3, 2017, 22:08:02
+[52] Biber.pm:333> INFO - Reading '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.bcf'
+[149] Biber.pm:645> INFO - Found 0 citekeys in bib section 0
+[149] Utils.pm:146> WARN - The file '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.bcf' does not contain any citations!
+[175] bbl.pm:505> INFO - Writing '/Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.bbl' with encoding 'UTF-8'
+[175] bbl.pm:596> INFO - Output to /Users/Bas/Dropbox/Studie/Semester XIII/Scriptie/Thesis/06-counting-game/.texpadtmp/cg-illustrations.bbl
+[175] Biber.pm:106> INFO - WARNINGS: 1

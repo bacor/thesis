@@ -1,0 +1,171 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Hammarstrom2009}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=15347a08468131ff7bf0aae9d41f41f3}{Hammarström}{H\bibinitperiod}{Harald}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4aaa70ba0cf0a8aca937b0e55fd80a0f}{Wohlgemuth}{W\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d9b362c429886f61e89c1fdea069b662}{Cysouw}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Mouton}%
+      }
+      \strng{namehash}{15347a08468131ff7bf0aae9d41f41f3}
+      \strng{fullhash}{15347a08468131ff7bf0aae9d41f41f3}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Rethinking universals: How rarities affect linguistic theory}
+      \field{isbn}{978-3-11-022093-3}
+      \field{title}{{Rarities in Numeral Systems}}
+      \field{year}{2009}
+      \field{pages}{11\bibrangedash 60}
+      \range{pages}{50}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hammarström/Hammarström - 2009 - Rarities in Numeral Systems.pdf:pdf
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+    \entry{Hurford1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Oxford/New York}%
+      }
+      \list{publisher}{1}{%
+        {Basil Blackwell}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1987}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Language and Number: The Emergence of a Cognitive System}}
+      \field{year}{1987}
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System.pdf:pdf;:Users/Bas/Dropbox/Literature/Hurford/Hurford - 1987 - Language and Number The Emergence of a Cognitive System(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hurford2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e7ac2f621f574ee0f2a9fe737437ac8}{Hurford}{H\bibinitperiod}{James\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \strng{fullhash}{3e7ac2f621f574ee0f2a9fe737437ac8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A strong constraint on the arithmetical combinations allowed in compound numerals, called the Packing Strategy, applies very widely to numeral systems across the world. A previous attempt to explain the existence of the strong universal constraint, in terms of a gradual socio-historical process of standardization, will not scale up to higher-valued numerals. It is proposed that the real explanation for the Packing Strategy is that it reflects two natural principles applied in the practical task of counting objects. These two principles, "Go as far as you can with the resources you have", and "Minimize the number of entities you are dealing with", are not specific to the counting task, but are of more general application to practical tasks. ?? 2006 Elsevier B.V. All rights reserved.}
+      \field{issn}{00243841}
+      \field{journaltitle}{Lingua}
+      \field{number}{5}
+      \field{title}{{A performed practice explains a linguistic universal: Counting gives the Packing Strategy}}
+      \field{volume}{117}
+      \field{year}{2007}
+      \field{pages}{773\bibrangedash 783}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.lingua.2006.03.002
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Hurford/Hurford - 2007 - A performed practice explains a linguistic universal Counting gives the Packing Strategy.pdf:pdf
+      \endverb
+      \keyw{Counting,Grammar,Numerals,Packing Strategy,Performance,Universals}
+    \endentry
+    \entry{Kirby2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=466ad0e29b90ba35b93ae3a5b45f2e2b}{Kirby}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=aab2dc1c4b07b4a024aa2bbe33e2d353}{Dowman}{D\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b50775cbf4f37e7c96ce05c6cf766723}{Griffiths}{G\bibinitperiod}{Thomas\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1a8142b94ea5b98d47a173d34408426e}
+      \strng{fullhash}{1a8142b94ea5b98d47a173d34408426e}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human language arises from biological evolution, individual learning, and cultural transmission, but the interaction of these three processes has not been widely studied. We set out a formal framework for analyzing cultural transmission, which allows us to investigate how innate learning biases are related to universal properties of language. We show that cultural transmission can magnify weak biases into strong linguistic universals, undermining one of the arguments for strong innate constraints on language learning. As a consequence, the strength of innate biases can be shielded from natural selection, allowing these genes to drift. Furthermore, even when there is no natural selection, cultural transmission can produce apparent adaptations. Cultural transmission thus provides an alternative to traditional nativist and adaptationist explanations for the properties of human languages.}
+      \field{annotation}{NULL}
+      \field{isbn}{0027-8424 (Print)$\backslash$n0027-8424 (Linking)}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{12}
+      \field{title}{{Innateness and culture in the evolution of language.}}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{pages}{5241\bibrangedash 5245}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.0608222104
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/Kirby, Dowman, Griffiths/Kirby, Dowman, Griffiths - 2007 - Innateness and culture in the evolution of language.pdf:pdf
+      \endverb
+      \keyw{MSc Thesis,printed}
+    \endentry
+    \entry{VonMengden2008}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=e9bb382e81d4a4ebdcbbf43dc6457bde}{Mengden}{M\bibinitperiod}{Ferdinand}{F\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{e9bb382e81d4a4ebdcbbf43dc6457bde}
+      \strng{fullhash}{e9bb382e81d4a4ebdcbbf43dc6457bde}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the grammaticalization of cardinal numerals and numeral systems from a crosslinguistic perspective. The grammaticalization cline postulated here starts with a referential expression denoting a body part to a cardinal numeral and leads on to a functional affix which occurs in numeral systems and marks arithmetical operations in complex numeral expressions (e.g. English -teen in fiſteen or -ty in fiſty). The paper also shows that the numerals of the lowest cardinalities may follow a path different from that of the other simple numerals: they may evolve from pronominal elements, such as demonstratives and determiners, which oſten derive themselves from the cardinal numeral ‘1.' The fact that low numerals and pronominal elements can be both each other's sources and each other's targets seems to challenge the unidirectionality of grammaticalization.}
+      \field{booktitle}{Rethinking Grammaticalization: new perspectives}
+      \field{number}{ii}
+      \field{title}{{The grammaticalization cline of cardinal numerals and numeral systems}}
+      \field{year}{2008}
+      \field{pages}{289\bibrangedash 308}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1075/tsl.76.14men
+      \endverb
+      \verb{file}
+      \verb :Users/Bas/Dropbox/Literature/von Mengden/von Mengden - 2008 - The grammaticalization cline of cardinal numerals and numeral systems.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://benjamins.com/catalog/tsl.76.14men
+      \endverb
+      \keyw{Numeral Systems}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
