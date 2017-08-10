@@ -1,4 +1,6 @@
-This repository contains everything related to my thesis 'The Bayesian Naming Game.'
+# Bayesian Naming Games 
+
+This repository contains everything related to my msc thesis.
 
 ## Requirements
 All experiments were run in an Anaconda environment; a dump is found in `conda`. With that environment, all should run fine. 
@@ -19,4 +21,8 @@ In many cases the data directly underlying the plot is included in the repo, in 
 Some experiments are (still) missing
 * All che counting games (ch6)
 * The WebPPl replications of Kalish & Griffiths. The analyses *are* included.
+
+# Data
+As said, the data needed for in the analyses is included in the repository, but the
+[raw data can be downloaded here (one zip file, 2.5gb)](https://www.dropbox.com/s/ta4thmkesvr3mvy/results.zip?dl=0)
 
